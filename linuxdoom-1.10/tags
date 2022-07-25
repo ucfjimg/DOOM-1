@@ -1,0 +1,5098 @@
+AMSTR_FOLLOWOFF	d_englsh.h	327
+AMSTR_FOLLOWOFF	d_french.h	238
+AMSTR_FOLLOWON	d_englsh.h	326
+AMSTR_FOLLOWON	d_french.h	237
+AMSTR_GRIDOFF	d_englsh.h	330
+AMSTR_GRIDOFF	d_french.h	241
+AMSTR_GRIDON	d_englsh.h	329
+AMSTR_GRIDON	d_french.h	240
+AMSTR_MARKEDSPOT	d_englsh.h	332
+AMSTR_MARKEDSPOT	d_french.h	243
+AMSTR_MARKSCLEARED	d_englsh.h	333
+AMSTR_MARKSCLEARED	d_french.h	244
+AM_CLEARMARKKEY	am_map.c	102
+AM_Drawer	am_map.c	/^void AM_Drawer (void)$/
+AM_ENDKEY	am_map.c	97
+AM_FOLLOWKEY	am_map.c	99
+AM_GOBIGKEY	am_map.c	98
+AM_GRIDKEY	am_map.c	100
+AM_LevelInit	am_map.c	/^void AM_LevelInit(void)$/
+AM_MARKKEY	am_map.c	101
+AM_MSGENTERED	am_map.h	27
+AM_MSGEXITED	am_map.h	28
+AM_MSGHEADER	am_map.h	26
+AM_NUMMARKPOINTS	am_map.c	104
+AM_PANDOWNKEY	am_map.c	90
+AM_PANLEFTKEY	am_map.c	93
+AM_PANRIGHTKEY	am_map.c	92
+AM_PANUPKEY	am_map.c	91
+AM_Responder	am_map.c	/^AM_Responder$/
+AM_STARTKEY	am_map.c	96
+AM_Start	am_map.c	/^void AM_Start (void)$/
+AM_Stop	am_map.c	/^void AM_Stop (void)$/
+AM_Ticker	am_map.c	/^void AM_Ticker (void)$/
+AM_ZOOMINKEY	am_map.c	94
+AM_ZOOMOUTKEY	am_map.c	95
+AM_activateNewScale	am_map.c	/^void AM_activateNewScale(void)$/
+AM_addMark	am_map.c	/^void AM_addMark(void)$/
+AM_changeWindowLoc	am_map.c	/^void AM_changeWindowLoc(void)$/
+AM_changeWindowScale	am_map.c	/^void AM_changeWindowScale(void)$/
+AM_clearFB	am_map.c	/^void AM_clearFB(int color)$/
+AM_clearMarks	am_map.c	/^void AM_clearMarks(void)$/
+AM_clipMline	am_map.c	/^AM_clipMline$/
+AM_doFollowPlayer	am_map.c	/^void AM_doFollowPlayer(void)$/
+AM_drawCrosshair	am_map.c	/^void AM_drawCrosshair(int color)$/
+AM_drawFline	am_map.c	/^AM_drawFline$/
+AM_drawGrid	am_map.c	/^void AM_drawGrid(int color)$/
+AM_drawLineCharacter	am_map.c	/^AM_drawLineCharacter$/
+AM_drawMarks	am_map.c	/^void AM_drawMarks(void)$/
+AM_drawMline	am_map.c	/^AM_drawMline$/
+AM_drawPlayers	am_map.c	/^void AM_drawPlayers(void)$/
+AM_drawThings	am_map.c	/^AM_drawThings$/
+AM_drawWalls	am_map.c	/^void AM_drawWalls(void)$/
+AM_findMinMaxBoundaries	am_map.c	/^void AM_findMinMaxBoundaries(void)$/
+AM_getIslope	am_map.c	/^AM_getIslope$/
+AM_initVariables	am_map.c	/^void AM_initVariables(void)$/
+AM_loadPics	am_map.c	/^void AM_loadPics(void)$/
+AM_maxOutWindowScale	am_map.c	/^void AM_maxOutWindowScale(void)$/
+AM_minOutWindowScale	am_map.c	/^void AM_minOutWindowScale(void)$/
+AM_restoreScaleAndLoc	am_map.c	/^void AM_restoreScaleAndLoc(void)$/
+AM_rotate	am_map.c	/^AM_rotate$/
+AM_saveScaleAndLoc	am_map.c	/^void AM_saveScaleAndLoc(void)$/
+AM_unloadPics	am_map.c	/^void AM_unloadPics(void)$/
+AM_updateLightLev	am_map.c	/^void AM_updateLightLev(void)$/
+ANG180	tables.h	70
+ANG270	tables.h	71
+ANG45	tables.h	68
+ANG5	p_user.c	180
+ANG90	tables.h	69
+ANGLETOFINESHIFT	tables.h	55
+ANGLETOSKYSHIFT	r_sky.h	35
+ANIM_ALWAYS	wi_stuff.c	116
+ANIM_LEVEL	wi_stuff.c	118
+ANIM_RANDOM	wi_stuff.c	117
+A_BFGSpray	p_pspr.c	/^void A_BFGSpray (mobj_t* mo) $/
+A_BFGsound	p_pspr.c	/^A_BFGsound$/
+A_BabyMetal	p_enemy.c	/^void A_BabyMetal (mobj_t* mo)$/
+A_BossDeath	p_enemy.c	/^void A_BossDeath (mobj_t* mo)$/
+A_BrainAwake	p_enemy.c	/^void A_BrainAwake (mobj_t* mo)$/
+A_BrainDie	p_enemy.c	/^void A_BrainDie (mobj_t*	mo)$/
+A_BrainExplode	p_enemy.c	/^void A_BrainExplode (mobj_t* mo)$/
+A_BrainPain	p_enemy.c	/^void A_BrainPain (mobj_t*	mo)$/
+A_BrainScream	p_enemy.c	/^void A_BrainScream (mobj_t*	mo)$/
+A_BrainSpit	p_enemy.c	/^void A_BrainSpit (mobj_t*	mo)$/
+A_BruisAttack	p_enemy.c	/^void A_BruisAttack (mobj_t* actor)$/
+A_BspiAttack	p_enemy.c	/^void A_BspiAttack (mobj_t *actor)$/
+A_CPosAttack	p_enemy.c	/^void A_CPosAttack (mobj_t* actor)$/
+A_CPosRefire	p_enemy.c	/^void A_CPosRefire (mobj_t* actor)$/
+A_Chase	p_enemy.c	/^void A_Chase (mobj_t*	actor)$/
+A_CheckReload	p_pspr.c	/^A_CheckReload$/
+A_CloseShotgun2	p_enemy.c	/^A_CloseShotgun2$/
+A_CyberAttack	p_enemy.c	/^void A_CyberAttack (mobj_t* actor)$/
+A_Explode	p_enemy.c	/^void A_Explode (mobj_t* thingy)$/
+A_FaceTarget	p_enemy.c	/^void A_FaceTarget (mobj_t* actor)$/
+A_Fall	p_enemy.c	/^void A_Fall (mobj_t *actor)$/
+A_FatAttack1	p_enemy.c	/^void A_FatAttack1 (mobj_t* actor)$/
+A_FatAttack2	p_enemy.c	/^void A_FatAttack2 (mobj_t* actor)$/
+A_FatAttack3	p_enemy.c	/^void A_FatAttack3 (mobj_t*	actor)$/
+A_FatRaise	p_enemy.c	/^void A_FatRaise (mobj_t *actor)$/
+A_Fire	p_enemy.c	/^void A_Fire (mobj_t* actor)$/
+A_FireBFG	p_pspr.c	/^A_FireBFG$/
+A_FireCGun	p_pspr.c	/^A_FireCGun$/
+A_FireCrackle	p_enemy.c	/^void A_FireCrackle (mobj_t* actor)$/
+A_FireMissile	p_pspr.c	/^A_FireMissile$/
+A_FirePistol	p_pspr.c	/^A_FirePistol$/
+A_FirePlasma	p_pspr.c	/^A_FirePlasma$/
+A_FireShotgun	p_pspr.c	/^A_FireShotgun$/
+A_FireShotgun2	p_pspr.c	/^A_FireShotgun2$/
+A_GunFlash	p_pspr.c	/^A_GunFlash$/
+A_HeadAttack	p_enemy.c	/^void A_HeadAttack (mobj_t* actor)$/
+A_Hoof	p_enemy.c	/^void A_Hoof (mobj_t* mo)$/
+A_KeenDie	p_enemy.c	/^void A_KeenDie (mobj_t* mo)$/
+A_Light0	p_pspr.c	/^void A_Light0 (player_t *player, pspdef_t *psp)$/
+A_Light1	p_pspr.c	/^void A_Light1 (player_t *player, pspdef_t *psp)$/
+A_Light2	p_pspr.c	/^void A_Light2 (player_t *player, pspdef_t *psp)$/
+A_LoadShotgun2	p_enemy.c	/^A_LoadShotgun2$/
+A_Look	p_enemy.c	/^void A_Look (mobj_t* actor)$/
+A_Lower	p_pspr.c	/^A_Lower$/
+A_Metal	p_enemy.c	/^void A_Metal (mobj_t* mo)$/
+A_OpenShotgun2	p_enemy.c	/^A_OpenShotgun2$/
+A_Pain	p_enemy.c	/^void A_Pain (mobj_t* actor)$/
+A_PainAttack	p_enemy.c	/^void A_PainAttack (mobj_t* actor)$/
+A_PainDie	p_enemy.c	/^void A_PainDie (mobj_t* actor)$/
+A_PainShootSkull	p_enemy.c	/^A_PainShootSkull$/
+A_PlayerScream	p_enemy.c	/^void A_PlayerScream (mobj_t* mo)$/
+A_PosAttack	p_enemy.c	/^void A_PosAttack (mobj_t* actor)$/
+A_Punch	p_pspr.c	/^A_Punch$/
+A_Raise	p_pspr.c	/^A_Raise$/
+A_ReFire	p_pspr.c	/^void A_ReFire$/
+A_SPosAttack	p_enemy.c	/^void A_SPosAttack (mobj_t* actor)$/
+A_SargAttack	p_enemy.c	/^void A_SargAttack (mobj_t* actor)$/
+A_Saw	p_pspr.c	/^A_Saw$/
+A_Scream	p_enemy.c	/^void A_Scream (mobj_t* actor)$/
+A_SkelFist	p_enemy.c	/^void A_SkelFist (mobj_t*	actor)$/
+A_SkelMissile	p_enemy.c	/^void A_SkelMissile (mobj_t* actor)$/
+A_SkelWhoosh	p_enemy.c	/^void A_SkelWhoosh (mobj_t*	actor)$/
+A_SkullAttack	p_enemy.c	/^void A_SkullAttack (mobj_t* actor)$/
+A_SpawnFly	p_enemy.c	/^void A_SpawnFly (mobj_t* mo)$/
+A_SpawnSound	p_enemy.c	/^void A_SpawnSound (mobj_t* mo)	$/
+A_SpidRefire	p_enemy.c	/^void A_SpidRefire (mobj_t* actor)$/
+A_StartFire	p_enemy.c	/^void A_StartFire (mobj_t* actor)$/
+A_Tracer	p_enemy.c	/^void A_Tracer (mobj_t* actor)$/
+A_TroopAttack	p_enemy.c	/^void A_TroopAttack (mobj_t* actor)$/
+A_VileAttack	p_enemy.c	/^void A_VileAttack (mobj_t* actor)$/
+A_VileChase	p_enemy.c	/^void A_VileChase (mobj_t* actor)$/
+A_VileStart	p_enemy.c	/^void A_VileStart (mobj_t* actor)$/
+A_VileTarget	p_enemy.c	/^void A_VileTarget (mobj_t*	actor)$/
+A_WeaponReady	p_pspr.c	/^A_WeaponReady$/
+A_XScream	p_enemy.c	/^void A_XScream (mobj_t* actor)$/
+AutomapState	st_stuff.h	61
+BACKGROUND	am_map.c	68
+BACKUPTICS	d_net.h	49
+BASETHRESHOLD	p_local.h	61
+BASEYCENTER	r_things.c	47
+BASE_WIDTH	doomdef.h	98
+BFGCELLS	p_pspr.c	52
+BG	hu_lib.h	30
+BG	st_lib.h	33
+BGCOLOR	d_main.c	30
+BLACK	am_map.c	64
+BLUERANGE	am_map.c	55
+BLUES	am_map.c	54
+BODYQUESIZE	g_game.c	210
+BONUSADD	p_inter.c	51
+BOTTOM	am_map.c	855
+BOXBOTTOM	m_bbox.h	35
+BOXLEFT	m_bbox.h	36
+BOXRIGHT	m_bbox.h	37
+BOXTOP	m_bbox.h	34
+BROWNRANGE	am_map.c	61
+BROWNS	am_map.c	60
+BTS_PAUSE	d_event.h	91
+BTS_SAVEGAME	d_event.h	93
+BTS_SAVEMASK	d_event.h	97
+BTS_SAVESHIFT	d_event.h	98
+BT_ATTACK	d_event.h	75
+BT_CHANGE	d_event.h	85
+BT_SPECIAL	d_event.h	80
+BT_SPECIALMASK	d_event.h	81
+BT_USE	d_event.h	77
+BT_WEAPONMASK	d_event.h	87
+BT_WEAPONSHIFT	d_event.h	88
+BUFMUL	i_sound.c	96
+BUTTONTIME	p_spec.h	247
+BindToLocalPort	i_net.c	/^BindToLocalPort$/
+C1TEXT	d_englsh.h	438
+C1TEXT	d_french.h	326
+C2TEXT	d_englsh.h	454
+C2TEXT	d_french.h	341
+C3TEXT	d_englsh.h	476
+C3TEXT	d_french.h	361
+C4TEXT	d_englsh.h	490
+C4TEXT	d_french.h	373
+C5TEXT	d_englsh.h	511
+C5TEXT	d_french.h	391
+C6TEXT	d_englsh.h	521
+C6TEXT	d_french.h	399
+CC_ARACH	d_englsh.h	686
+CC_ARACH	d_french.h	415
+CC_ARCH	d_englsh.h	690
+CC_ARCH	d_french.h	419
+CC_BARON	d_englsh.h	685
+CC_BARON	d_french.h	414
+CC_CACO	d_englsh.h	683
+CC_CACO	d_french.h	412
+CC_CYBER	d_englsh.h	692
+CC_CYBER	d_french.h	421
+CC_DEMON	d_englsh.h	681
+CC_DEMON	d_french.h	410
+CC_HEAVY	d_englsh.h	679
+CC_HEAVY	d_french.h	408
+CC_HELL	d_englsh.h	684
+CC_HELL	d_french.h	413
+CC_HERO	d_englsh.h	693
+CC_HERO	d_french.h	422
+CC_IMP	d_englsh.h	680
+CC_IMP	d_french.h	409
+CC_LOST	d_englsh.h	682
+CC_LOST	d_french.h	411
+CC_MANCU	d_englsh.h	689
+CC_MANCU	d_french.h	418
+CC_PAIN	d_englsh.h	687
+CC_PAIN	d_french.h	416
+CC_REVEN	d_englsh.h	688
+CC_REVEN	d_french.h	417
+CC_SHOTGUN	d_englsh.h	678
+CC_SHOTGUN	d_french.h	407
+CC_SPIDER	d_englsh.h	691
+CC_SPIDER	d_french.h	420
+CC_ZOMBIE	d_englsh.h	677
+CC_ZOMBIE	d_french.h	406
+CDWALLCOLORS	am_map.c	77
+CDWALLRANGE	am_map.c	78
+CEILSPEED	p_spec.h	516
+CEILWAIT	p_spec.h	517
+CENTERY	v_video.h	39
+CF_GODMODE	d_player.h	73
+CF_NOCLIP	d_player.h	71
+CF_NOMOMENTUM	d_player.h	75
+CMD_GET	d_net.h	54
+CMD_SEND	d_net.h	53
+CXMTOF	am_map.c	/^#define CXMTOF(x)  (f_x + MTOF((x)-m_x))$/
+CYMTOF	am_map.c	/^#define CYMTOF(y)  (f_y + (f_h - MTOF((y)-m_y)))$/
+CheckAbort	d_net.c	/^void CheckAbort (void)$/
+DBITS	tables.h	76
+DEMOMARKER	g_game.c	1488
+DETAILHI	d_englsh.h	68
+DETAILHI	d_french.h	60
+DETAILLO	d_englsh.h	69
+DETAILLO	d_french.h	61
+DEVDATA	dstrings.h	50
+DEVMAPS	dstrings.h	49
+DISTMAP	r_main.c	612
+DI_EAST	p_enemy.c	53
+DI_NODIR	p_enemy.c	61
+DI_NORTH	p_enemy.c	55
+DI_NORTHEAST	p_enemy.c	54
+DI_NORTHWEST	p_enemy.c	56
+DI_SOUTH	p_enemy.c	59
+DI_SOUTHEAST	p_enemy.c	60
+DI_SOUTHWEST	p_enemy.c	58
+DI_WEST	p_enemy.c	57
+DM_KILLERSX	wi_stuff.c	106
+DM_KILLERSY	wi_stuff.c	107
+DM_MATRIXX	wi_stuff.c	99
+DM_MATRIXY	wi_stuff.c	100
+DM_SPACINGX	wi_stuff.c	102
+DM_TOTALSX	wi_stuff.c	104
+DM_VICTIMSX	wi_stuff.c	108
+DM_VICTIMSY	wi_stuff.c	109
+DOOMCOM_ID	d_net.h	42
+DOOMPORT	i_net.c	76
+DOOUTCODE	am_map.c	/^#define DOOUTCODE(oc, mx, my) \\$/
+DOOUTCODE	am_map.c	971
+DOSY	d_englsh.h	66
+DOSY	d_french.h	58
+D_AddFile	d_main.c	/^void D_AddFile (char *file)$/
+D_AdvanceDemo	d_main.c	/^void D_AdvanceDemo (void)$/
+D_ArbitrateNetStart	d_net.c	/^void D_ArbitrateNetStart (void)$/
+D_CDROM	d_englsh.h	34
+D_CDROM	d_french.h	30
+D_CheckNetGame	d_net.c	/^void D_CheckNetGame (void)$/
+D_DEVSTR	d_englsh.h	33
+D_DEVSTR	d_french.h	29
+D_Display	d_main.c	/^void D_Display (void)$/
+D_DoAdvanceDemo	d_main.c	/^ void D_DoAdvanceDemo (void)$/
+D_DoomLoop	d_main.c	/^void D_DoomLoop (void)$/
+D_DoomMain	d_main.c	/^void D_DoomMain (void)$/
+D_PageDrawer	d_main.c	/^void D_PageDrawer (void)$/
+D_PageTicker	d_main.c	/^void D_PageTicker (void)$/
+D_PostEvent	d_main.c	/^void D_PostEvent (event_t* ev)$/
+D_ProcessEvents	d_main.c	/^void D_ProcessEvents (void)$/
+D_QuitNetGame	d_net.c	/^void D_QuitNetGame (void)$/
+D_StartTitle	d_main.c	/^void D_StartTitle (void)$/
+E1TEXT	d_englsh.h	359
+E1TEXT	d_french.h	270
+E2TEXT	d_englsh.h	377
+E2TEXT	d_french.h	286
+E3TEXT	d_englsh.h	397
+E3TEXT	d_french.h	304
+E4TEXT	d_englsh.h	417
+EMPTYSTRING	d_englsh.h	75
+EMPTYSTRING	d_french.h	67
+ENDGAME	d_englsh.h	64
+ENDGAME	d_french.h	56
+EV_BuildStairs	p_floor.c	/^EV_BuildStairs$/
+EV_CeilingCrushStop	p_ceilng.c	/^int	EV_CeilingCrushStop(line_t	*line)$/
+EV_DoCeiling	p_ceilng.c	/^EV_DoCeiling$/
+EV_DoDonut	p_spec.c	/^int EV_DoDonut(line_t*	line)$/
+EV_DoDoor	p_doors.c	/^EV_DoDoor$/
+EV_DoFloor	p_floor.c	/^EV_DoFloor$/
+EV_DoLockedDoor	p_doors.c	/^EV_DoLockedDoor$/
+EV_DoPlat	p_plats.c	/^EV_DoPlat$/
+EV_LightTurnOn	p_lights.c	/^EV_LightTurnOn$/
+EV_SlidingDoor	p_doors.c	/^EV_SlidingDoor$/
+EV_StartLightStrobing	p_lights.c	/^void EV_StartLightStrobing(line_t*	line)$/
+EV_StopPlat	p_plats.c	/^void EV_StopPlat(line_t* line)$/
+EV_Teleport	p_telept.c	/^EV_Teleport$/
+EV_TurnTagLightsOff	p_lights.c	/^void EV_TurnTagLightsOff(line_t* line)$/
+EV_VerticalDoor	p_doors.c	/^EV_VerticalDoor$/
+EpiDef	m_menu.c	292
+EpisodeMenu	m_menu.c	284
+Expand4	i_video.c	/^Expand4$/
+ExpandTics	d_net.c	/^int ExpandTics (int low)$/
+ExtractFileBase	w_wad.c	/^ExtractFileBase$/
+FASTDARK	p_spec.h	178
+FATSPREAD	p_enemy.c	1349
+FB	am_map.c	88
+FB	wi_stuff.c	285
+FDWALLCOLORS	am_map.c	75
+FDWALLRANGE	am_map.c	76
+FF_FRAMEMASK	p_pspr.h	51
+FF_FULLBRIGHT	p_pspr.h	50
+FG	hu_lib.h	31
+FG	st_lib.h	34
+FGCOLOR	d_main.c	31
+FIELDOFVIEW	r_main.c	48
+FINEANGLES	tables.h	50
+FINEMASK	tables.h	51
+FLOATSPEED	p_local.h	30
+FLOORSPEED	p_spec.h	600
+FRACBITS	m_fixed.h	35
+FRACUNIT	m_fixed.h	36
+FRICTION	p_mobj.c	112
+FTOM	am_map.c	/^#define FTOM(x) FixedMul(((x)<<16),scale_ftom)$/
+FUZZOFF	r_draw.c	260
+FUZZTABLE	r_draw.c	259
+F_BunnyScroll	f_finale.c	/^void F_BunnyScroll (void)$/
+F_CastDrawer	f_finale.c	/^void F_CastDrawer (void)$/
+F_CastPrint	f_finale.c	/^void F_CastPrint (char* text)$/
+F_CastResponder	f_finale.c	/^boolean F_CastResponder (event_t* ev)$/
+F_CastTicker	f_finale.c	/^void F_CastTicker (void)$/
+F_DrawPatchCol	f_finale.c	/^F_DrawPatchCol$/
+F_Drawer	f_finale.c	/^void F_Drawer (void)$/
+F_PANINC	am_map.c	110
+F_Responder	f_finale.c	/^boolean F_Responder (event_t *event)$/
+F_StartCast	f_finale.c	/^void F_StartCast (void)$/
+F_StartFinale	f_finale.c	/^void F_StartFinale (void)$/
+F_TextWrite	f_finale.c	/^void F_TextWrite (void)$/
+F_Ticker	f_finale.c	/^void F_Ticker (void)$/
+FindResponseFile	d_main.c	/^void FindResponseFile (void)$/
+FirstPersonState	st_stuff.h	62
+FixedDiv	m_fixed.c	/^FixedDiv$/
+FixedDiv2	m_fixed.c	/^FixedDiv2$/
+FixedMul	m_fixed.c	/^FixedMul$/
+ForeignTranslation	hu_stuff.c	/^char ForeignTranslation(unsigned char ch)$/
+GAMMALVL0	d_englsh.h	70
+GAMMALVL0	d_french.h	62
+GAMMALVL1	d_englsh.h	71
+GAMMALVL1	d_french.h	63
+GAMMALVL2	d_englsh.h	72
+GAMMALVL2	d_french.h	64
+GAMMALVL3	d_englsh.h	73
+GAMMALVL3	d_french.h	65
+GAMMALVL4	d_englsh.h	74
+GAMMALVL4	d_french.h	66
+GGSAVED	d_englsh.h	135
+GGSAVED	d_french.h	127
+GLOWSPEED	p_spec.h	176
+GOTARMBONUS	d_englsh.h	83
+GOTARMBONUS	d_french.h	75
+GOTARMOR	d_englsh.h	80
+GOTARMOR	d_french.h	72
+GOTBACKPACK	d_englsh.h	112
+GOTBACKPACK	d_french.h	104
+GOTBERSERK	d_englsh.h	97
+GOTBERSERK	d_french.h	89
+GOTBFG9000	d_englsh.h	114
+GOTBFG9000	d_french.h	106
+GOTBLUECARD	d_englsh.h	89
+GOTBLUECARD	d_french.h	81
+GOTBLUESKUL	d_englsh.h	92
+GOTBLUESKUL	d_french.h	84
+GOTCELL	d_englsh.h	108
+GOTCELL	d_french.h	100
+GOTCELLBOX	d_englsh.h	109
+GOTCELLBOX	d_french.h	101
+GOTCHAINGUN	d_englsh.h	115
+GOTCHAINGUN	d_french.h	107
+GOTCHAINSAW	d_englsh.h	116
+GOTCHAINSAW	d_french.h	108
+GOTCLIP	d_englsh.h	104
+GOTCLIP	d_french.h	96
+GOTCLIPBOX	d_englsh.h	105
+GOTCLIPBOX	d_french.h	97
+GOTHTHBONUS	d_englsh.h	82
+GOTHTHBONUS	d_french.h	74
+GOTINVIS	d_englsh.h	98
+GOTINVIS	d_french.h	90
+GOTINVUL	d_englsh.h	96
+GOTINVUL	d_french.h	88
+GOTLAUNCHER	d_englsh.h	117
+GOTLAUNCHER	d_french.h	109
+GOTMAP	d_englsh.h	100
+GOTMAP	d_french.h	92
+GOTMEDIKIT	d_englsh.h	86
+GOTMEDIKIT	d_french.h	78
+GOTMEDINEED	d_englsh.h	85
+GOTMEDINEED	d_french.h	77
+GOTMEGA	d_englsh.h	81
+GOTMEGA	d_french.h	73
+GOTMSPHERE	d_englsh.h	102
+GOTMSPHERE	d_french.h	94
+GOTPLASMA	d_englsh.h	118
+GOTPLASMA	d_french.h	110
+GOTREDCARD	d_englsh.h	91
+GOTREDCARD	d_french.h	83
+GOTREDSKULL	d_englsh.h	94
+GOTREDSKULL	d_french.h	86
+GOTROCKBOX	d_englsh.h	107
+GOTROCKBOX	d_french.h	99
+GOTROCKET	d_englsh.h	106
+GOTROCKET	d_french.h	98
+GOTSHELLBOX	d_englsh.h	111
+GOTSHELLBOX	d_french.h	103
+GOTSHELLS	d_englsh.h	110
+GOTSHELLS	d_french.h	102
+GOTSHOTGUN	d_englsh.h	119
+GOTSHOTGUN	d_french.h	111
+GOTSHOTGUN2	d_englsh.h	120
+GOTSHOTGUN2	d_french.h	112
+GOTSTIM	d_englsh.h	84
+GOTSTIM	d_french.h	76
+GOTSUIT	d_englsh.h	99
+GOTSUIT	d_french.h	91
+GOTSUPER	d_englsh.h	87
+GOTSUPER	d_french.h	79
+GOTVISOR	d_englsh.h	101
+GOTVISOR	d_french.h	93
+GOTYELWCARD	d_englsh.h	90
+GOTYELWCARD	d_french.h	82
+GOTYELWSKUL	d_englsh.h	93
+GOTYELWSKUL	d_french.h	85
+GRAVITY	p_local.h	53
+GRAYS	am_map.c	58
+GRAYSRANGE	am_map.c	59
+GREENRANGE	am_map.c	57
+GREENS	am_map.c	56
+GRIDCOLORS	am_map.c	83
+GRIDRANGE	am_map.c	84
+GS_DEMOSCREEN	doomdef.h	132
+GS_FINALE	doomdef.h	131
+GS_INTERMISSION	doomdef.h	130
+GS_LEVEL	doomdef.h	129
+G_BeginRecording	g_game.c	/^void G_BeginRecording (void) $/
+G_BuildTiccmd	g_game.c	/^void G_BuildTiccmd (ticcmd_t* cmd) $/
+G_CheckDemoStatus	g_game.c	/^boolean G_CheckDemoStatus (void) $/
+G_CheckSpot	g_game.c	/^G_CheckSpot$/
+G_CmdChecksum	g_game.c	/^int G_CmdChecksum (ticcmd_t* cmd) $/
+G_DeathMatchSpawnPlayer	g_game.c	/^void G_DeathMatchSpawnPlayer (int playernum) $/
+G_DeferedInitNew	g_game.c	/^G_DeferedInitNew$/
+G_DeferedPlayDemo	g_game.c	/^void G_DeferedPlayDemo (char* name) $/
+G_DoCompleted	g_game.c	/^void G_DoCompleted (void) $/
+G_DoLoadGame	g_game.c	/^void G_DoLoadGame (void) $/
+G_DoLoadLevel	g_game.c	/^void G_DoLoadLevel (void) $/
+G_DoNewGame	g_game.c	/^void G_DoNewGame (void) $/
+G_DoPlayDemo	g_game.c	/^void G_DoPlayDemo (void) $/
+G_DoReborn	g_game.c	/^void G_DoReborn (int playernum) $/
+G_DoSaveGame	g_game.c	/^void G_DoSaveGame (void) $/
+G_DoWorldDone	g_game.c	/^void G_DoWorldDone (void) $/
+G_ExitLevel	g_game.c	/^void G_ExitLevel (void) $/
+G_InitNew	g_game.c	/^G_InitNew$/
+G_InitPlayer	g_game.c	/^void G_InitPlayer (int player) $/
+G_LoadGame	g_game.c	/^void G_LoadGame (char* name) $/
+G_PlayerFinishLevel	g_game.c	/^void G_PlayerFinishLevel (int player) $/
+G_PlayerReborn	g_game.c	/^void G_PlayerReborn (int player) $/
+G_ReadDemoTiccmd	g_game.c	/^void G_ReadDemoTiccmd (ticcmd_t* cmd) $/
+G_RecordDemo	g_game.c	/^void G_RecordDemo (char* name) $/
+G_Responder	g_game.c	/^boolean G_Responder (event_t* ev) $/
+G_SaveGame	g_game.c	/^G_SaveGame$/
+G_ScreenShot	g_game.c	/^void G_ScreenShot (void) $/
+G_SecretExitLevel	g_game.c	/^void G_SecretExitLevel (void) $/
+G_Ticker	g_game.c	/^void G_Ticker (void) $/
+G_TimeDemo	g_game.c	/^void G_TimeDemo (char* name) $/
+G_WorldDone	g_game.c	/^void G_WorldDone (void) $/
+G_WriteDemoTiccmd	g_game.c	/^void G_WriteDemoTiccmd (ticcmd_t* cmd) $/
+GameMission_t	doomdef.h	59
+GameMode_t	doomdef.h	47
+GetChatState	st_stuff.h	72
+GetLocalAddress	i_net.c	/^int GetLocalAddress (void)$/
+GetPackets	d_net.c	/^void GetPackets (void)$/
+HEIGHTBITS	r_segs.c	203
+HEIGHTUNIT	r_segs.c	204
+HGetPacket	d_net.c	/^boolean HGetPacket (void)$/
+HSendPacket	d_net.c	/^HSendPacket$/
+HUSTR_1	d_englsh.h	182
+HUSTR_1	d_french.h	164
+HUSTR_10	d_englsh.h	191
+HUSTR_10	d_french.h	173
+HUSTR_11	d_englsh.h	192
+HUSTR_11	d_french.h	174
+HUSTR_12	d_englsh.h	194
+HUSTR_12	d_french.h	176
+HUSTR_13	d_englsh.h	195
+HUSTR_13	d_french.h	177
+HUSTR_14	d_englsh.h	196
+HUSTR_14	d_french.h	178
+HUSTR_15	d_englsh.h	197
+HUSTR_15	d_french.h	179
+HUSTR_16	d_englsh.h	198
+HUSTR_16	d_french.h	180
+HUSTR_17	d_englsh.h	199
+HUSTR_17	d_french.h	181
+HUSTR_18	d_englsh.h	200
+HUSTR_18	d_french.h	182
+HUSTR_19	d_englsh.h	201
+HUSTR_19	d_french.h	183
+HUSTR_2	d_englsh.h	183
+HUSTR_2	d_french.h	165
+HUSTR_20	d_englsh.h	202
+HUSTR_20	d_french.h	184
+HUSTR_21	d_englsh.h	204
+HUSTR_21	d_french.h	186
+HUSTR_22	d_englsh.h	205
+HUSTR_22	d_french.h	187
+HUSTR_23	d_englsh.h	206
+HUSTR_23	d_french.h	188
+HUSTR_24	d_englsh.h	207
+HUSTR_24	d_french.h	189
+HUSTR_25	d_englsh.h	208
+HUSTR_25	d_french.h	190
+HUSTR_26	d_englsh.h	209
+HUSTR_26	d_french.h	191
+HUSTR_27	d_englsh.h	210
+HUSTR_27	d_french.h	192
+HUSTR_28	d_englsh.h	211
+HUSTR_28	d_french.h	193
+HUSTR_29	d_englsh.h	212
+HUSTR_29	d_french.h	194
+HUSTR_3	d_englsh.h	184
+HUSTR_3	d_french.h	166
+HUSTR_30	d_englsh.h	213
+HUSTR_30	d_french.h	195
+HUSTR_31	d_englsh.h	215
+HUSTR_31	d_french.h	197
+HUSTR_32	d_englsh.h	216
+HUSTR_32	d_french.h	198
+HUSTR_4	d_englsh.h	185
+HUSTR_4	d_french.h	167
+HUSTR_5	d_englsh.h	186
+HUSTR_5	d_french.h	168
+HUSTR_6	d_englsh.h	187
+HUSTR_6	d_french.h	169
+HUSTR_7	d_englsh.h	188
+HUSTR_7	d_french.h	170
+HUSTR_8	d_englsh.h	189
+HUSTR_8	d_french.h	171
+HUSTR_9	d_englsh.h	190
+HUSTR_9	d_french.h	172
+HUSTR_CHATMACRO0	d_englsh.h	299
+HUSTR_CHATMACRO0	d_french.h	210
+HUSTR_CHATMACRO1	d_englsh.h	290
+HUSTR_CHATMACRO1	d_french.h	201
+HUSTR_CHATMACRO2	d_englsh.h	291
+HUSTR_CHATMACRO2	d_french.h	202
+HUSTR_CHATMACRO3	d_englsh.h	292
+HUSTR_CHATMACRO3	d_french.h	203
+HUSTR_CHATMACRO4	d_englsh.h	293
+HUSTR_CHATMACRO4	d_french.h	204
+HUSTR_CHATMACRO5	d_englsh.h	294
+HUSTR_CHATMACRO5	d_french.h	205
+HUSTR_CHATMACRO6	d_englsh.h	295
+HUSTR_CHATMACRO6	d_french.h	206
+HUSTR_CHATMACRO7	d_englsh.h	296
+HUSTR_CHATMACRO7	d_french.h	207
+HUSTR_CHATMACRO8	d_englsh.h	297
+HUSTR_CHATMACRO8	d_french.h	208
+HUSTR_CHATMACRO9	d_englsh.h	298
+HUSTR_CHATMACRO9	d_french.h	209
+HUSTR_E1M1	d_englsh.h	142
+HUSTR_E1M1	d_french.h	134
+HUSTR_E1M2	d_englsh.h	143
+HUSTR_E1M2	d_french.h	135
+HUSTR_E1M3	d_englsh.h	144
+HUSTR_E1M3	d_french.h	136
+HUSTR_E1M4	d_englsh.h	145
+HUSTR_E1M4	d_french.h	137
+HUSTR_E1M5	d_englsh.h	146
+HUSTR_E1M5	d_french.h	138
+HUSTR_E1M6	d_englsh.h	147
+HUSTR_E1M6	d_french.h	139
+HUSTR_E1M7	d_englsh.h	148
+HUSTR_E1M7	d_french.h	140
+HUSTR_E1M8	d_englsh.h	149
+HUSTR_E1M8	d_french.h	141
+HUSTR_E1M9	d_englsh.h	150
+HUSTR_E1M9	d_french.h	142
+HUSTR_E2M1	d_englsh.h	152
+HUSTR_E2M1	d_french.h	144
+HUSTR_E2M2	d_englsh.h	153
+HUSTR_E2M2	d_french.h	145
+HUSTR_E2M3	d_englsh.h	154
+HUSTR_E2M3	d_french.h	146
+HUSTR_E2M4	d_englsh.h	155
+HUSTR_E2M4	d_french.h	147
+HUSTR_E2M5	d_englsh.h	156
+HUSTR_E2M5	d_french.h	148
+HUSTR_E2M6	d_englsh.h	157
+HUSTR_E2M6	d_french.h	149
+HUSTR_E2M7	d_englsh.h	158
+HUSTR_E2M7	d_french.h	150
+HUSTR_E2M8	d_englsh.h	159
+HUSTR_E2M8	d_french.h	151
+HUSTR_E2M9	d_englsh.h	160
+HUSTR_E2M9	d_french.h	152
+HUSTR_E3M1	d_englsh.h	162
+HUSTR_E3M1	d_french.h	154
+HUSTR_E3M2	d_englsh.h	163
+HUSTR_E3M2	d_french.h	155
+HUSTR_E3M3	d_englsh.h	164
+HUSTR_E3M3	d_french.h	156
+HUSTR_E3M4	d_englsh.h	165
+HUSTR_E3M4	d_french.h	157
+HUSTR_E3M5	d_englsh.h	166
+HUSTR_E3M5	d_french.h	158
+HUSTR_E3M6	d_englsh.h	167
+HUSTR_E3M6	d_french.h	159
+HUSTR_E3M7	d_englsh.h	168
+HUSTR_E3M7	d_french.h	160
+HUSTR_E3M8	d_englsh.h	169
+HUSTR_E3M8	d_french.h	161
+HUSTR_E3M9	d_englsh.h	170
+HUSTR_E3M9	d_french.h	162
+HUSTR_E4M1	d_englsh.h	172
+HUSTR_E4M2	d_englsh.h	173
+HUSTR_E4M3	d_englsh.h	174
+HUSTR_E4M4	d_englsh.h	175
+HUSTR_E4M5	d_englsh.h	176
+HUSTR_E4M6	d_englsh.h	177
+HUSTR_E4M7	d_englsh.h	178
+HUSTR_E4M8	d_englsh.h	179
+HUSTR_E4M9	d_englsh.h	180
+HUSTR_KEYBROWN	d_englsh.h	319
+HUSTR_KEYBROWN	d_french.h	230
+HUSTR_KEYGREEN	d_englsh.h	317
+HUSTR_KEYGREEN	d_french.h	228
+HUSTR_KEYINDIGO	d_englsh.h	318
+HUSTR_KEYINDIGO	d_french.h	229
+HUSTR_KEYRED	d_englsh.h	320
+HUSTR_KEYRED	d_french.h	231
+HUSTR_MESSAGESENT	d_englsh.h	307
+HUSTR_MESSAGESENT	d_french.h	218
+HUSTR_MSGU	d_englsh.h	140
+HUSTR_MSGU	d_french.h	132
+HUSTR_PLRBROWN	d_englsh.h	314
+HUSTR_PLRBROWN	d_french.h	225
+HUSTR_PLRGREEN	d_englsh.h	312
+HUSTR_PLRGREEN	d_french.h	223
+HUSTR_PLRINDIGO	d_englsh.h	313
+HUSTR_PLRINDIGO	d_french.h	224
+HUSTR_PLRRED	d_englsh.h	315
+HUSTR_PLRRED	d_french.h	226
+HUSTR_TALKTOSELF1	d_englsh.h	301
+HUSTR_TALKTOSELF1	d_french.h	212
+HUSTR_TALKTOSELF2	d_englsh.h	302
+HUSTR_TALKTOSELF2	d_french.h	213
+HUSTR_TALKTOSELF3	d_englsh.h	303
+HUSTR_TALKTOSELF3	d_french.h	214
+HUSTR_TALKTOSELF4	d_englsh.h	304
+HUSTR_TALKTOSELF4	d_french.h	215
+HUSTR_TALKTOSELF5	d_englsh.h	305
+HUSTR_TALKTOSELF5	d_french.h	216
+HU_BROADCAST	hu_stuff.h	36
+HU_CHARERASE	hu_lib.h	34
+HU_Drawer	hu_stuff.c	/^void HU_Drawer(void)$/
+HU_Erase	hu_stuff.c	/^void HU_Erase(void)$/
+HU_FONTEND	hu_stuff.h	31
+HU_FONTSIZE	hu_stuff.h	34
+HU_FONTSTART	hu_stuff.h	30
+HU_INPUTHEIGHT	hu_stuff.c	61
+HU_INPUTTOGGLE	hu_stuff.c	57
+HU_INPUTWIDTH	hu_stuff.c	60
+HU_INPUTX	hu_stuff.c	58
+HU_INPUTY	hu_stuff.c	59
+HU_Init	hu_stuff.c	/^void HU_Init(void)$/
+HU_MAXLINELENGTH	hu_lib.h	37
+HU_MAXLINES	hu_lib.h	36
+HU_MSGHEIGHT	hu_stuff.h	42
+HU_MSGREFRESH	hu_stuff.h	38
+HU_MSGTIMEOUT	hu_stuff.h	44
+HU_MSGWIDTH	hu_stuff.h	41
+HU_MSGX	hu_stuff.h	39
+HU_MSGY	hu_stuff.h	40
+HU_Responder	hu_stuff.c	/^boolean HU_Responder(event_t *ev)$/
+HU_Start	hu_stuff.c	/^void HU_Start(void)$/
+HU_Stop	hu_stuff.c	/^void HU_Stop(void)$/
+HU_TITLE	hu_stuff.c	49
+HU_TITLE2	hu_stuff.c	50
+HU_TITLEHEIGHT	hu_stuff.c	53
+HU_TITLEP	hu_stuff.c	51
+HU_TITLET	hu_stuff.c	52
+HU_TITLEX	hu_stuff.c	54
+HU_TITLEY	hu_stuff.c	55
+HU_Ticker	hu_stuff.c	/^void HU_Ticker(void)$/
+HU_dequeueChatChar	hu_stuff.c	/^char HU_dequeueChatChar(void)$/
+HU_queueChatChar	hu_stuff.c	/^void HU_queueChatChar(char c)$/
+HUlib_addCharToTextLine	hu_lib.c	/^HUlib_addCharToTextLine$/
+HUlib_addLineToSText	hu_lib.c	/^void HUlib_addLineToSText(hu_stext_t* s)$/
+HUlib_addMessageToSText	hu_lib.c	/^HUlib_addMessageToSText$/
+HUlib_addPrefixToIText	hu_lib.c	/^HUlib_addPrefixToIText$/
+HUlib_clearTextLine	hu_lib.c	/^void HUlib_clearTextLine(hu_textline_t* t)$/
+HUlib_delCharFromIText	hu_lib.c	/^void HUlib_delCharFromIText(hu_itext_t* it)$/
+HUlib_delCharFromTextLine	hu_lib.c	/^boolean HUlib_delCharFromTextLine(hu_textline_t* t/
+HUlib_drawIText	hu_lib.c	/^void HUlib_drawIText(hu_itext_t* it)$/
+HUlib_drawSText	hu_lib.c	/^void HUlib_drawSText(hu_stext_t* s)$/
+HUlib_drawTextLine	hu_lib.c	/^HUlib_drawTextLine$/
+HUlib_eraseIText	hu_lib.c	/^void HUlib_eraseIText(hu_itext_t* it)$/
+HUlib_eraseLineFromIText	hu_lib.c	/^void HUlib_eraseLineFromIText(hu_itext_t* it)$/
+HUlib_eraseSText	hu_lib.c	/^void HUlib_eraseSText(hu_stext_t* s)$/
+HUlib_eraseTextLine	hu_lib.c	/^void HUlib_eraseTextLine(hu_textline_t* l)$/
+HUlib_init	hu_lib.c	/^void HUlib_init(void)$/
+HUlib_initIText	hu_lib.c	/^HUlib_initIText$/
+HUlib_initSText	hu_lib.c	/^HUlib_initSText$/
+HUlib_initTextLine	hu_lib.c	/^HUlib_initTextLine$/
+HUlib_keyInIText	hu_lib.c	/^HUlib_keyInIText$/
+HUlib_resetIText	hu_lib.c	/^void HUlib_resetIText(hu_itext_t* it)$/
+INFRATICS	doomdef.h	237
+INITSCALEMTOF	am_map.c	107
+INVERSECOLORMAP	p_user.c	41
+INVISTICS	doomdef.h	236
+INVULNTICS	doomdef.h	235
+INV_ASPECT_RATIO	doomdef.h	105
+IRONTICS	doomdef.h	238
+ITEMQUESIZE	p_local.h	99
+I_AllocLow	i_system.c	/^byte*	I_AllocLow(int length)$/
+I_BaseTiccmd	i_system.c	/^ticcmd_t*	I_BaseTiccmd(void)$/
+I_BeginRead	i_system.c	/^void I_BeginRead(void)$/
+I_EndRead	i_system.c	/^void I_EndRead(void)$/
+I_Error	i_system.c	/^void I_Error (char *error, ...)$/
+I_FinishUpdate	i_video.c	/^void I_FinishUpdate (void)$/
+I_GetEvent	i_video.c	/^void I_GetEvent(void)$/
+I_GetHeapSize	i_system.c	/^int  I_GetHeapSize (void)$/
+I_GetSfxLumpNum	i_sound.c	/^int I_GetSfxLumpNum(sfxinfo_t* sfx)$/
+I_GetTime	i_system.c	/^int  I_GetTime (void)$/
+I_HandleSoundTimer	i_sound.c	/^void I_HandleSoundTimer( int ignore )$/
+I_Init	i_system.c	/^void I_Init (void)$/
+I_InitGraphics	i_video.c	/^void I_InitGraphics(void)$/
+I_InitMusic	i_sound.c	/^void I_InitMusic(void)		{ }$/
+I_InitNetwork	i_net.c	/^void I_InitNetwork (void)$/
+I_InitSound	i_sound.c	/^I_InitSound()$/
+I_NetCmd	i_net.c	/^void I_NetCmd (void)$/
+I_PauseSong	i_sound.c	/^void I_PauseSong (int handle)$/
+I_PlaySong	i_sound.c	/^void I_PlaySong(int handle, int looping)$/
+I_QrySongPlaying	i_sound.c	/^int I_QrySongPlaying(int handle)$/
+I_Quit	i_system.c	/^void I_Quit (void)$/
+I_ReadScreen	i_video.c	/^void I_ReadScreen (byte* scr)$/
+I_RegisterSong	i_sound.c	/^int I_RegisterSong(void* data)$/
+I_ResumeSong	i_sound.c	/^void I_ResumeSong (int handle)$/
+I_SetChannels	i_sound.c	/^void I_SetChannels()$/
+I_SetMusicVolume	i_sound.c	/^void I_SetMusicVolume(int volume)$/
+I_SetPalette	i_video.c	/^void I_SetPalette (byte* palette)$/
+I_SetSfxVolume	i_sound.c	/^void I_SetSfxVolume(int volume)$/
+I_ShutdownGraphics	i_video.c	/^void I_ShutdownGraphics(void)$/
+I_ShutdownMusic	i_sound.c	/^void I_ShutdownMusic(void)	{ }$/
+I_ShutdownSound	i_sound.c	/^void I_ShutdownSound(void)$/
+I_SoundDelTimer	i_sound.c	/^void I_SoundDelTimer()$/
+I_SoundIsPlaying	i_sound.c	/^int I_SoundIsPlaying(int handle)$/
+I_SoundSetTimer	i_sound.c	/^int I_SoundSetTimer( int duration_of_tick )$/
+I_StartFrame	i_video.c	/^void I_StartFrame (void)$/
+I_StartSound	i_sound.c	/^I_StartSound$/
+I_StartTic	i_video.c	/^void I_StartTic (void)$/
+I_StopSong	i_sound.c	/^void I_StopSong(int handle)$/
+I_StopSound	i_sound.c	/^void I_StopSound (int handle)$/
+I_SubmitSound	i_sound.c	/^I_SubmitSound(void)$/
+I_Tactile	i_system.c	/^I_Tactile$/
+I_UnRegisterSong	i_sound.c	/^void I_UnRegisterSong(int handle)$/
+I_UpdateNoBlit	i_video.c	/^void I_UpdateNoBlit (void)$/
+I_UpdateSound	i_sound.c	/^void I_UpdateSound( void )$/
+I_UpdateSoundParams	i_sound.c	/^I_UpdateSoundParams$/
+I_WaitVBL	i_system.c	/^void I_WaitVBL(int count)$/
+I_ZoneBase	i_system.c	/^byte* I_ZoneBase (int*	size)$/
+IdentifyVersion	d_main.c	/^void IdentifyVersion (void)$/
+InitExpand	i_video.c	/^void InitExpand (void)$/
+InitExpand2	i_video.c	/^void InitExpand2 (void)$/
+KEY_BACKSPACE	doomdef.h	270
+KEY_DOWNARROW	doomdef.h	253
+KEY_ENTER	doomdef.h	255
+KEY_EQUALS	doomdef.h	273
+KEY_ESCAPE	doomdef.h	254
+KEY_F1	doomdef.h	257
+KEY_F10	doomdef.h	266
+KEY_F11	doomdef.h	267
+KEY_F12	doomdef.h	268
+KEY_F2	doomdef.h	258
+KEY_F3	doomdef.h	259
+KEY_F4	doomdef.h	260
+KEY_F5	doomdef.h	261
+KEY_F6	doomdef.h	262
+KEY_F7	doomdef.h	263
+KEY_F8	doomdef.h	264
+KEY_F9	doomdef.h	265
+KEY_LALT	doomdef.h	280
+KEY_LEFTARROW	doomdef.h	251
+KEY_MINUS	doomdef.h	274
+KEY_PAUSE	doomdef.h	271
+KEY_RALT	doomdef.h	278
+KEY_RCTRL	doomdef.h	277
+KEY_RIGHTARROW	doomdef.h	250
+KEY_RSHIFT	doomdef.h	276
+KEY_TAB	doomdef.h	256
+KEY_UPARROW	doomdef.h	252
+LEFT	am_map.c	853
+LIGHTLEVELS	r_main.h	69
+LIGHTSCALESHIFT	r_main.h	73
+LIGHTSEGSHIFT	r_main.h	70
+LIGHTZSHIFT	r_main.h	75
+LINEHEIGHT	m_menu.c	129
+LINE_NEVERSEE	am_map.c	126
+LOADNET	d_englsh.h	42
+LOADNET	d_french.h	38
+LONG	m_swap.h	/^#define LONG(x)         ((long)SwapLONG((unsigned /
+LONG	m_swap.h	/^#define LONG(x)         (x)$/
+LOWERSPEED	p_pspr.c	44
+Language_t	doomdef.h	70
+LoadDef	m_menu.c	473
+LoadMenu	m_menu.c	463
+MAPBLOCKSHIFT	p_local.h	40
+MAPBLOCKSIZE	p_local.h	39
+MAPBLOCKUNITS	p_local.h	38
+MAPBMASK	p_local.h	41
+MAPBTOFRAC	p_local.h	42
+MAXANIMS	p_spec.c	83
+MAXARGVS	d_main.c	725
+MAXBOB	p_user.c	49
+MAXBUTTONS	p_spec.h	244
+MAXCEILINGS	p_spec.h	518
+MAXCHAR	doomtype.h	44
+MAXDRAWSEGS	r_defs.h	55
+MAXEVENTS	d_event.h	108
+MAXHEALTH	p_local.h	33
+MAXHEIGHT	r_draw.c	48
+MAXINT	doomtype.h	48
+MAXINTERCEPTS	p_local.h	154
+MAXLIGHTSCALE	r_main.h	72
+MAXLIGHTZ	r_main.h	74
+MAXLINEANIMS	p_spec.c	141
+MAXLONG	doomtype.h	49
+MAXMOVE	p_local.h	54
+MAXNETNODES	d_net.h	45
+MAXOPENINGS	r_plane.c	59
+MAXPLATS	p_spec.h	306
+MAXPLAYERS	doomdef.h	119
+MAXPLMOVE	g_game.c	171
+MAXRADIUS	p_local.h	51
+MAXSEGS	r_bsp.c	88
+MAXSHORT	doomtype.h	45
+MAXSLIDEDOORS	p_spec.h	465
+MAXSPECIALCROSS	p_enemy.c	267
+MAXSPECIALCROSS	p_map.c	67
+MAXSWITCHES	p_spec.h	241
+MAXVISPLANES	r_plane.c	52
+MAXVISSPRITES	r_things.h	31
+MAXWADFILES	d_main.h	36
+MAXWIDTH	r_draw.c	47
+MAX_ADJOINING_SECTORS	p_spec.c	326
+MAX_DEATHMATCH_STARTS	p_setup.c	109
+MAX_DM_STARTS	doomstat.h	219
+MELEERANGE	p_local.h	57
+MF_AMBUSH	p_mobj.h	131
+MF_CORPSE	p_mobj.h	173
+MF_COUNTITEM	p_mobj.h	185
+MF_COUNTKILL	p_mobj.h	181
+MF_DROPOFF	p_mobj.h	146
+MF_DROPPED	p_mobj.h	164
+MF_FLOAT	p_mobj.h	155
+MF_INFLOAT	p_mobj.h	176
+MF_JUSTATTACKED	p_mobj.h	135
+MF_JUSTHIT	p_mobj.h	133
+MF_MISSILE	p_mobj.h	161
+MF_NOBLOCKMAP	p_mobj.h	128
+MF_NOBLOOD	p_mobj.h	170
+MF_NOCLIP	p_mobj.h	150
+MF_NOGRAVITY	p_mobj.h	142
+MF_NOSECTOR	p_mobj.h	126
+MF_NOTDMATCH	p_mobj.h	193
+MF_PICKUP	p_mobj.h	148
+MF_SHADOW	p_mobj.h	167
+MF_SHOOTABLE	p_mobj.h	124
+MF_SKULLFLY	p_mobj.h	189
+MF_SLIDE	p_mobj.h	152
+MF_SOLID	p_mobj.h	122
+MF_SPAWNCEILING	p_mobj.h	138
+MF_SPECIAL	p_mobj.h	120
+MF_TELEPORT	p_mobj.h	158
+MF_TRANSLATION	p_mobj.h	199
+MF_TRANSSHIFT	p_mobj.h	201
+MINCHAR	doomtype.h	50
+MINFRAGMENT	z_zone.c	180
+MININT	doomtype.h	54
+MINLONG	doomtype.h	55
+MINSHORT	doomtype.h	51
+MINZ	r_things.c	46
+MISSILERANGE	p_local.h	58
+MIXBUFFERSIZE	i_sound.c	97
+ML_BLOCKING	doomdata.h	101
+ML_BLOCKMAP	doomdata.h	55
+ML_BLOCKMONSTERS	doomdata.h	104
+ML_DONTDRAW	doomdata.h	132
+ML_DONTPEGBOTTOM	doomdata.h	123
+ML_DONTPEGTOP	doomdata.h	120
+ML_LABEL	doomdata.h	45
+ML_LINEDEFS	doomdata.h	47
+ML_MAPPED	doomdata.h	135
+ML_NODES	doomdata.h	52
+ML_REJECT	doomdata.h	54
+ML_SECRET	doomdata.h	126
+ML_SECTORS	doomdata.h	53
+ML_SEGS	doomdata.h	50
+ML_SIDEDEFS	doomdata.h	48
+ML_SOUNDBLOCK	doomdata.h	129
+ML_SSECTORS	doomdata.h	51
+ML_THINGS	doomdata.h	46
+ML_TWOSIDED	doomdata.h	108
+ML_VERTEXES	doomdata.h	49
+MO_TELEPORTMAN	p_spec.h	38
+MSGOFF	d_englsh.h	61
+MSGOFF	d_french.h	52
+MSGON	d_englsh.h	62
+MSGON	d_french.h	53
+MTF_AMBUSH	doomdef.h	145
+MTF_EASY	doomdef.h	140
+MTF_HARD	doomdef.h	142
+MTF_NORMAL	doomdef.h	141
+MTOF	am_map.c	/^#define MTOF(x) (FixedMul((x),scale_mtof)>>16)$/
+MT_ARACHPLAZ	info.h	1200
+MT_BABY	info.h	1184
+MT_BARREL	info.h	1194
+MT_BFG	info.h	1199
+MT_BLOOD	info.h	1202
+MT_BOSSBRAIN	info.h	1189
+MT_BOSSSPIT	info.h	1190
+MT_BOSSTARGET	info.h	1191
+MT_BRUISER	info.h	1179
+MT_BRUISERSHOT	info.h	1180
+MT_CHAINGUN	info.h	1237
+MT_CHAINGUY	info.h	1174
+MT_CLIP	info.h	1227
+MT_CYBORG	info.h	1185
+MT_EXTRABFG	info.h	1206
+MT_FATSHOT	info.h	1173
+MT_FATSO	info.h	1172
+MT_FIRE	info.h	1168
+MT_HEAD	info.h	1178
+MT_HEADSHOT	info.h	1196
+MT_IFOG	info.h	1204
+MT_INS	info.h	1222
+MT_INV	info.h	1220
+MT_KEEN	info.h	1188
+MT_KNIGHT	info.h	1181
+MT_MEGA	info.h	1226
+MT_MISC0	info.h	1207
+MT_MISC1	info.h	1208
+MT_MISC10	info.h	1217
+MT_MISC11	info.h	1218
+MT_MISC12	info.h	1219
+MT_MISC13	info.h	1221
+MT_MISC14	info.h	1223
+MT_MISC15	info.h	1224
+MT_MISC16	info.h	1225
+MT_MISC17	info.h	1228
+MT_MISC18	info.h	1229
+MT_MISC19	info.h	1230
+MT_MISC2	info.h	1209
+MT_MISC20	info.h	1231
+MT_MISC21	info.h	1232
+MT_MISC22	info.h	1233
+MT_MISC23	info.h	1234
+MT_MISC24	info.h	1235
+MT_MISC25	info.h	1236
+MT_MISC26	info.h	1238
+MT_MISC27	info.h	1239
+MT_MISC28	info.h	1240
+MT_MISC29	info.h	1243
+MT_MISC3	info.h	1210
+MT_MISC30	info.h	1244
+MT_MISC31	info.h	1245
+MT_MISC32	info.h	1246
+MT_MISC33	info.h	1247
+MT_MISC34	info.h	1248
+MT_MISC35	info.h	1249
+MT_MISC36	info.h	1250
+MT_MISC37	info.h	1251
+MT_MISC38	info.h	1252
+MT_MISC39	info.h	1253
+MT_MISC4	info.h	1211
+MT_MISC40	info.h	1254
+MT_MISC41	info.h	1255
+MT_MISC42	info.h	1256
+MT_MISC43	info.h	1257
+MT_MISC44	info.h	1258
+MT_MISC45	info.h	1259
+MT_MISC46	info.h	1260
+MT_MISC47	info.h	1261
+MT_MISC48	info.h	1262
+MT_MISC49	info.h	1263
+MT_MISC5	info.h	1212
+MT_MISC50	info.h	1264
+MT_MISC51	info.h	1265
+MT_MISC52	info.h	1266
+MT_MISC53	info.h	1267
+MT_MISC54	info.h	1268
+MT_MISC55	info.h	1269
+MT_MISC56	info.h	1270
+MT_MISC57	info.h	1271
+MT_MISC58	info.h	1272
+MT_MISC59	info.h	1273
+MT_MISC6	info.h	1213
+MT_MISC60	info.h	1274
+MT_MISC61	info.h	1275
+MT_MISC62	info.h	1276
+MT_MISC63	info.h	1277
+MT_MISC64	info.h	1278
+MT_MISC65	info.h	1279
+MT_MISC66	info.h	1280
+MT_MISC67	info.h	1281
+MT_MISC68	info.h	1282
+MT_MISC69	info.h	1283
+MT_MISC7	info.h	1214
+MT_MISC70	info.h	1284
+MT_MISC71	info.h	1285
+MT_MISC72	info.h	1286
+MT_MISC73	info.h	1287
+MT_MISC74	info.h	1288
+MT_MISC75	info.h	1289
+MT_MISC76	info.h	1290
+MT_MISC77	info.h	1291
+MT_MISC78	info.h	1292
+MT_MISC79	info.h	1293
+MT_MISC8	info.h	1215
+MT_MISC80	info.h	1294
+MT_MISC81	info.h	1295
+MT_MISC82	info.h	1296
+MT_MISC83	info.h	1297
+MT_MISC84	info.h	1298
+MT_MISC85	info.h	1299
+MT_MISC86	info.h	1300
+MT_MISC9	info.h	1216
+MT_PAIN	info.h	1186
+MT_PLASMA	info.h	1198
+MT_PLAYER	info.h	1164
+MT_POSSESSED	info.h	1165
+MT_PUFF	info.h	1201
+MT_ROCKET	info.h	1197
+MT_SERGEANT	info.h	1176
+MT_SHADOWS	info.h	1177
+MT_SHOTGUN	info.h	1241
+MT_SHOTGUY	info.h	1166
+MT_SKULL	info.h	1182
+MT_SMOKE	info.h	1171
+MT_SPAWNFIRE	info.h	1193
+MT_SPAWNSHOT	info.h	1192
+MT_SPIDER	info.h	1183
+MT_SUPERSHOTGUN	info.h	1242
+MT_TELEPORTMAN	info.h	1205
+MT_TFOG	info.h	1203
+MT_TRACER	info.h	1170
+MT_TROOP	info.h	1175
+MT_TROOPSHOT	info.h	1195
+MT_UNDEAD	info.h	1169
+MT_VILE	info.h	1167
+MT_WOLFSS	info.h	1187
+M_AddToBox	m_bbox.c	/^M_AddToBox$/
+M_ChangeDetail	m_menu.c	/^void M_ChangeDetail(int choice)$/
+M_ChangeMessages	m_menu.c	/^void M_ChangeMessages(int choice)$/
+M_ChangeSensitivity	m_menu.c	/^void M_ChangeSensitivity(int choice)$/
+M_CheckParm	m_argv.c	/^int M_CheckParm (char *check)$/
+M_ChooseSkill	m_menu.c	/^void M_ChooseSkill(int choice)$/
+M_ClearBox	m_bbox.c	/^void M_ClearBox (fixed_t *box)$/
+M_ClearMenus	m_menu.c	/^void M_ClearMenus (void)$/
+M_ClearRandom	m_random.c	/^void M_ClearRandom (void)$/
+M_DoSave	m_menu.c	/^void M_DoSave(int slot)$/
+M_DrawEmptyCell	m_menu.c	/^M_DrawEmptyCell$/
+M_DrawEpisode	m_menu.c	/^void M_DrawEpisode(void)$/
+M_DrawLoad	m_menu.c	/^void M_DrawLoad(void)$/
+M_DrawMainMenu	m_menu.c	/^void M_DrawMainMenu(void)$/
+M_DrawNewGame	m_menu.c	/^void M_DrawNewGame(void)$/
+M_DrawOptions	m_menu.c	/^void M_DrawOptions(void)$/
+M_DrawReadThis1	m_menu.c	/^void M_DrawReadThis1(void)$/
+M_DrawReadThis2	m_menu.c	/^void M_DrawReadThis2(void)$/
+M_DrawSave	m_menu.c	/^void M_DrawSave(void)$/
+M_DrawSaveLoadBorder	m_menu.c	/^void M_DrawSaveLoadBorder(int x,int y)$/
+M_DrawSelCell	m_menu.c	/^M_DrawSelCell$/
+M_DrawSound	m_menu.c	/^void M_DrawSound(void)$/
+M_DrawText	m_misc.c	/^M_DrawText$/
+M_DrawThermo	m_menu.c	/^M_DrawThermo$/
+M_Drawer	m_menu.c	/^void M_Drawer (void)$/
+M_EndGame	m_menu.c	/^void M_EndGame(int choice)$/
+M_EndGameResponse	m_menu.c	/^void M_EndGameResponse(int ch)$/
+M_Episode	m_menu.c	/^void M_Episode(int choice)$/
+M_FinishReadThis	m_menu.c	/^void M_FinishReadThis(int choice)$/
+M_Init	m_menu.c	/^void M_Init (void)$/
+M_LoadDefaults	m_misc.c	/^void M_LoadDefaults (void)$/
+M_LoadGame	m_menu.c	/^void M_LoadGame (int choice)$/
+M_LoadSelect	m_menu.c	/^void M_LoadSelect(int choice)$/
+M_MusicVol	m_menu.c	/^void M_MusicVol(int choice)$/
+M_NewGame	m_menu.c	/^void M_NewGame(int choice)$/
+M_Options	m_menu.c	/^void M_Options(int choice)$/
+M_QuickLoad	m_menu.c	/^void M_QuickLoad(void)$/
+M_QuickLoadResponse	m_menu.c	/^void M_QuickLoadResponse(int ch)$/
+M_QuickSave	m_menu.c	/^void M_QuickSave(void)$/
+M_QuickSaveResponse	m_menu.c	/^void M_QuickSaveResponse(int ch)$/
+M_QuitDOOM	m_menu.c	/^void M_QuitDOOM(int choice)$/
+M_QuitResponse	m_menu.c	/^void M_QuitResponse(int ch)$/
+M_Random	m_random.c	/^int M_Random (void)$/
+M_ReadFile	m_misc.c	/^M_ReadFile$/
+M_ReadSaveStrings	m_menu.c	/^void M_ReadSaveStrings(void)$/
+M_ReadThis	m_menu.c	/^void M_ReadThis(int choice)$/
+M_ReadThis2	m_menu.c	/^void M_ReadThis2(int choice)$/
+M_Responder	m_menu.c	/^boolean M_Responder (event_t* ev)$/
+M_SaveDefaults	m_misc.c	/^void M_SaveDefaults (void)$/
+M_SaveGame	m_menu.c	/^void M_SaveGame (int choice)$/
+M_SaveSelect	m_menu.c	/^void M_SaveSelect(int choice)$/
+M_ScreenShot	m_misc.c	/^void M_ScreenShot (void)$/
+M_SetupNextMenu	m_menu.c	/^void M_SetupNextMenu(menu_t *menudef)$/
+M_SfxVol	m_menu.c	/^void M_SfxVol(int choice)$/
+M_SizeDisplay	m_menu.c	/^void M_SizeDisplay(int choice)$/
+M_Sound	m_menu.c	/^void M_Sound(int choice)$/
+M_StartControlPanel	m_menu.c	/^void M_StartControlPanel (void)$/
+M_StartMessage	m_menu.c	/^M_StartMessage$/
+M_StopMessage	m_menu.c	/^void M_StopMessage(void)$/
+M_StringHeight	m_menu.c	/^int M_StringHeight(char* string)$/
+M_StringWidth	m_menu.c	/^int M_StringWidth(char* string)$/
+M_Ticker	m_menu.c	/^void M_Ticker (void)$/
+M_VerifyNightmare	m_menu.c	/^void M_VerifyNightmare(int ch)$/
+M_WriteFile	m_misc.c	/^M_WriteFile$/
+M_WriteText	m_menu.c	/^M_WriteText$/
+M_ZOOMIN	am_map.c	113
+M_ZOOMOUT	am_map.c	116
+MainDef	m_menu.c	261
+MainMenu	m_menu.c	250
+Mi_main	i_main.c	/^main$/
+NA	s_sound.c	79
+NCMD_CHECKSUM	d_net.c	41
+NCMD_EXIT	d_net.c	37
+NCMD_KILL	d_net.c	40
+NCMD_RETRANSMIT	d_net.c	38
+NCMD_SETUP	d_net.c	39
+NETEND	d_englsh.h	63
+NETEND	d_french.h	54
+NEWGAME	d_englsh.h	49
+NEWGAME	d_french.h	46
+NF_SUBSECTOR	doomdata.h	178
+NG_SPACINGX	wi_stuff.c	95
+NG_STATSX	wi_stuff.c	93
+NG_STATSY	wi_stuff.c	92
+NIGHTMARE	d_englsh.h	53
+NIGHTMARE	d_french.h	48
+NORM_PITCH	s_sound.c	69
+NORM_PRIORITY	s_sound.c	70
+NORM_SEP	s_sound.c	71
+NORM_VOLUME	s_sound.c	67
+NUMAMMO	doomdef.h	207
+NUMANIMS	wi_stuff.c	263
+NUMBONUSPALS	st_stuff.c	74
+NUMCARDS	doomdef.h	171
+NUMCHEATPLYRLINES	am_map.c	193
+NUMCMAPS	wi_stuff.c	334
+NUMCOLORMAPS	r_main.h	87
+NUMDIRS	p_enemy.c	62
+NUMEPISODES	wi_stuff.c	66
+NUMKEYS	g_game.c	181
+NUMMAPS	wi_stuff.c	67
+NUMMOBJTYPES	info.h	1301
+NUMMUSIC	sounds.h	169
+NUMPLYRLINES	am_map.c	171
+NUMPOWERS	doomdef.h	222
+NUMPSPRITES	p_pspr.h	64
+NUMREDPALS	st_stuff.c	73
+NUMSFX	sounds.h	288
+NUMSPRITES	info.h	170
+NUMSTATES	info.h	1143
+NUMTHINTRIANGLEGUYLINES	am_map.c	211
+NUMTRIANGLEGUYLINES	am_map.c	202
+NUMWEAPONS	doomdef.h	192
+NUM_CHANNELS	i_sound.c	94
+NUM_QUITMESSAGES	dstrings.h	56
+NetUpdate	d_net.c	/^void NetUpdate (void)$/
+NetbufferChecksum	d_net.c	/^unsigned NetbufferChecksum (void)$/
+NetbufferSize	d_net.c	/^int NetbufferSize (void)$/
+NewDef	m_menu.c	324
+NewGameMenu	m_menu.c	315
+NoState	wi_stuff.h	33
+ONCEILINGZ	p_local.h	96
+ONFLOORZ	p_local.h	95
+O_BINARY	m_misc.c	109
+O_BINARY	w_wad.c	38
+OptionsDef	m_menu.c	364
+OptionsMenu	m_menu.c	352
+P1TEXT	d_englsh.h	529
+P2TEXT	d_englsh.h	546
+P3TEXT	d_englsh.h	557
+P4TEXT	d_englsh.h	571
+P5TEXT	d_englsh.h	587
+P6TEXT	d_englsh.h	595
+PADSAVEP	p_saveg.c	/^#define PADSAVEP()	save_p += (4 - ((int) save_p & /
+PD_BLUEK	d_englsh.h	128
+PD_BLUEK	d_french.h	120
+PD_BLUEO	d_englsh.h	125
+PD_BLUEO	d_french.h	117
+PD_REDK	d_englsh.h	129
+PD_REDK	d_french.h	121
+PD_REDO	d_englsh.h	126
+PD_REDO	d_french.h	118
+PD_YELLOWK	d_englsh.h	130
+PD_YELLOWK	d_french.h	122
+PD_YELLOWO	d_englsh.h	127
+PD_YELLOWO	d_french.h	119
+PHUSTR_1	d_englsh.h	218
+PHUSTR_10	d_englsh.h	227
+PHUSTR_11	d_englsh.h	228
+PHUSTR_12	d_englsh.h	230
+PHUSTR_13	d_englsh.h	231
+PHUSTR_14	d_englsh.h	232
+PHUSTR_15	d_englsh.h	233
+PHUSTR_16	d_englsh.h	234
+PHUSTR_17	d_englsh.h	235
+PHUSTR_18	d_englsh.h	236
+PHUSTR_19	d_englsh.h	237
+PHUSTR_2	d_englsh.h	219
+PHUSTR_20	d_englsh.h	238
+PHUSTR_21	d_englsh.h	240
+PHUSTR_22	d_englsh.h	241
+PHUSTR_23	d_englsh.h	242
+PHUSTR_24	d_englsh.h	243
+PHUSTR_25	d_englsh.h	244
+PHUSTR_26	d_englsh.h	245
+PHUSTR_27	d_englsh.h	246
+PHUSTR_28	d_englsh.h	247
+PHUSTR_29	d_englsh.h	248
+PHUSTR_3	d_englsh.h	220
+PHUSTR_30	d_englsh.h	249
+PHUSTR_31	d_englsh.h	251
+PHUSTR_32	d_englsh.h	252
+PHUSTR_4	d_englsh.h	221
+PHUSTR_5	d_englsh.h	222
+PHUSTR_6	d_englsh.h	223
+PHUSTR_7	d_englsh.h	224
+PHUSTR_8	d_englsh.h	225
+PHUSTR_9	d_englsh.h	226
+PI	tables.h	44
+PIT_AddLineIntercepts	p_maputl.c	/^PIT_AddLineIntercepts (line_t* ld)$/
+PIT_AddThingIntercepts	p_maputl.c	/^boolean PIT_AddThingIntercepts (mobj_t* thing)$/
+PIT_ChangeSector	p_map.c	/^boolean PIT_ChangeSector (mobj_t*	thing)$/
+PIT_CheckLine	p_map.c	/^boolean PIT_CheckLine (line_t* ld)$/
+PIT_CheckThing	p_map.c	/^boolean PIT_CheckThing (mobj_t* thing)$/
+PIT_RadiusAttack	p_map.c	/^boolean PIT_RadiusAttack (mobj_t* thing)$/
+PIT_StompThing	p_map.c	/^boolean PIT_StompThing (mobj_t* thing)$/
+PIT_VileCheck	p_enemy.c	/^boolean PIT_VileCheck (mobj_t*	thing)$/
+PLATSPEED	p_spec.h	305
+PLATWAIT	p_spec.h	304
+PLAYERRADIUS	p_local.h	46
+PL_DRONE	d_net.c	58
+POINTER_WARP_COUNTDOWN	i_video.c	60
+PRESSKEY	d_englsh.h	39
+PRESSKEY	d_french.h	35
+PRESSYN	d_englsh.h	40
+PRESSYN	d_french.h	36
+PST_DEAD	d_player.h	58
+PST_LIVE	d_player.h	56
+PST_REBORN	d_player.h	60
+PTR_AimTraverse	p_map.c	/^PTR_AimTraverse (intercept_t* in)$/
+PTR_ShootTraverse	p_map.c	/^boolean PTR_ShootTraverse (intercept_t* in)$/
+PTR_SlideTraverse	p_map.c	/^boolean PTR_SlideTraverse (intercept_t* in)$/
+PTR_UseTraverse	p_map.c	/^boolean	PTR_UseTraverse (intercept_t* in)$/
+PT_ADDLINES	p_local.h	178
+PT_ADDTHINGS	p_local.h	179
+PT_EARLYOUT	p_local.h	180
+PUTDOT	am_map.c	/^#define PUTDOT(xx,yy,cc) fb[(yy)*f_w+(xx)]=(cc)$/
+PU_CACHE	z_zone.h	44
+PU_DAVE	z_zone.h	39
+PU_LEVEL	z_zone.h	40
+PU_LEVSPEC	z_zone.h	41
+PU_MUSIC	z_zone.h	38
+PU_PURGELEVEL	z_zone.h	43
+PU_SOUND	z_zone.h	37
+PU_STATIC	z_zone.h	36
+P_ActivateInStasis	p_plats.c	/^void P_ActivateInStasis(int tag)$/
+P_ActivateInStasisCeiling	p_ceilng.c	/^void P_ActivateInStasisCeiling(line_t* line)$/
+P_AddActiveCeiling	p_ceilng.c	/^void P_AddActiveCeiling(ceiling_t* c)$/
+P_AddActivePlat	p_plats.c	/^void P_AddActivePlat(plat_t* plat)$/
+P_AddThinker	p_tick.c	/^void P_AddThinker (thinker_t* thinker)$/
+P_AimLineAttack	p_map.c	/^P_AimLineAttack$/
+P_AllocateThinker	p_tick.c	/^void P_AllocateThinker (thinker_t*	thinker)$/
+P_AproxDistance	p_maputl.c	/^P_AproxDistance$/
+P_ArchivePlayers	p_saveg.c	/^void P_ArchivePlayers (void)$/
+P_ArchiveSpecials	p_saveg.c	/^void P_ArchiveSpecials (void)$/
+P_ArchiveThinkers	p_saveg.c	/^void P_ArchiveThinkers (void)$/
+P_ArchiveWorld	p_saveg.c	/^void P_ArchiveWorld (void)$/
+P_BlockLinesIterator	p_maputl.c	/^P_BlockLinesIterator$/
+P_BlockThingsIterator	p_maputl.c	/^P_BlockThingsIterator$/
+P_BoxOnLineSide	p_maputl.c	/^P_BoxOnLineSide$/
+P_BringUpWeapon	p_pspr.c	/^void P_BringUpWeapon (player_t* player)$/
+P_BulletSlope	p_pspr.c	/^void P_BulletSlope (mobj_t*	mo)$/
+P_CalcHeight	p_user.c	/^void P_CalcHeight (player_t* player) $/
+P_CalcSwing	p_pspr.c	/^void P_CalcSwing (player_t*	player)$/
+P_ChangeSector	p_map.c	/^P_ChangeSector$/
+P_ChangeSwitchTexture	p_switch.c	/^P_ChangeSwitchTexture$/
+P_CheckAmmo	p_pspr.c	/^boolean P_CheckAmmo (player_t* player)$/
+P_CheckMeleeRange	p_enemy.c	/^boolean P_CheckMeleeRange (mobj_t*	actor)$/
+P_CheckMissileRange	p_enemy.c	/^boolean P_CheckMissileRange (mobj_t* actor)$/
+P_CheckMissileSpawn	p_mobj.c	/^void P_CheckMissileSpawn (mobj_t* th)$/
+P_CheckPosition	p_map.c	/^P_CheckPosition$/
+P_CheckSight	p_sight.c	/^P_CheckSight$/
+P_CrossBSPNode	p_sight.c	/^boolean P_CrossBSPNode (int bspnum)$/
+P_CrossSpecialLine	p_spec.c	/^P_CrossSpecialLine$/
+P_CrossSubsector	p_sight.c	/^boolean P_CrossSubsector (int num)$/
+P_DamageMobj	p_inter.c	/^P_DamageMobj$/
+P_DeathThink	p_user.c	/^void P_DeathThink (player_t* player)$/
+P_DivlineSide	p_sight.c	/^P_DivlineSide$/
+P_DropWeapon	p_pspr.c	/^void P_DropWeapon (player_t* player)$/
+P_ExplodeMissile	p_mobj.c	/^void P_ExplodeMissile (mobj_t* mo)$/
+P_FindHighestCeilingSurrounding	p_spec.c	/^fixed_t	P_FindHighestCeilingSurrounding(sector_t* /
+P_FindHighestFloorSurrounding	p_spec.c	/^fixed_t	P_FindHighestFloorSurrounding(sector_t *se/
+P_FindLowestCeilingSurrounding	p_spec.c	/^P_FindLowestCeilingSurrounding(sector_t* sec)$/
+P_FindLowestFloorSurrounding	p_spec.c	/^fixed_t	P_FindLowestFloorSurrounding(sector_t* sec/
+P_FindMinSurroundingLight	p_spec.c	/^P_FindMinSurroundingLight$/
+P_FindNextHighestFloor	p_spec.c	/^P_FindNextHighestFloor$/
+P_FindSectorFromLineTag	p_spec.c	/^P_FindSectorFromLineTag$/
+P_FindSlidingDoorType	p_doors.c	/^int P_FindSlidingDoorType(line_t*	line)$/
+P_FireWeapon	p_pspr.c	/^void P_FireWeapon (player_t* player)$/
+P_GiveAmmo	p_inter.c	/^P_GiveAmmo$/
+P_GiveArmor	p_inter.c	/^P_GiveArmor$/
+P_GiveBody	p_inter.c	/^P_GiveBody$/
+P_GiveCard	p_inter.c	/^P_GiveCard$/
+P_GivePower	p_inter.c	/^P_GivePower$/
+P_GiveWeapon	p_inter.c	/^P_GiveWeapon$/
+P_GroupLines	p_setup.c	/^void P_GroupLines (void)$/
+P_GunShot	p_pspr.c	/^P_GunShot$/
+P_HitSlideLine	p_map.c	/^void P_HitSlideLine (line_t* ld)$/
+P_Init	p_setup.c	/^void P_Init (void)$/
+P_InitPicAnims	p_spec.c	/^void P_InitPicAnims (void)$/
+P_InitSlidingDoorFrames	p_doors.c	/^void P_InitSlidingDoorFrames(void)$/
+P_InitSwitchList	p_switch.c	/^void P_InitSwitchList(void)$/
+P_InitThinkers	p_tick.c	/^void P_InitThinkers (void)$/
+P_InterceptVector	p_maputl.c	/^P_InterceptVector$/
+P_InterceptVector2	p_sight.c	/^P_InterceptVector2$/
+P_KillMobj	p_inter.c	/^P_KillMobj$/
+P_LineAttack	p_map.c	/^P_LineAttack$/
+P_LineOpening	p_maputl.c	/^void P_LineOpening (line_t* linedef)$/
+P_LoadBlockMap	p_setup.c	/^void P_LoadBlockMap (int lump)$/
+P_LoadLineDefs	p_setup.c	/^void P_LoadLineDefs (int lump)$/
+P_LoadNodes	p_setup.c	/^void P_LoadNodes (int lump)$/
+P_LoadSectors	p_setup.c	/^void P_LoadSectors (int lump)$/
+P_LoadSegs	p_setup.c	/^void P_LoadSegs (int lump)$/
+P_LoadSideDefs	p_setup.c	/^void P_LoadSideDefs (int lump)$/
+P_LoadSubsectors	p_setup.c	/^void P_LoadSubsectors (int lump)$/
+P_LoadThings	p_setup.c	/^void P_LoadThings (int lump)$/
+P_LoadVertexes	p_setup.c	/^void P_LoadVertexes (int lump)$/
+P_LookForPlayers	p_enemy.c	/^P_LookForPlayers$/
+P_MakeDivline	p_maputl.c	/^P_MakeDivline$/
+P_MobjThinker	p_mobj.c	/^void P_MobjThinker (mobj_t* mobj)$/
+P_Move	p_enemy.c	/^boolean P_Move (mobj_t*	actor)$/
+P_MovePlayer	p_user.c	/^void P_MovePlayer (player_t* player)$/
+P_MovePsprites	p_pspr.c	/^void P_MovePsprites (player_t* player) $/
+P_NewChaseDir	p_enemy.c	/^void P_NewChaseDir (mobj_t*	actor)$/
+P_NightmareRespawn	p_mobj.c	/^P_NightmareRespawn (mobj_t* mobj)$/
+P_NoiseAlert	p_enemy.c	/^P_NoiseAlert$/
+P_PathTraverse	p_maputl.c	/^P_PathTraverse$/
+P_PlayerInSpecialSector	p_spec.c	/^void P_PlayerInSpecialSector (player_t* player)$/
+P_PlayerThink	p_user.c	/^void P_PlayerThink (player_t* player)$/
+P_PointOnDivlineSide	p_maputl.c	/^P_PointOnDivlineSide$/
+P_PointOnLineSide	p_maputl.c	/^P_PointOnLineSide$/
+P_RadiusAttack	p_map.c	/^P_RadiusAttack$/
+P_Random	m_random.c	/^int P_Random (void)$/
+P_RecursiveSound	p_enemy.c	/^P_RecursiveSound$/
+P_RemoveActiveCeiling	p_ceilng.c	/^void P_RemoveActiveCeiling(ceiling_t* c)$/
+P_RemoveActivePlat	p_plats.c	/^void P_RemoveActivePlat(plat_t* plat)$/
+P_RemoveMobj	p_mobj.c	/^void P_RemoveMobj (mobj_t* mobj)$/
+P_RemoveThinker	p_tick.c	/^void P_RemoveThinker (thinker_t* thinker)$/
+P_RespawnSpecials	p_mobj.c	/^void P_RespawnSpecials (void)$/
+P_RunThinkers	p_tick.c	/^void P_RunThinkers (void)$/
+P_SetMobjState	p_mobj.c	/^P_SetMobjState$/
+P_SetPsprite	p_pspr.c	/^P_SetPsprite$/
+P_SetThingPosition	p_maputl.c	/^P_SetThingPosition (mobj_t* thing)$/
+P_SetupLevel	p_setup.c	/^P_SetupLevel$/
+P_SetupPsprites	p_pspr.c	/^void P_SetupPsprites (player_t* player) $/
+P_ShootSpecialLine	p_spec.c	/^P_ShootSpecialLine$/
+P_SlideMove	p_map.c	/^void P_SlideMove (mobj_t* mo)$/
+P_SpawnBlood	p_mobj.c	/^P_SpawnBlood$/
+P_SpawnDoorCloseIn30	p_doors.c	/^void P_SpawnDoorCloseIn30 (sector_t* sec)$/
+P_SpawnDoorRaiseIn5Mins	p_doors.c	/^P_SpawnDoorRaiseIn5Mins$/
+P_SpawnFireFlicker	p_lights.c	/^void P_SpawnFireFlicker (sector_t*	sector)$/
+P_SpawnGlowingLight	p_lights.c	/^void P_SpawnGlowingLight(sector_t*	sector)$/
+P_SpawnLightFlash	p_lights.c	/^void P_SpawnLightFlash (sector_t*	sector)$/
+P_SpawnMapThing	p_mobj.c	/^void P_SpawnMapThing (mapthing_t* mthing)$/
+P_SpawnMissile	p_mobj.c	/^P_SpawnMissile$/
+P_SpawnMobj	p_mobj.c	/^P_SpawnMobj$/
+P_SpawnPlayer	p_mobj.c	/^void P_SpawnPlayer (mapthing_t* mthing)$/
+P_SpawnPlayerMissile	p_mobj.c	/^P_SpawnPlayerMissile$/
+P_SpawnPuff	p_mobj.c	/^P_SpawnPuff$/
+P_SpawnSpecials	p_spec.c	/^void P_SpawnSpecials (void)$/
+P_SpawnStrobeFlash	p_lights.c	/^P_SpawnStrobeFlash$/
+P_StartButton	p_switch.c	/^P_StartButton$/
+P_TeleportMove	p_map.c	/^P_TeleportMove$/
+P_ThingHeightClip	p_map.c	/^boolean P_ThingHeightClip (mobj_t* thing)$/
+P_Thrust	p_user.c	/^P_Thrust$/
+P_Ticker	p_tick.c	/^void P_Ticker (void)$/
+P_TouchSpecialThing	p_inter.c	/^P_TouchSpecialThing$/
+P_TraverseIntercepts	p_maputl.c	/^P_TraverseIntercepts$/
+P_TryMove	p_map.c	/^P_TryMove$/
+P_TryWalk	p_enemy.c	/^boolean P_TryWalk (mobj_t* actor)$/
+P_UnArchivePlayers	p_saveg.c	/^void P_UnArchivePlayers (void)$/
+P_UnArchiveSpecials	p_saveg.c	/^void P_UnArchiveSpecials (void)$/
+P_UnArchiveThinkers	p_saveg.c	/^void P_UnArchiveThinkers (void)$/
+P_UnArchiveWorld	p_saveg.c	/^void P_UnArchiveWorld (void)$/
+P_UnsetThingPosition	p_maputl.c	/^void P_UnsetThingPosition (mobj_t* thing)$/
+P_UpdateSpecials	p_spec.c	/^void P_UpdateSpecials (void)$/
+P_UseLines	p_map.c	/^void P_UseLines (player_t*	player) $/
+P_UseSpecialLine	p_switch.c	/^P_UseSpecialLine$/
+P_XYMovement	p_mobj.c	/^void P_XYMovement (mobj_t* mo) $/
+P_ZMovement	p_mobj.c	/^void P_ZMovement (mobj_t* mo)$/
+PacketGet	i_net.c	/^void PacketGet (void)$/
+PacketSend	i_net.c	/^void PacketSend (void)$/
+QLOADNET	d_englsh.h	43
+QLOADNET	d_french.h	39
+QLPROMPT	d_englsh.h	47
+QLPROMPT	d_french.h	44
+QSAVESPOT	d_englsh.h	44
+QSAVESPOT	d_french.h	40
+QSPROMPT	d_englsh.h	46
+QSPROMPT	d_french.h	43
+QUEUESIZE	hu_stuff.c	580
+QUITMSG	d_englsh.h	41
+QUITMSG	d_french.h	37
+R	am_map.c	160
+R	am_map.c	170
+R	am_map.c	173
+R	am_map.c	192
+R	am_map.c	195
+R	am_map.c	201
+R	am_map.c	204
+R	am_map.c	210
+RADIATIONPAL	st_stuff.c	76
+RAISESPEED	p_pspr.c	45
+RANGECHECK	doomdef.h	75
+REDRANGE	am_map.c	53
+REDS	am_map.c	52
+RESENDCOUNT	d_net.c	57
+RIGHT	am_map.c	854
+R_AddLine	r_bsp.c	/^void R_AddLine (seg_t*	line)$/
+R_AddPointToBox	r_main.c	/^R_AddPointToBox$/
+R_AddSprites	r_things.c	/^void R_AddSprites (sector_t* sec)$/
+R_CheckBBox	r_bsp.c	/^boolean R_CheckBBox (fixed_t*	bspcoord)$/
+R_CheckPlane	r_plane.c	/^R_CheckPlane$/
+R_CheckTextureNumForName	r_data.c	/^int	R_CheckTextureNumForName (char *name)$/
+R_ClearClipSegs	r_bsp.c	/^void R_ClearClipSegs (void)$/
+R_ClearDrawSegs	r_bsp.c	/^void R_ClearDrawSegs (void)$/
+R_ClearPlanes	r_plane.c	/^void R_ClearPlanes (void)$/
+R_ClearSprites	r_things.c	/^void R_ClearSprites (void)$/
+R_ClipPassWallSegment	r_bsp.c	/^R_ClipPassWallSegment$/
+R_ClipSolidWallSegment	r_bsp.c	/^R_ClipSolidWallSegment$/
+R_DrawColumn	r_draw.c	/^void R_DrawColumn (void) $/
+R_DrawColumn	r_draw.c	/^void R_DrawColumn (void) $/
+R_DrawColumnInCache	r_data.c	/^R_DrawColumnInCache$/
+R_DrawColumnLow	r_draw.c	/^void R_DrawColumnLow (void) $/
+R_DrawFuzzColumn	r_draw.c	/^void R_DrawFuzzColumn (void) $/
+R_DrawMasked	r_things.c	/^void R_DrawMasked (void)$/
+R_DrawMaskedColumn	r_things.c	/^void R_DrawMaskedColumn (column_t* column)$/
+R_DrawPSprite	r_things.c	/^void R_DrawPSprite (pspdef_t* psp)$/
+R_DrawPlanes	r_plane.c	/^void R_DrawPlanes (void)$/
+R_DrawPlayerSprites	r_things.c	/^void R_DrawPlayerSprites (void)$/
+R_DrawSpan	r_draw.c	/^void R_DrawSpan (void) $/
+R_DrawSpan	r_draw.c	/^void R_DrawSpan (void) $/
+R_DrawSpanLow	r_draw.c	/^void R_DrawSpanLow (void) $/
+R_DrawSprite	r_things.c	/^void R_DrawSprite (vissprite_t* spr)$/
+R_DrawTranslatedColumn	r_draw.c	/^void R_DrawTranslatedColumn (void) $/
+R_DrawViewBorder	r_draw.c	/^void R_DrawViewBorder (void) $/
+R_DrawVisSprite	r_things.c	/^R_DrawVisSprite$/
+R_ExecuteSetViewSize	r_main.c	/^void R_ExecuteSetViewSize (void)$/
+R_FillBackScreen	r_draw.c	/^void R_FillBackScreen (void) $/
+R_FindPlane	r_plane.c	/^R_FindPlane$/
+R_FlatNumForName	r_data.c	/^int R_FlatNumForName (char* name)$/
+R_GenerateComposite	r_data.c	/^void R_GenerateComposite (int texnum)$/
+R_GenerateLookup	r_data.c	/^void R_GenerateLookup (int texnum)$/
+R_GetColumn	r_data.c	/^R_GetColumn$/
+R_Init	r_main.c	/^void R_Init (void)$/
+R_InitBuffer	r_draw.c	/^R_InitBuffer$/
+R_InitColormaps	r_data.c	/^void R_InitColormaps (void)$/
+R_InitData	r_data.c	/^void R_InitData (void)$/
+R_InitFlats	r_data.c	/^void R_InitFlats (void)$/
+R_InitLightTables	r_main.c	/^void R_InitLightTables (void)$/
+R_InitPlanes	r_plane.c	/^void R_InitPlanes (void)$/
+R_InitPointToAngle	r_main.c	/^void R_InitPointToAngle (void)$/
+R_InitSkyMap	r_sky.c	/^void R_InitSkyMap (void)$/
+R_InitSpriteDefs	r_things.c	/^void R_InitSpriteDefs (char** namelist) $/
+R_InitSpriteLumps	r_data.c	/^void R_InitSpriteLumps (void)$/
+R_InitSprites	r_things.c	/^void R_InitSprites (char** namelist)$/
+R_InitTables	r_main.c	/^void R_InitTables (void)$/
+R_InitTextureMapping	r_main.c	/^void R_InitTextureMapping (void)$/
+R_InitTextures	r_data.c	/^void R_InitTextures (void)$/
+R_InitTranslationTables	r_draw.c	/^void R_InitTranslationTables (void)$/
+R_InstallSpriteLump	r_things.c	/^R_InstallSpriteLump$/
+R_MakeSpans	r_plane.c	/^R_MakeSpans$/
+R_MapPlane	r_plane.c	/^R_MapPlane$/
+R_NewVisSprite	r_things.c	/^vissprite_t* R_NewVisSprite (void)$/
+R_PointInSubsector	r_main.c	/^R_PointInSubsector$/
+R_PointOnSegSide	r_main.c	/^R_PointOnSegSide$/
+R_PointOnSide	r_main.c	/^R_PointOnSide$/
+R_PointToAngle	r_main.c	/^R_PointToAngle$/
+R_PointToAngle2	r_main.c	/^R_PointToAngle2$/
+R_PointToDist	r_main.c	/^R_PointToDist$/
+R_PrecacheLevel	r_data.c	/^void R_PrecacheLevel (void)$/
+R_ProjectSprite	r_things.c	/^void R_ProjectSprite (mobj_t* thing)$/
+R_RenderBSPNode	r_bsp.c	/^void R_RenderBSPNode (int bspnum)$/
+R_RenderMaskedSegRange	r_segs.c	/^R_RenderMaskedSegRange$/
+R_RenderPlayerView	r_main.c	/^void R_RenderPlayerView (player_t* player)$/
+R_RenderSegLoop	r_segs.c	/^void R_RenderSegLoop (void)$/
+R_ScaleFromGlobalAngle	r_main.c	/^fixed_t R_ScaleFromGlobalAngle (angle_t visangle)$/
+R_SetViewSize	r_main.c	/^R_SetViewSize$/
+R_SetupFrame	r_main.c	/^void R_SetupFrame (player_t* player)$/
+R_SortVisSprites	r_things.c	/^void R_SortVisSprites (void)$/
+R_StoreWallRange	r_segs.c	/^R_StoreWallRange$/
+R_Subsector	r_bsp.c	/^void R_Subsector (int num)$/
+R_TextureNumForName	r_data.c	/^int	R_TextureNumForName (char* name)$/
+R_VideoErase	r_draw.c	/^R_VideoErase$/
+ReadDef1	m_menu.c	388
+ReadDef2	m_menu.c	409
+ReadMenu1	m_menu.c	383
+ReadMenu2	m_menu.c	404
+SAMPLECOUNT	i_sound.c	93
+SAMPLERATE	i_sound.c	99
+SAMPLESIZE	i_sound.c	100
+SAVEDEAD	d_englsh.h	45
+SAVEDEAD	d_french.h	41
+SAVEGAMENAME	dstrings.h	41
+SAVEGAMESIZE	g_game.c	74
+SAVESTRINGSIZE	g_game.c	75
+SAVESTRINGSIZE	m_menu.c	107
+SBARHEIGHT	r_draw.c	51
+SCRAMBLE	m_cheat.h	/^#define SCRAMBLE(a) \\$/
+SCREENHEIGHT	doomdef.h	112
+SCREENWIDTH	doomdef.h	110
+SCREEN_MUL	doomdef.h	104
+SDOORWAIT	p_spec.h	461
+SECRETWALLCOLORS	am_map.c	81
+SECRETWALLRANGE	am_map.c	82
+SHORT	m_swap.h	/^#define SHORT(x)	((short)SwapSHORT((unsigned short/
+SHORT	m_swap.h	/^#define SHORT(x)	(x)$/
+SHOWNEXTLOCDELAY	wi_stuff.c	299
+SIL_BOTH	r_defs.h	53
+SIL_BOTTOM	r_defs.h	51
+SIL_NONE	r_defs.h	50
+SIL_TOP	r_defs.h	52
+SKULLSPEED	p_enemy.c	1417
+SKULLXOFF	m_menu.c	128
+SKYFLATNAME	r_sky.h	32
+SLOPEBITS	tables.h	75
+SLOPERANGE	tables.h	74
+SLOWDARK	p_spec.h	179
+SLOWTURNTICS	g_game.c	179
+SNDSERV	doomdef.h	84
+SNUMFRAMES	p_spec.h	459
+SOUND_INTERVAL	i_sound.c	71
+SPR_AMMO	info.h	111
+SPR_APBX	info.h	80
+SPR_APLS	info.h	79
+SPR_ARM1	info.h	87
+SPR_ARM2	info.h	88
+SPR_BAL1	info.h	50
+SPR_BAL2	info.h	51
+SPR_BAL7	info.h	73
+SPR_BAR1	info.h	89
+SPR_BBRN	info.h	85
+SPR_BEXP	info.h	90
+SPR_BFE1	info.h	56
+SPR_BFE2	info.h	57
+SPR_BFGF	info.h	47
+SPR_BFGG	info.h	46
+SPR_BFS1	info.h	55
+SPR_BFUG	info.h	119
+SPR_BKEY	info.h	94
+SPR_BLUD	info.h	48
+SPR_BON1	info.h	92
+SPR_BON2	info.h	93
+SPR_BOS2	info.h	75
+SPR_BOSF	info.h	86
+SPR_BOSS	info.h	74
+SPR_BPAK	info.h	118
+SPR_BROK	info.h	113
+SPR_BRS1	info.h	167
+SPR_BSKU	info.h	97
+SPR_BSPI	info.h	78
+SPR_CAND	info.h	144
+SPR_CBRA	info.h	145
+SPR_CELL	info.h	114
+SPR_CELP	info.h	115
+SPR_CEYE	info.h	150
+SPR_CHGF	info.h	40
+SPR_CHGG	info.h	39
+SPR_CLIP	info.h	110
+SPR_COL1	info.h	140
+SPR_COL2	info.h	141
+SPR_COL3	info.h	142
+SPR_COL4	info.h	143
+SPR_COL5	info.h	152
+SPR_COL6	info.h	146
+SPR_COLU	info.h	126
+SPR_CPOS	info.h	70
+SPR_CSAW	info.h	121
+SPR_CYBR	info.h	81
+SPR_ELEC	info.h	149
+SPR_FATB	info.h	65
+SPR_FATT	info.h	69
+SPR_FBXP	info.h	66
+SPR_FCAN	info.h	91
+SPR_FIRE	info.h	64
+SPR_FSKU	info.h	151
+SPR_GOR1	info.h	128
+SPR_GOR2	info.h	135
+SPR_GOR3	info.h	136
+SPR_GOR4	info.h	137
+SPR_GOR5	info.h	138
+SPR_HDB1	info.h	159
+SPR_HDB2	info.h	160
+SPR_HDB3	info.h	161
+SPR_HDB4	info.h	162
+SPR_HDB5	info.h	163
+SPR_HDB6	info.h	164
+SPR_HEAD	info.h	72
+SPR_IFOG	info.h	59
+SPR_KEEN	info.h	84
+SPR_LAUN	info.h	122
+SPR_MANF	info.h	68
+SPR_MEDI	info.h	101
+SPR_MEGA	info.h	106
+SPR_MGUN	info.h	120
+SPR_MISF	info.h	42
+SPR_MISG	info.h	41
+SPR_MISL	info.h	54
+SPR_PAIN	info.h	82
+SPR_PINS	info.h	105
+SPR_PINV	info.h	103
+SPR_PISF	info.h	36
+SPR_PISG	info.h	35
+SPR_PLAS	info.h	123
+SPR_PLAY	info.h	60
+SPR_PLSE	info.h	53
+SPR_PLSF	info.h	45
+SPR_PLSG	info.h	44
+SPR_PLSS	info.h	52
+SPR_PMAP	info.h	108
+SPR_POB1	info.h	165
+SPR_POB2	info.h	166
+SPR_POL1	info.h	133
+SPR_POL2	info.h	129
+SPR_POL3	info.h	132
+SPR_POL4	info.h	131
+SPR_POL5	info.h	130
+SPR_POL6	info.h	134
+SPR_POSS	info.h	61
+SPR_PSTR	info.h	104
+SPR_PUFF	info.h	49
+SPR_PUNG	info.h	34
+SPR_PVIS	info.h	109
+SPR_RKEY	info.h	95
+SPR_ROCK	info.h	112
+SPR_RSKU	info.h	98
+SPR_SARG	info.h	71
+SPR_SAWG	info.h	43
+SPR_SBOX	info.h	117
+SPR_SGN2	info.h	125
+SPR_SHEL	info.h	116
+SPR_SHOT	info.h	124
+SPR_SHT2	info.h	38
+SPR_SHTF	info.h	37
+SPR_SHTG	info.h	33
+SPR_SKEL	info.h	67
+SPR_SKUL	info.h	76
+SPR_SMBT	info.h	156
+SPR_SMGT	info.h	157
+SPR_SMIT	info.h	139
+SPR_SMRT	info.h	158
+SPR_SMT2	info.h	127
+SPR_SOUL	info.h	102
+SPR_SPID	info.h	77
+SPR_SPOS	info.h	62
+SPR_SSWV	info.h	83
+SPR_STIM	info.h	100
+SPR_SUIT	info.h	107
+SPR_TBLU	info.h	153
+SPR_TFOG	info.h	58
+SPR_TGRN	info.h	154
+SPR_TLMP	info.h	168
+SPR_TLP2	info.h	169
+SPR_TRE1	info.h	147
+SPR_TRE2	info.h	148
+SPR_TRED	info.h	155
+SPR_TROO	info.h	32
+SPR_VILE	info.h	63
+SPR_YKEY	info.h	96
+SPR_YSKU	info.h	99
+SP_FRAGS	wi_stuff.c	292
+SP_ITEMS	wi_stuff.c	290
+SP_KILLS	wi_stuff.c	289
+SP_PAR	wi_stuff.c	294
+SP_PAUSE	wi_stuff.c	296
+SP_SECRET	wi_stuff.c	291
+SP_STATSX	wi_stuff.c	84
+SP_STATSY	wi_stuff.c	85
+SP_TIME	wi_stuff.c	293
+SP_TIMEX	wi_stuff.c	87
+SP_TIMEY	wi_stuff.c	88
+STARTBONUSPALS	st_stuff.c	72
+STARTREDPALS	st_stuff.c	71
+STOPSPEED	p_mobj.c	111
+STROBEBRIGHT	p_spec.h	177
+STSTR_BEHOLD	d_englsh.h	350
+STSTR_BEHOLD	d_french.h	261
+STSTR_BEHOLDX	d_englsh.h	351
+STSTR_BEHOLDX	d_french.h	262
+STSTR_CHOPPERS	d_englsh.h	353
+STSTR_CHOPPERS	d_french.h	264
+STSTR_CLEV	d_englsh.h	354
+STSTR_CLEV	d_french.h	265
+STSTR_DQDOFF	d_englsh.h	342
+STSTR_DQDOFF	d_french.h	253
+STSTR_DQDON	d_englsh.h	341
+STSTR_DQDON	d_french.h	252
+STSTR_FAADDED	d_englsh.h	345
+STSTR_FAADDED	d_french.h	256
+STSTR_KFAADDED	d_englsh.h	344
+STSTR_KFAADDED	d_french.h	255
+STSTR_MUS	d_englsh.h	339
+STSTR_MUS	d_french.h	250
+STSTR_NCOFF	d_englsh.h	348
+STSTR_NCOFF	d_french.h	259
+STSTR_NCON	d_englsh.h	347
+STSTR_NCON	d_french.h	258
+STSTR_NOMUS	d_englsh.h	340
+STSTR_NOMUS	d_french.h	251
+ST_AMMO0HEIGHT	st_stuff.c	179
+ST_AMMO0WIDTH	st_stuff.c	178
+ST_AMMO0X	st_stuff.c	180
+ST_AMMO0Y	st_stuff.c	181
+ST_AMMO1WIDTH	st_stuff.c	182
+ST_AMMO1X	st_stuff.c	183
+ST_AMMO1Y	st_stuff.c	184
+ST_AMMO2WIDTH	st_stuff.c	185
+ST_AMMO2X	st_stuff.c	186
+ST_AMMO2Y	st_stuff.c	187
+ST_AMMO3WIDTH	st_stuff.c	188
+ST_AMMO3X	st_stuff.c	189
+ST_AMMO3Y	st_stuff.c	190
+ST_AMMOWIDTH	st_stuff.c	138
+ST_AMMOX	st_stuff.c	139
+ST_AMMOY	st_stuff.c	140
+ST_ARMORWIDTH	st_stuff.c	161
+ST_ARMORX	st_stuff.c	162
+ST_ARMORY	st_stuff.c	163
+ST_ARMSBGX	st_stuff.c	150
+ST_ARMSBGY	st_stuff.c	151
+ST_ARMSX	st_stuff.c	148
+ST_ARMSXSPACE	st_stuff.c	152
+ST_ARMSY	st_stuff.c	149
+ST_ARMSYSPACE	st_stuff.c	153
+ST_DEADFACE	st_stuff.c	115
+ST_DETHX	st_stuff.c	237
+ST_DETHY	st_stuff.c	238
+ST_Drawer	st_stuff.c	/^void ST_Drawer (boolean fullscreen, boolean refres/
+ST_EVILGRINCOUNT	st_stuff.c	120
+ST_EVILGRINOFFSET	st_stuff.c	112
+ST_FACEPROBABILITY	st_stuff.c	80
+ST_FACESTRIDE	st_stuff.c	102
+ST_FACESX	st_stuff.c	117
+ST_FACESY	st_stuff.c	118
+ST_FRAGSWIDTH	st_stuff.c	158
+ST_FRAGSX	st_stuff.c	156
+ST_FRAGSY	st_stuff.c	157
+ST_FX	st_stuff.c	89
+ST_FY	st_stuff.c	90
+ST_GODFACE	st_stuff.c	114
+ST_HEALTHWIDTH	st_stuff.c	143
+ST_HEALTHX	st_stuff.c	144
+ST_HEALTHY	st_stuff.c	145
+ST_HEIGHT	st_stuff.h	32
+ST_HORIZONTAL	r_defs.h	170
+ST_Init	st_stuff.c	/^void ST_Init (void)$/
+ST_KEY0HEIGHT	st_stuff.c	167
+ST_KEY0WIDTH	st_stuff.c	166
+ST_KEY0X	st_stuff.c	168
+ST_KEY0Y	st_stuff.c	169
+ST_KEY1WIDTH	st_stuff.c	170
+ST_KEY1X	st_stuff.c	171
+ST_KEY1Y	st_stuff.c	172
+ST_KEY2WIDTH	st_stuff.c	173
+ST_KEY2X	st_stuff.c	174
+ST_KEY2Y	st_stuff.c	175
+ST_MAPHEIGHT	st_stuff.c	266
+ST_MAPTITLEX	st_stuff.c	262
+ST_MAPTITLEY	st_stuff.c	265
+ST_MAPWIDTH	st_stuff.c	259
+ST_MAXAMMO0HEIGHT	st_stuff.c	195
+ST_MAXAMMO0WIDTH	st_stuff.c	194
+ST_MAXAMMO0X	st_stuff.c	196
+ST_MAXAMMO0Y	st_stuff.c	197
+ST_MAXAMMO1WIDTH	st_stuff.c	198
+ST_MAXAMMO1X	st_stuff.c	199
+ST_MAXAMMO1Y	st_stuff.c	200
+ST_MAXAMMO2WIDTH	st_stuff.c	201
+ST_MAXAMMO2X	st_stuff.c	202
+ST_MAXAMMO2Y	st_stuff.c	203
+ST_MAXAMMO3WIDTH	st_stuff.c	204
+ST_MAXAMMO3X	st_stuff.c	205
+ST_MAXAMMO3Y	st_stuff.c	206
+ST_MSGHEIGHT	st_stuff.c	249
+ST_MSGTEXTX	st_stuff.c	244
+ST_MSGTEXTY	st_stuff.c	245
+ST_MSGWIDTH	st_stuff.c	247
+ST_MUCHPAIN	st_stuff.c	126
+ST_NEGATIVE	r_defs.h	173
+ST_NUMEXTRAFACES	st_stuff.c	105
+ST_NUMFACES	st_stuff.c	107
+ST_NUMPAINFACES	st_stuff.c	97
+ST_NUMSPECIALFACES	st_stuff.c	100
+ST_NUMSTRAIGHTFACES	st_stuff.c	98
+ST_NUMTURNFACES	st_stuff.c	99
+ST_OUCHCOUNT	st_stuff.c	123
+ST_OUCHOFFSET	st_stuff.c	111
+ST_OUTHEIGHT	st_stuff.c	257
+ST_OUTTEXTX	st_stuff.c	251
+ST_OUTTEXTY	st_stuff.c	252
+ST_OUTWIDTH	st_stuff.c	255
+ST_POSITIVE	r_defs.h	172
+ST_RAMPAGEDELAY	st_stuff.c	124
+ST_RAMPAGEOFFSET	st_stuff.c	113
+ST_Responder	st_stuff.c	/^ST_Responder (event_t* ev)$/
+ST_STRAIGHTFACECOUNT	st_stuff.c	121
+ST_Start	st_stuff.c	/^void ST_Start (void)$/
+ST_Stop	st_stuff.c	/^void ST_Stop (void)$/
+ST_TALLNUMWIDTH	st_stuff.c	94
+ST_TOGGLECHAT	st_stuff.c	83
+ST_TURNCOUNT	st_stuff.c	122
+ST_TURNOFFSET	st_stuff.c	110
+ST_Ticker	st_stuff.c	/^void ST_Ticker (void)$/
+ST_VERTICAL	r_defs.h	171
+ST_WEAPON0X	st_stuff.c	209
+ST_WEAPON0Y	st_stuff.c	210
+ST_WEAPON1X	st_stuff.c	213
+ST_WEAPON1Y	st_stuff.c	214
+ST_WEAPON2X	st_stuff.c	217
+ST_WEAPON2Y	st_stuff.c	218
+ST_WEAPON3X	st_stuff.c	221
+ST_WEAPON3Y	st_stuff.c	222
+ST_WEAPON4X	st_stuff.c	225
+ST_WEAPON4Y	st_stuff.c	226
+ST_WEAPON5X	st_stuff.c	229
+ST_WEAPON5Y	st_stuff.c	230
+ST_WIDTH	st_stuff.h	33
+ST_WPNSX	st_stuff.c	233
+ST_WPNSY	st_stuff.c	234
+ST_X	st_stuff.c	86
+ST_X2	st_stuff.c	87
+ST_Y	st_stuff.h	34
+ST_calcPainOffset	st_stuff.c	/^int ST_calcPainOffset(void)$/
+ST_createWidgets	st_stuff.c	/^void ST_createWidgets(void)$/
+ST_diffDraw	st_stuff.c	/^void ST_diffDraw(void)$/
+ST_doPaletteStuff	st_stuff.c	/^void ST_doPaletteStuff(void)$/
+ST_doRefresh	st_stuff.c	/^void ST_doRefresh(void)$/
+ST_drawWidgets	st_stuff.c	/^void ST_drawWidgets(boolean refresh)$/
+ST_initData	st_stuff.c	/^void ST_initData(void)$/
+ST_loadData	st_stuff.c	/^void ST_loadData(void)$/
+ST_loadGraphics	st_stuff.c	/^void ST_loadGraphics(void)$/
+ST_refreshBackground	st_stuff.c	/^void ST_refreshBackground(void)$/
+ST_unloadData	st_stuff.c	/^void ST_unloadData(void)$/
+ST_unloadGraphics	st_stuff.c	/^void ST_unloadGraphics(void)$/
+ST_updateFaceWidget	st_stuff.c	/^void ST_updateFaceWidget(void)$/
+ST_updateWidgets	st_stuff.c	/^void ST_updateWidgets(void)$/
+STlib_drawNum	st_lib.c	/^STlib_drawNum$/
+STlib_init	st_lib.c	/^void STlib_init(void)$/
+STlib_initBinIcon	st_lib.c	/^STlib_initBinIcon$/
+STlib_initMultIcon	st_lib.c	/^STlib_initMultIcon$/
+STlib_initNum	st_lib.c	/^STlib_initNum$/
+STlib_initPercent	st_lib.c	/^STlib_initPercent$/
+STlib_updateBinIcon	st_lib.c	/^STlib_updateBinIcon$/
+STlib_updateMultIcon	st_lib.c	/^STlib_updateMultIcon$/
+STlib_updateNum	st_lib.c	/^STlib_updateNum$/
+STlib_updatePercent	st_lib.c	/^STlib_updatePercent$/
+SWAITTICS	p_spec.h	462
+SWSTRING	d_englsh.h	57
+SWSTRING	d_french.h	50
+S_AMMO	info.h	1047
+S_ARACH_PLAZ	info.h	843
+S_ARACH_PLAZ2	info.h	844
+S_ARACH_PLEX	info.h	845
+S_ARACH_PLEX2	info.h	846
+S_ARACH_PLEX3	info.h	847
+S_ARACH_PLEX4	info.h	848
+S_ARACH_PLEX5	info.h	849
+S_ARM1	info.h	978
+S_ARM1A	info.h	979
+S_ARM2	info.h	980
+S_ARM2A	info.h	981
+S_ATTENUATOR	s_sound.c	64
+S_AdjustSoundParams	s_sound.c	/^S_AdjustSoundParams$/
+S_BAR1	info.h	982
+S_BAR2	info.h	983
+S_BBAR1	info.h	989
+S_BBAR2	info.h	990
+S_BBAR3	info.h	991
+S_BEXP	info.h	984
+S_BEXP2	info.h	985
+S_BEXP3	info.h	986
+S_BEXP4	info.h	987
+S_BEXP5	info.h	988
+S_BFG	info.h	257
+S_BFG1	info.h	260
+S_BFG2	info.h	261
+S_BFG3	info.h	262
+S_BFG4	info.h	263
+S_BFGDOWN	info.h	258
+S_BFGEXP	info.h	299
+S_BFGEXP2	info.h	300
+S_BFGEXP3	info.h	301
+S_BFGEXP4	info.h	302
+S_BFGFLASH1	info.h	264
+S_BFGFLASH2	info.h	265
+S_BFGLAND	info.h	293
+S_BFGLAND2	info.h	294
+S_BFGLAND3	info.h	295
+S_BFGLAND4	info.h	296
+S_BFGLAND5	info.h	297
+S_BFGLAND6	info.h	298
+S_BFGSHOT	info.h	291
+S_BFGSHOT2	info.h	292
+S_BFGUP	info.h	259
+S_BFUG	info.h	1055
+S_BIGTREE	info.h	1091
+S_BKEY	info.h	1004
+S_BKEY2	info.h	1005
+S_BLOOD1	info.h	266
+S_BLOOD2	info.h	267
+S_BLOOD3	info.h	268
+S_BLOODYTWITCH	info.h	1064
+S_BLOODYTWITCH2	info.h	1065
+S_BLOODYTWITCH3	info.h	1066
+S_BLOODYTWITCH4	info.h	1067
+S_BLUETORCH	info.h	1102
+S_BLUETORCH2	info.h	1103
+S_BLUETORCH3	info.h	1104
+S_BLUETORCH4	info.h	1105
+S_BON1	info.h	992
+S_BON1A	info.h	993
+S_BON1B	info.h	994
+S_BON1C	info.h	995
+S_BON1D	info.h	996
+S_BON1E	info.h	997
+S_BON2	info.h	998
+S_BON2A	info.h	999
+S_BON2B	info.h	1000
+S_BON2C	info.h	1001
+S_BON2D	info.h	1002
+S_BON2E	info.h	1003
+S_BOS2_ATK1	info.h	742
+S_BOS2_ATK2	info.h	743
+S_BOS2_ATK3	info.h	744
+S_BOS2_DIE1	info.h	747
+S_BOS2_DIE2	info.h	748
+S_BOS2_DIE3	info.h	749
+S_BOS2_DIE4	info.h	750
+S_BOS2_DIE5	info.h	751
+S_BOS2_DIE6	info.h	752
+S_BOS2_DIE7	info.h	753
+S_BOS2_PAIN	info.h	745
+S_BOS2_PAIN2	info.h	746
+S_BOS2_RAISE1	info.h	754
+S_BOS2_RAISE2	info.h	755
+S_BOS2_RAISE3	info.h	756
+S_BOS2_RAISE4	info.h	757
+S_BOS2_RAISE5	info.h	758
+S_BOS2_RAISE6	info.h	759
+S_BOS2_RAISE7	info.h	760
+S_BOS2_RUN1	info.h	734
+S_BOS2_RUN2	info.h	735
+S_BOS2_RUN3	info.h	736
+S_BOS2_RUN4	info.h	737
+S_BOS2_RUN5	info.h	738
+S_BOS2_RUN6	info.h	739
+S_BOS2_RUN7	info.h	740
+S_BOS2_RUN8	info.h	741
+S_BOS2_STND	info.h	732
+S_BOS2_STND2	info.h	733
+S_BOSS_ATK1	info.h	713
+S_BOSS_ATK2	info.h	714
+S_BOSS_ATK3	info.h	715
+S_BOSS_DIE1	info.h	718
+S_BOSS_DIE2	info.h	719
+S_BOSS_DIE3	info.h	720
+S_BOSS_DIE4	info.h	721
+S_BOSS_DIE5	info.h	722
+S_BOSS_DIE6	info.h	723
+S_BOSS_DIE7	info.h	724
+S_BOSS_PAIN	info.h	716
+S_BOSS_PAIN2	info.h	717
+S_BOSS_RAISE1	info.h	725
+S_BOSS_RAISE2	info.h	726
+S_BOSS_RAISE3	info.h	727
+S_BOSS_RAISE4	info.h	728
+S_BOSS_RAISE5	info.h	729
+S_BOSS_RAISE6	info.h	730
+S_BOSS_RAISE7	info.h	731
+S_BOSS_RUN1	info.h	705
+S_BOSS_RUN2	info.h	706
+S_BOSS_RUN3	info.h	707
+S_BOSS_RUN4	info.h	708
+S_BOSS_RUN5	info.h	709
+S_BOSS_RUN6	info.h	710
+S_BOSS_RUN7	info.h	711
+S_BOSS_RUN8	info.h	712
+S_BOSS_STND	info.h	703
+S_BOSS_STND2	info.h	704
+S_BPAK	info.h	1054
+S_BRAIN	info.h	954
+S_BRAINEXPLODE1	info.h	975
+S_BRAINEXPLODE2	info.h	976
+S_BRAINEXPLODE3	info.h	977
+S_BRAINEYE	info.h	960
+S_BRAINEYE1	info.h	962
+S_BRAINEYESEE	info.h	961
+S_BRAINSTEM	info.h	1134
+S_BRAIN_DIE1	info.h	956
+S_BRAIN_DIE2	info.h	957
+S_BRAIN_DIE3	info.h	958
+S_BRAIN_DIE4	info.h	959
+S_BRAIN_PAIN	info.h	955
+S_BRBALL1	info.h	698
+S_BRBALL2	info.h	699
+S_BRBALLX1	info.h	700
+S_BRBALLX2	info.h	701
+S_BRBALLX3	info.h	702
+S_BROK	info.h	1049
+S_BSKULL	info.h	1010
+S_BSKULL2	info.h	1011
+S_BSPI_ATK1	info.h	823
+S_BSPI_ATK2	info.h	824
+S_BSPI_ATK3	info.h	825
+S_BSPI_ATK4	info.h	826
+S_BSPI_DIE1	info.h	829
+S_BSPI_DIE2	info.h	830
+S_BSPI_DIE3	info.h	831
+S_BSPI_DIE4	info.h	832
+S_BSPI_DIE5	info.h	833
+S_BSPI_DIE6	info.h	834
+S_BSPI_DIE7	info.h	835
+S_BSPI_PAIN	info.h	827
+S_BSPI_PAIN2	info.h	828
+S_BSPI_RAISE1	info.h	836
+S_BSPI_RAISE2	info.h	837
+S_BSPI_RAISE3	info.h	838
+S_BSPI_RAISE4	info.h	839
+S_BSPI_RAISE5	info.h	840
+S_BSPI_RAISE6	info.h	841
+S_BSPI_RAISE7	info.h	842
+S_BSPI_RUN1	info.h	811
+S_BSPI_RUN10	info.h	820
+S_BSPI_RUN11	info.h	821
+S_BSPI_RUN12	info.h	822
+S_BSPI_RUN2	info.h	812
+S_BSPI_RUN3	info.h	813
+S_BSPI_RUN4	info.h	814
+S_BSPI_RUN5	info.h	815
+S_BSPI_RUN6	info.h	816
+S_BSPI_RUN7	info.h	817
+S_BSPI_RUN8	info.h	818
+S_BSPI_RUN9	info.h	819
+S_BSPI_SIGHT	info.h	810
+S_BSPI_STND	info.h	808
+S_BSPI_STND2	info.h	809
+S_BTORCHSHRT	info.h	1114
+S_BTORCHSHRT2	info.h	1115
+S_BTORCHSHRT3	info.h	1116
+S_BTORCHSHRT4	info.h	1117
+S_CANDELABRA	info.h	1088
+S_CANDLESTIK	info.h	1087
+S_CELL	info.h	1050
+S_CELP	info.h	1051
+S_CHAIN	info.h	225
+S_CHAIN1	info.h	228
+S_CHAIN2	info.h	229
+S_CHAIN3	info.h	230
+S_CHAINDOWN	info.h	226
+S_CHAINFLASH1	info.h	231
+S_CHAINFLASH2	info.h	232
+S_CHAINUP	info.h	227
+S_CLIP	info.h	1046
+S_CLIPPING_DIST	s_sound.c	55
+S_CLOSE_DIST	s_sound.c	61
+S_COLONGIBS	info.h	1132
+S_COLU	info.h	1062
+S_COMMKEEN	info.h	940
+S_COMMKEEN10	info.h	949
+S_COMMKEEN11	info.h	950
+S_COMMKEEN12	info.h	951
+S_COMMKEEN2	info.h	941
+S_COMMKEEN3	info.h	942
+S_COMMKEEN4	info.h	943
+S_COMMKEEN5	info.h	944
+S_COMMKEEN6	info.h	945
+S_COMMKEEN7	info.h	946
+S_COMMKEEN8	info.h	947
+S_COMMKEEN9	info.h	948
+S_CPOS_ATK1	info.h	592
+S_CPOS_ATK2	info.h	593
+S_CPOS_ATK3	info.h	594
+S_CPOS_ATK4	info.h	595
+S_CPOS_DIE1	info.h	598
+S_CPOS_DIE2	info.h	599
+S_CPOS_DIE3	info.h	600
+S_CPOS_DIE4	info.h	601
+S_CPOS_DIE5	info.h	602
+S_CPOS_DIE6	info.h	603
+S_CPOS_DIE7	info.h	604
+S_CPOS_PAIN	info.h	596
+S_CPOS_PAIN2	info.h	597
+S_CPOS_RAISE1	info.h	611
+S_CPOS_RAISE2	info.h	612
+S_CPOS_RAISE3	info.h	613
+S_CPOS_RAISE4	info.h	614
+S_CPOS_RAISE5	info.h	615
+S_CPOS_RAISE6	info.h	616
+S_CPOS_RAISE7	info.h	617
+S_CPOS_RUN1	info.h	584
+S_CPOS_RUN2	info.h	585
+S_CPOS_RUN3	info.h	586
+S_CPOS_RUN4	info.h	587
+S_CPOS_RUN5	info.h	588
+S_CPOS_RUN6	info.h	589
+S_CPOS_RUN7	info.h	590
+S_CPOS_RUN8	info.h	591
+S_CPOS_STND	info.h	582
+S_CPOS_STND2	info.h	583
+S_CPOS_XDIE1	info.h	605
+S_CPOS_XDIE2	info.h	606
+S_CPOS_XDIE3	info.h	607
+S_CPOS_XDIE4	info.h	608
+S_CPOS_XDIE5	info.h	609
+S_CPOS_XDIE6	info.h	610
+S_CSAW	info.h	1057
+S_CYBER_ATK1	info.h	860
+S_CYBER_ATK2	info.h	861
+S_CYBER_ATK3	info.h	862
+S_CYBER_ATK4	info.h	863
+S_CYBER_ATK5	info.h	864
+S_CYBER_ATK6	info.h	865
+S_CYBER_DIE1	info.h	867
+S_CYBER_DIE10	info.h	876
+S_CYBER_DIE2	info.h	868
+S_CYBER_DIE3	info.h	869
+S_CYBER_DIE4	info.h	870
+S_CYBER_DIE5	info.h	871
+S_CYBER_DIE6	info.h	872
+S_CYBER_DIE7	info.h	873
+S_CYBER_DIE8	info.h	874
+S_CYBER_DIE9	info.h	875
+S_CYBER_PAIN	info.h	866
+S_CYBER_RUN1	info.h	852
+S_CYBER_RUN2	info.h	853
+S_CYBER_RUN3	info.h	854
+S_CYBER_RUN4	info.h	855
+S_CYBER_RUN5	info.h	856
+S_CYBER_RUN6	info.h	857
+S_CYBER_RUN7	info.h	858
+S_CYBER_RUN8	info.h	859
+S_CYBER_STND	info.h	850
+S_CYBER_STND2	info.h	851
+S_ChangeMusic	s_sound.c	/^S_ChangeMusic$/
+S_DEADBOTTOM	info.h	1069
+S_DEADSTICK	info.h	1075
+S_DEADTORSO	info.h	1068
+S_DSGUN	info.h	208
+S_DSGUN1	info.h	211
+S_DSGUN10	info.h	220
+S_DSGUN2	info.h	212
+S_DSGUN3	info.h	213
+S_DSGUN4	info.h	214
+S_DSGUN5	info.h	215
+S_DSGUN6	info.h	216
+S_DSGUN7	info.h	217
+S_DSGUN8	info.h	218
+S_DSGUN9	info.h	219
+S_DSGUNDOWN	info.h	209
+S_DSGUNFLASH1	info.h	223
+S_DSGUNFLASH2	info.h	224
+S_DSGUNUP	info.h	210
+S_DSNR1	info.h	221
+S_DSNR2	info.h	222
+S_EVILEYE	info.h	1093
+S_EVILEYE2	info.h	1094
+S_EVILEYE3	info.h	1095
+S_EVILEYE4	info.h	1096
+S_EXPLODE1	info.h	303
+S_EXPLODE2	info.h	304
+S_EXPLODE3	info.h	305
+S_FATSHOT1	info.h	533
+S_FATSHOT2	info.h	534
+S_FATSHOTX1	info.h	535
+S_FATSHOTX2	info.h	536
+S_FATSHOTX3	info.h	537
+S_FATT_ATK1	info.h	552
+S_FATT_ATK10	info.h	561
+S_FATT_ATK2	info.h	553
+S_FATT_ATK3	info.h	554
+S_FATT_ATK4	info.h	555
+S_FATT_ATK5	info.h	556
+S_FATT_ATK6	info.h	557
+S_FATT_ATK7	info.h	558
+S_FATT_ATK8	info.h	559
+S_FATT_ATK9	info.h	560
+S_FATT_DIE1	info.h	564
+S_FATT_DIE10	info.h	573
+S_FATT_DIE2	info.h	565
+S_FATT_DIE3	info.h	566
+S_FATT_DIE4	info.h	567
+S_FATT_DIE5	info.h	568
+S_FATT_DIE6	info.h	569
+S_FATT_DIE7	info.h	570
+S_FATT_DIE8	info.h	571
+S_FATT_DIE9	info.h	572
+S_FATT_PAIN	info.h	562
+S_FATT_PAIN2	info.h	563
+S_FATT_RAISE1	info.h	574
+S_FATT_RAISE2	info.h	575
+S_FATT_RAISE3	info.h	576
+S_FATT_RAISE4	info.h	577
+S_FATT_RAISE5	info.h	578
+S_FATT_RAISE6	info.h	579
+S_FATT_RAISE7	info.h	580
+S_FATT_RAISE8	info.h	581
+S_FATT_RUN1	info.h	540
+S_FATT_RUN10	info.h	549
+S_FATT_RUN11	info.h	550
+S_FATT_RUN12	info.h	551
+S_FATT_RUN2	info.h	541
+S_FATT_RUN3	info.h	542
+S_FATT_RUN4	info.h	543
+S_FATT_RUN5	info.h	544
+S_FATT_RUN6	info.h	545
+S_FATT_RUN7	info.h	546
+S_FATT_RUN8	info.h	547
+S_FATT_RUN9	info.h	548
+S_FATT_STND	info.h	538
+S_FATT_STND2	info.h	539
+S_FIRE1	info.h	457
+S_FIRE10	info.h	466
+S_FIRE11	info.h	467
+S_FIRE12	info.h	468
+S_FIRE13	info.h	469
+S_FIRE14	info.h	470
+S_FIRE15	info.h	471
+S_FIRE16	info.h	472
+S_FIRE17	info.h	473
+S_FIRE18	info.h	474
+S_FIRE19	info.h	475
+S_FIRE2	info.h	458
+S_FIRE20	info.h	476
+S_FIRE21	info.h	477
+S_FIRE22	info.h	478
+S_FIRE23	info.h	479
+S_FIRE24	info.h	480
+S_FIRE25	info.h	481
+S_FIRE26	info.h	482
+S_FIRE27	info.h	483
+S_FIRE28	info.h	484
+S_FIRE29	info.h	485
+S_FIRE3	info.h	459
+S_FIRE30	info.h	486
+S_FIRE4	info.h	460
+S_FIRE5	info.h	461
+S_FIRE6	info.h	462
+S_FIRE7	info.h	463
+S_FIRE8	info.h	464
+S_FIRE9	info.h	465
+S_FLOATSKULL	info.h	1097
+S_FLOATSKULL2	info.h	1098
+S_FLOATSKULL3	info.h	1099
+S_GIBS	info.h	1071
+S_GREENTORCH	info.h	1106
+S_GREENTORCH2	info.h	1107
+S_GREENTORCH3	info.h	1108
+S_GREENTORCH4	info.h	1109
+S_GTORCHSHRT	info.h	1118
+S_GTORCHSHRT2	info.h	1119
+S_GTORCHSHRT3	info.h	1120
+S_GTORCHSHRT4	info.h	1121
+S_HANGBNOBRAIN	info.h	1127
+S_HANGNOGUTS	info.h	1126
+S_HANGTLOOKDN	info.h	1128
+S_HANGTLOOKUP	info.h	1130
+S_HANGTNOBRAIN	info.h	1131
+S_HANGTSKULL	info.h	1129
+S_HEADCANDLES	info.h	1073
+S_HEADCANDLES2	info.h	1074
+S_HEADONASTICK	info.h	1072
+S_HEADSONSTICK	info.h	1070
+S_HEAD_ATK1	info.h	680
+S_HEAD_ATK2	info.h	681
+S_HEAD_ATK3	info.h	682
+S_HEAD_DIE1	info.h	686
+S_HEAD_DIE2	info.h	687
+S_HEAD_DIE3	info.h	688
+S_HEAD_DIE4	info.h	689
+S_HEAD_DIE5	info.h	690
+S_HEAD_DIE6	info.h	691
+S_HEAD_PAIN	info.h	683
+S_HEAD_PAIN2	info.h	684
+S_HEAD_PAIN3	info.h	685
+S_HEAD_RAISE1	info.h	692
+S_HEAD_RAISE2	info.h	693
+S_HEAD_RAISE3	info.h	694
+S_HEAD_RAISE4	info.h	695
+S_HEAD_RAISE5	info.h	696
+S_HEAD_RAISE6	info.h	697
+S_HEAD_RUN1	info.h	679
+S_HEAD_STND	info.h	678
+S_HEARTCOL	info.h	1100
+S_HEARTCOL2	info.h	1101
+S_IFOG	info.h	318
+S_IFOG01	info.h	319
+S_IFOG02	info.h	320
+S_IFOG2	info.h	321
+S_IFOG3	info.h	322
+S_IFOG4	info.h	323
+S_IFOG5	info.h	324
+S_IFRACVOL	s_sound.c	77
+S_Init	s_sound.c	/^void S_Init$/
+S_KEENPAIN	info.h	952
+S_KEENPAIN2	info.h	953
+S_KEENSTND	info.h	939
+S_LAUN	info.h	1058
+S_LIGHTDONE	info.h	177
+S_LIVESTICK	info.h	1076
+S_LIVESTICK2	info.h	1077
+S_MAX_VOLUME	s_sound.c	51
+S_MEAT2	info.h	1078
+S_MEAT3	info.h	1079
+S_MEAT4	info.h	1080
+S_MEAT5	info.h	1081
+S_MEDI	info.h	1017
+S_MEGA	info.h	1033
+S_MEGA2	info.h	1034
+S_MEGA3	info.h	1035
+S_MEGA4	info.h	1036
+S_MGUN	info.h	1056
+S_MISSILE	info.h	233
+S_MISSILE1	info.h	236
+S_MISSILE2	info.h	237
+S_MISSILE3	info.h	238
+S_MISSILEDOWN	info.h	234
+S_MISSILEFLASH1	info.h	239
+S_MISSILEFLASH2	info.h	240
+S_MISSILEFLASH3	info.h	241
+S_MISSILEFLASH4	info.h	242
+S_MISSILEUP	info.h	235
+S_NULL	info.h	176
+S_NUMCHANNELS	s_sound.c	80
+S_PAIN_ATK1	info.h	884
+S_PAIN_ATK2	info.h	885
+S_PAIN_ATK3	info.h	886
+S_PAIN_ATK4	info.h	887
+S_PAIN_DIE1	info.h	890
+S_PAIN_DIE2	info.h	891
+S_PAIN_DIE3	info.h	892
+S_PAIN_DIE4	info.h	893
+S_PAIN_DIE5	info.h	894
+S_PAIN_DIE6	info.h	895
+S_PAIN_PAIN	info.h	888
+S_PAIN_PAIN2	info.h	889
+S_PAIN_RAISE1	info.h	896
+S_PAIN_RAISE2	info.h	897
+S_PAIN_RAISE3	info.h	898
+S_PAIN_RAISE4	info.h	899
+S_PAIN_RAISE5	info.h	900
+S_PAIN_RAISE6	info.h	901
+S_PAIN_RUN1	info.h	878
+S_PAIN_RUN2	info.h	879
+S_PAIN_RUN3	info.h	880
+S_PAIN_RUN4	info.h	881
+S_PAIN_RUN5	info.h	882
+S_PAIN_RUN6	info.h	883
+S_PAIN_STND	info.h	877
+S_PINS	info.h	1029
+S_PINS2	info.h	1030
+S_PINS3	info.h	1031
+S_PINS4	info.h	1032
+S_PINV	info.h	1024
+S_PINV2	info.h	1025
+S_PINV3	info.h	1026
+S_PINV4	info.h	1027
+S_PISTOL	info.h	186
+S_PISTOL1	info.h	189
+S_PISTOL2	info.h	190
+S_PISTOL3	info.h	191
+S_PISTOL4	info.h	192
+S_PISTOLDOWN	info.h	187
+S_PISTOLFLASH	info.h	193
+S_PISTOLUP	info.h	188
+S_PITCH_PERTURB	s_sound.c	73
+S_PLAS	info.h	1059
+S_PLASBALL	info.h	283
+S_PLASBALL2	info.h	284
+S_PLASEXP	info.h	285
+S_PLASEXP2	info.h	286
+S_PLASEXP3	info.h	287
+S_PLASEXP4	info.h	288
+S_PLASEXP5	info.h	289
+S_PLASMA	info.h	250
+S_PLASMA1	info.h	253
+S_PLASMA2	info.h	254
+S_PLASMADOWN	info.h	251
+S_PLASMAFLASH1	info.h	255
+S_PLASMAFLASH2	info.h	256
+S_PLASMAUP	info.h	252
+S_PLAY	info.h	325
+S_PLAY_ATK1	info.h	330
+S_PLAY_ATK2	info.h	331
+S_PLAY_DIE1	info.h	334
+S_PLAY_DIE2	info.h	335
+S_PLAY_DIE3	info.h	336
+S_PLAY_DIE4	info.h	337
+S_PLAY_DIE5	info.h	338
+S_PLAY_DIE6	info.h	339
+S_PLAY_DIE7	info.h	340
+S_PLAY_PAIN	info.h	332
+S_PLAY_PAIN2	info.h	333
+S_PLAY_RUN1	info.h	326
+S_PLAY_RUN2	info.h	327
+S_PLAY_RUN3	info.h	328
+S_PLAY_RUN4	info.h	329
+S_PLAY_XDIE1	info.h	341
+S_PLAY_XDIE2	info.h	342
+S_PLAY_XDIE3	info.h	343
+S_PLAY_XDIE4	info.h	344
+S_PLAY_XDIE5	info.h	345
+S_PLAY_XDIE6	info.h	346
+S_PLAY_XDIE7	info.h	347
+S_PLAY_XDIE8	info.h	348
+S_PLAY_XDIE9	info.h	349
+S_PMAP	info.h	1038
+S_PMAP2	info.h	1039
+S_PMAP3	info.h	1040
+S_PMAP4	info.h	1041
+S_PMAP5	info.h	1042
+S_PMAP6	info.h	1043
+S_POSS_ATK1	info.h	360
+S_POSS_ATK2	info.h	361
+S_POSS_ATK3	info.h	362
+S_POSS_DIE1	info.h	365
+S_POSS_DIE2	info.h	366
+S_POSS_DIE3	info.h	367
+S_POSS_DIE4	info.h	368
+S_POSS_DIE5	info.h	369
+S_POSS_PAIN	info.h	363
+S_POSS_PAIN2	info.h	364
+S_POSS_RAISE1	info.h	379
+S_POSS_RAISE2	info.h	380
+S_POSS_RAISE3	info.h	381
+S_POSS_RAISE4	info.h	382
+S_POSS_RUN1	info.h	352
+S_POSS_RUN2	info.h	353
+S_POSS_RUN3	info.h	354
+S_POSS_RUN4	info.h	355
+S_POSS_RUN5	info.h	356
+S_POSS_RUN6	info.h	357
+S_POSS_RUN7	info.h	358
+S_POSS_RUN8	info.h	359
+S_POSS_STND	info.h	350
+S_POSS_STND2	info.h	351
+S_POSS_XDIE1	info.h	370
+S_POSS_XDIE2	info.h	371
+S_POSS_XDIE3	info.h	372
+S_POSS_XDIE4	info.h	373
+S_POSS_XDIE5	info.h	374
+S_POSS_XDIE6	info.h	375
+S_POSS_XDIE7	info.h	376
+S_POSS_XDIE8	info.h	377
+S_POSS_XDIE9	info.h	378
+S_PSTR	info.h	1028
+S_PUFF1	info.h	269
+S_PUFF2	info.h	270
+S_PUFF3	info.h	271
+S_PUFF4	info.h	272
+S_PUNCH	info.h	178
+S_PUNCH1	info.h	181
+S_PUNCH2	info.h	182
+S_PUNCH3	info.h	183
+S_PUNCH4	info.h	184
+S_PUNCH5	info.h	185
+S_PUNCHDOWN	info.h	179
+S_PUNCHUP	info.h	180
+S_PVIS	info.h	1044
+S_PVIS2	info.h	1045
+S_PauseSound	s_sound.c	/^void S_PauseSound(void)$/
+S_RBALL1	info.h	278
+S_RBALL2	info.h	279
+S_RBALLX1	info.h	280
+S_RBALLX2	info.h	281
+S_RBALLX3	info.h	282
+S_REDTORCH	info.h	1110
+S_REDTORCH2	info.h	1111
+S_REDTORCH3	info.h	1112
+S_REDTORCH4	info.h	1113
+S_RKEY	info.h	1006
+S_RKEY2	info.h	1007
+S_ROCK	info.h	1048
+S_ROCKET	info.h	290
+S_RSKULL	info.h	1012
+S_RSKULL2	info.h	1013
+S_RTORCHSHRT	info.h	1122
+S_RTORCHSHRT2	info.h	1123
+S_RTORCHSHRT3	info.h	1124
+S_RTORCHSHRT4	info.h	1125
+S_ResumeSound	s_sound.c	/^void S_ResumeSound(void)$/
+S_SARG_ATK1	info.h	661
+S_SARG_ATK2	info.h	662
+S_SARG_ATK3	info.h	663
+S_SARG_DIE1	info.h	666
+S_SARG_DIE2	info.h	667
+S_SARG_DIE3	info.h	668
+S_SARG_DIE4	info.h	669
+S_SARG_DIE5	info.h	670
+S_SARG_DIE6	info.h	671
+S_SARG_PAIN	info.h	664
+S_SARG_PAIN2	info.h	665
+S_SARG_RAISE1	info.h	672
+S_SARG_RAISE2	info.h	673
+S_SARG_RAISE3	info.h	674
+S_SARG_RAISE4	info.h	675
+S_SARG_RAISE5	info.h	676
+S_SARG_RAISE6	info.h	677
+S_SARG_RUN1	info.h	653
+S_SARG_RUN2	info.h	654
+S_SARG_RUN3	info.h	655
+S_SARG_RUN4	info.h	656
+S_SARG_RUN5	info.h	657
+S_SARG_RUN6	info.h	658
+S_SARG_RUN7	info.h	659
+S_SARG_RUN8	info.h	660
+S_SARG_STND	info.h	651
+S_SARG_STND2	info.h	652
+S_SAW	info.h	243
+S_SAW1	info.h	247
+S_SAW2	info.h	248
+S_SAW3	info.h	249
+S_SAWB	info.h	244
+S_SAWDOWN	info.h	245
+S_SAWUP	info.h	246
+S_SBOX	info.h	1053
+S_SGUN	info.h	194
+S_SGUN1	info.h	197
+S_SGUN2	info.h	198
+S_SGUN3	info.h	199
+S_SGUN4	info.h	200
+S_SGUN5	info.h	201
+S_SGUN6	info.h	202
+S_SGUN7	info.h	203
+S_SGUN8	info.h	204
+S_SGUN9	info.h	205
+S_SGUNDOWN	info.h	195
+S_SGUNFLASH1	info.h	206
+S_SGUNFLASH2	info.h	207
+S_SGUNUP	info.h	196
+S_SHEL	info.h	1052
+S_SHOT	info.h	1060
+S_SHOT2	info.h	1061
+S_SHRTGRNCOL	info.h	1084
+S_SHRTREDCOL	info.h	1086
+S_SKEL_DIE1	info.h	521
+S_SKEL_DIE2	info.h	522
+S_SKEL_DIE3	info.h	523
+S_SKEL_DIE4	info.h	524
+S_SKEL_DIE5	info.h	525
+S_SKEL_DIE6	info.h	526
+S_SKEL_FIST1	info.h	511
+S_SKEL_FIST2	info.h	512
+S_SKEL_FIST3	info.h	513
+S_SKEL_FIST4	info.h	514
+S_SKEL_MISS1	info.h	515
+S_SKEL_MISS2	info.h	516
+S_SKEL_MISS3	info.h	517
+S_SKEL_MISS4	info.h	518
+S_SKEL_PAIN	info.h	519
+S_SKEL_PAIN2	info.h	520
+S_SKEL_RAISE1	info.h	527
+S_SKEL_RAISE2	info.h	528
+S_SKEL_RAISE3	info.h	529
+S_SKEL_RAISE4	info.h	530
+S_SKEL_RAISE5	info.h	531
+S_SKEL_RAISE6	info.h	532
+S_SKEL_RUN1	info.h	499
+S_SKEL_RUN10	info.h	508
+S_SKEL_RUN11	info.h	509
+S_SKEL_RUN12	info.h	510
+S_SKEL_RUN2	info.h	500
+S_SKEL_RUN3	info.h	501
+S_SKEL_RUN4	info.h	502
+S_SKEL_RUN5	info.h	503
+S_SKEL_RUN6	info.h	504
+S_SKEL_RUN7	info.h	505
+S_SKEL_RUN8	info.h	506
+S_SKEL_RUN9	info.h	507
+S_SKEL_STND	info.h	497
+S_SKEL_STND2	info.h	498
+S_SKULLCOL	info.h	1089
+S_SKULL_ATK1	info.h	765
+S_SKULL_ATK2	info.h	766
+S_SKULL_ATK3	info.h	767
+S_SKULL_ATK4	info.h	768
+S_SKULL_DIE1	info.h	771
+S_SKULL_DIE2	info.h	772
+S_SKULL_DIE3	info.h	773
+S_SKULL_DIE4	info.h	774
+S_SKULL_DIE5	info.h	775
+S_SKULL_DIE6	info.h	776
+S_SKULL_PAIN	info.h	769
+S_SKULL_PAIN2	info.h	770
+S_SKULL_RUN1	info.h	763
+S_SKULL_RUN2	info.h	764
+S_SKULL_STND	info.h	761
+S_SKULL_STND2	info.h	762
+S_SMALLPOOL	info.h	1133
+S_SMOKE1	info.h	487
+S_SMOKE2	info.h	488
+S_SMOKE3	info.h	489
+S_SMOKE4	info.h	490
+S_SMOKE5	info.h	491
+S_SOUL	info.h	1018
+S_SOUL2	info.h	1019
+S_SOUL3	info.h	1020
+S_SOUL4	info.h	1021
+S_SOUL5	info.h	1022
+S_SOUL6	info.h	1023
+S_SPAWN1	info.h	963
+S_SPAWN2	info.h	964
+S_SPAWN3	info.h	965
+S_SPAWN4	info.h	966
+S_SPAWNFIRE1	info.h	967
+S_SPAWNFIRE2	info.h	968
+S_SPAWNFIRE3	info.h	969
+S_SPAWNFIRE4	info.h	970
+S_SPAWNFIRE5	info.h	971
+S_SPAWNFIRE6	info.h	972
+S_SPAWNFIRE7	info.h	973
+S_SPAWNFIRE8	info.h	974
+S_SPID_ATK1	info.h	791
+S_SPID_ATK2	info.h	792
+S_SPID_ATK3	info.h	793
+S_SPID_ATK4	info.h	794
+S_SPID_DIE1	info.h	797
+S_SPID_DIE10	info.h	806
+S_SPID_DIE11	info.h	807
+S_SPID_DIE2	info.h	798
+S_SPID_DIE3	info.h	799
+S_SPID_DIE4	info.h	800
+S_SPID_DIE5	info.h	801
+S_SPID_DIE6	info.h	802
+S_SPID_DIE7	info.h	803
+S_SPID_DIE8	info.h	804
+S_SPID_DIE9	info.h	805
+S_SPID_PAIN	info.h	795
+S_SPID_PAIN2	info.h	796
+S_SPID_RUN1	info.h	779
+S_SPID_RUN10	info.h	788
+S_SPID_RUN11	info.h	789
+S_SPID_RUN12	info.h	790
+S_SPID_RUN2	info.h	780
+S_SPID_RUN3	info.h	781
+S_SPID_RUN4	info.h	782
+S_SPID_RUN5	info.h	783
+S_SPID_RUN6	info.h	784
+S_SPID_RUN7	info.h	785
+S_SPID_RUN8	info.h	786
+S_SPID_RUN9	info.h	787
+S_SPID_STND	info.h	777
+S_SPID_STND2	info.h	778
+S_SPOS_ATK1	info.h	393
+S_SPOS_ATK2	info.h	394
+S_SPOS_ATK3	info.h	395
+S_SPOS_DIE1	info.h	398
+S_SPOS_DIE2	info.h	399
+S_SPOS_DIE3	info.h	400
+S_SPOS_DIE4	info.h	401
+S_SPOS_DIE5	info.h	402
+S_SPOS_PAIN	info.h	396
+S_SPOS_PAIN2	info.h	397
+S_SPOS_RAISE1	info.h	412
+S_SPOS_RAISE2	info.h	413
+S_SPOS_RAISE3	info.h	414
+S_SPOS_RAISE4	info.h	415
+S_SPOS_RAISE5	info.h	416
+S_SPOS_RUN1	info.h	385
+S_SPOS_RUN2	info.h	386
+S_SPOS_RUN3	info.h	387
+S_SPOS_RUN4	info.h	388
+S_SPOS_RUN5	info.h	389
+S_SPOS_RUN6	info.h	390
+S_SPOS_RUN7	info.h	391
+S_SPOS_RUN8	info.h	392
+S_SPOS_STND	info.h	383
+S_SPOS_STND2	info.h	384
+S_SPOS_XDIE1	info.h	403
+S_SPOS_XDIE2	info.h	404
+S_SPOS_XDIE3	info.h	405
+S_SPOS_XDIE4	info.h	406
+S_SPOS_XDIE5	info.h	407
+S_SPOS_XDIE6	info.h	408
+S_SPOS_XDIE7	info.h	409
+S_SPOS_XDIE8	info.h	410
+S_SPOS_XDIE9	info.h	411
+S_SSWV_ATK1	info.h	912
+S_SSWV_ATK2	info.h	913
+S_SSWV_ATK3	info.h	914
+S_SSWV_ATK4	info.h	915
+S_SSWV_ATK5	info.h	916
+S_SSWV_ATK6	info.h	917
+S_SSWV_DIE1	info.h	920
+S_SSWV_DIE2	info.h	921
+S_SSWV_DIE3	info.h	922
+S_SSWV_DIE4	info.h	923
+S_SSWV_DIE5	info.h	924
+S_SSWV_PAIN	info.h	918
+S_SSWV_PAIN2	info.h	919
+S_SSWV_RAISE1	info.h	934
+S_SSWV_RAISE2	info.h	935
+S_SSWV_RAISE3	info.h	936
+S_SSWV_RAISE4	info.h	937
+S_SSWV_RAISE5	info.h	938
+S_SSWV_RUN1	info.h	904
+S_SSWV_RUN2	info.h	905
+S_SSWV_RUN3	info.h	906
+S_SSWV_RUN4	info.h	907
+S_SSWV_RUN5	info.h	908
+S_SSWV_RUN6	info.h	909
+S_SSWV_RUN7	info.h	910
+S_SSWV_RUN8	info.h	911
+S_SSWV_STND	info.h	902
+S_SSWV_STND2	info.h	903
+S_SSWV_XDIE1	info.h	925
+S_SSWV_XDIE2	info.h	926
+S_SSWV_XDIE3	info.h	927
+S_SSWV_XDIE4	info.h	928
+S_SSWV_XDIE5	info.h	929
+S_SSWV_XDIE6	info.h	930
+S_SSWV_XDIE7	info.h	931
+S_SSWV_XDIE8	info.h	932
+S_SSWV_XDIE9	info.h	933
+S_STALAG	info.h	1063
+S_STALAGTITE	info.h	1082
+S_STEREO_SWING	s_sound.c	74
+S_STIM	info.h	1016
+S_SUIT	info.h	1037
+S_SetMusicVolume	s_sound.c	/^void S_SetMusicVolume(int volume)$/
+S_SetSfxVolume	s_sound.c	/^void S_SetSfxVolume(int volume)$/
+S_Start	s_sound.c	/^void S_Start(void)$/
+S_StartMusic	s_sound.c	/^void S_StartMusic(int m_id)$/
+S_StartSound	s_sound.c	/^S_StartSound$/
+S_StartSoundAtVolume	s_sound.c	/^S_StartSoundAtVolume$/
+S_StopChannel	s_sound.c	/^void S_StopChannel(int cnum)$/
+S_StopMusic	s_sound.c	/^void S_StopMusic(void)$/
+S_StopSound	s_sound.c	/^void S_StopSound(void *origin)$/
+S_TALLGRNCOL	info.h	1083
+S_TALLREDCOL	info.h	1085
+S_TBALL1	info.h	273
+S_TBALL2	info.h	274
+S_TBALLX1	info.h	275
+S_TBALLX2	info.h	276
+S_TBALLX3	info.h	277
+S_TECH2LAMP	info.h	1139
+S_TECH2LAMP2	info.h	1140
+S_TECH2LAMP3	info.h	1141
+S_TECH2LAMP4	info.h	1142
+S_TECHLAMP	info.h	1135
+S_TECHLAMP2	info.h	1136
+S_TECHLAMP3	info.h	1137
+S_TECHLAMP4	info.h	1138
+S_TECHPILLAR	info.h	1092
+S_TFOG	info.h	306
+S_TFOG01	info.h	307
+S_TFOG02	info.h	308
+S_TFOG10	info.h	317
+S_TFOG2	info.h	309
+S_TFOG3	info.h	310
+S_TFOG4	info.h	311
+S_TFOG5	info.h	312
+S_TFOG6	info.h	313
+S_TFOG7	info.h	314
+S_TFOG8	info.h	315
+S_TFOG9	info.h	316
+S_TORCHTREE	info.h	1090
+S_TRACEEXP1	info.h	494
+S_TRACEEXP2	info.h	495
+S_TRACEEXP3	info.h	496
+S_TRACER	info.h	492
+S_TRACER2	info.h	493
+S_TROO_ATK1	info.h	628
+S_TROO_ATK2	info.h	629
+S_TROO_ATK3	info.h	630
+S_TROO_DIE1	info.h	633
+S_TROO_DIE2	info.h	634
+S_TROO_DIE3	info.h	635
+S_TROO_DIE4	info.h	636
+S_TROO_DIE5	info.h	637
+S_TROO_PAIN	info.h	631
+S_TROO_PAIN2	info.h	632
+S_TROO_RAISE1	info.h	646
+S_TROO_RAISE2	info.h	647
+S_TROO_RAISE3	info.h	648
+S_TROO_RAISE4	info.h	649
+S_TROO_RAISE5	info.h	650
+S_TROO_RUN1	info.h	620
+S_TROO_RUN2	info.h	621
+S_TROO_RUN3	info.h	622
+S_TROO_RUN4	info.h	623
+S_TROO_RUN5	info.h	624
+S_TROO_RUN6	info.h	625
+S_TROO_RUN7	info.h	626
+S_TROO_RUN8	info.h	627
+S_TROO_STND	info.h	618
+S_TROO_STND2	info.h	619
+S_TROO_XDIE1	info.h	638
+S_TROO_XDIE2	info.h	639
+S_TROO_XDIE3	info.h	640
+S_TROO_XDIE4	info.h	641
+S_TROO_XDIE5	info.h	642
+S_TROO_XDIE6	info.h	643
+S_TROO_XDIE7	info.h	644
+S_TROO_XDIE8	info.h	645
+S_UpdateSounds	s_sound.c	/^void S_UpdateSounds(void* listener_p)$/
+S_VILE_ATK1	info.h	431
+S_VILE_ATK10	info.h	440
+S_VILE_ATK11	info.h	441
+S_VILE_ATK2	info.h	432
+S_VILE_ATK3	info.h	433
+S_VILE_ATK4	info.h	434
+S_VILE_ATK5	info.h	435
+S_VILE_ATK6	info.h	436
+S_VILE_ATK7	info.h	437
+S_VILE_ATK8	info.h	438
+S_VILE_ATK9	info.h	439
+S_VILE_DIE1	info.h	447
+S_VILE_DIE10	info.h	456
+S_VILE_DIE2	info.h	448
+S_VILE_DIE3	info.h	449
+S_VILE_DIE4	info.h	450
+S_VILE_DIE5	info.h	451
+S_VILE_DIE6	info.h	452
+S_VILE_DIE7	info.h	453
+S_VILE_DIE8	info.h	454
+S_VILE_DIE9	info.h	455
+S_VILE_HEAL1	info.h	442
+S_VILE_HEAL2	info.h	443
+S_VILE_HEAL3	info.h	444
+S_VILE_PAIN	info.h	445
+S_VILE_PAIN2	info.h	446
+S_VILE_RUN1	info.h	419
+S_VILE_RUN10	info.h	428
+S_VILE_RUN11	info.h	429
+S_VILE_RUN12	info.h	430
+S_VILE_RUN2	info.h	420
+S_VILE_RUN3	info.h	421
+S_VILE_RUN4	info.h	422
+S_VILE_RUN5	info.h	423
+S_VILE_RUN6	info.h	424
+S_VILE_RUN7	info.h	425
+S_VILE_RUN8	info.h	426
+S_VILE_RUN9	info.h	427
+S_VILE_STND	info.h	417
+S_VILE_STND2	info.h	418
+S_YKEY	info.h	1008
+S_YKEY2	info.h	1009
+S_YSKULL	info.h	1014
+S_YSKULL2	info.h	1015
+S_getChannel	s_sound.c	/^S_getChannel$/
+S_music	sounds.c	37
+S_sfx	sounds.c	114
+SaveDef	m_menu.c	496
+SaveMenu	m_menu.c	486
+ShowNextLoc	wi_stuff.h	35
+SlopeDiv	tables.c	/^SlopeDiv$/
+SoundDef	m_menu.c	439
+SoundMenu	m_menu.c	431
+StartChatState	st_stuff.h	70
+StatCount	wi_stuff.h	34
+SwapLONG	m_swap.c	/^unsigned long SwapLONG( unsigned long x)$/
+SwapSHORT	m_swap.c	/^unsigned short SwapSHORT(unsigned short x)$/
+T1TEXT	d_englsh.h	601
+T2TEXT	d_englsh.h	616
+T3TEXT	d_englsh.h	628
+T4TEXT	d_englsh.h	638
+T5TEXT	d_englsh.h	652
+T6TEXT	d_englsh.h	660
+TEXTSPEED	f_finale.c	56
+TEXTWAIT	f_finale.c	57
+THINGCOLORS	am_map.c	79
+THINGRANGE	am_map.c	80
+THUSTR_1	d_englsh.h	254
+THUSTR_10	d_englsh.h	263
+THUSTR_11	d_englsh.h	264
+THUSTR_12	d_englsh.h	266
+THUSTR_13	d_englsh.h	267
+THUSTR_14	d_englsh.h	268
+THUSTR_15	d_englsh.h	269
+THUSTR_16	d_englsh.h	270
+THUSTR_17	d_englsh.h	271
+THUSTR_18	d_englsh.h	272
+THUSTR_19	d_englsh.h	273
+THUSTR_2	d_englsh.h	255
+THUSTR_20	d_englsh.h	274
+THUSTR_21	d_englsh.h	276
+THUSTR_22	d_englsh.h	277
+THUSTR_23	d_englsh.h	278
+THUSTR_24	d_englsh.h	279
+THUSTR_25	d_englsh.h	280
+THUSTR_26	d_englsh.h	281
+THUSTR_27	d_englsh.h	282
+THUSTR_28	d_englsh.h	283
+THUSTR_29	d_englsh.h	284
+THUSTR_3	d_englsh.h	256
+THUSTR_30	d_englsh.h	285
+THUSTR_31	d_englsh.h	287
+THUSTR_32	d_englsh.h	288
+THUSTR_4	d_englsh.h	257
+THUSTR_5	d_englsh.h	258
+THUSTR_6	d_englsh.h	259
+THUSTR_7	d_englsh.h	260
+THUSTR_8	d_englsh.h	261
+THUSTR_9	d_englsh.h	262
+TICRATE	doomdef.h	122
+TOP	am_map.c	856
+TRACEANGLE	p_enemy.c	1019
+TSWALLCOLORS	am_map.c	73
+TSWALLRANGE	am_map.c	74
+TURBOTHRESHOLD	g_game.c	173
+T_FireFlicker	p_lights.c	/^void T_FireFlicker (fireflicker_t* flick)$/
+T_Glow	p_lights.c	/^void T_Glow(glow_t*	g)$/
+T_LightFlash	p_lights.c	/^void T_LightFlash (lightflash_t* flash)$/
+T_MoveCeiling	p_ceilng.c	/^void T_MoveCeiling (ceiling_t* ceiling)$/
+T_MoveFloor	p_floor.c	/^void T_MoveFloor(floormove_t* floor)$/
+T_MovePlane	p_floor.c	/^T_MovePlane$/
+T_PlatRaise	p_plats.c	/^void T_PlatRaise(plat_t* plat)$/
+T_SlidingDoor	p_doors.c	/^void T_SlidingDoor (slidedoor_t*	door)$/
+T_StrobeFlash	p_lights.c	/^void T_StrobeFlash (strobe_t*		flash)$/
+T_VerticalDoor	p_doors.c	/^void T_VerticalDoor (vldoor_t* door)$/
+TryRunTics	d_net.c	/^void TryRunTics (void)$/
+UDPsocket	i_net.c	/^int UDPsocket (void)$/
+USERANGE	p_local.h	56
+UploadNewPalette	i_video.c	/^void UploadNewPalette(Colormap cmap, byte *palette/
+VDOORSPEED	p_spec.h	364
+VDOORWAIT	p_spec.h	365
+VERSION	doomdef.h	33
+VERSIONSIZE	g_game.c	1198
+VIEWHEIGHT	p_local.h	34
+V_CopyRect	v_video.c	/^V_CopyRect$/
+V_DrawBlock	v_video.c	/^V_DrawBlock$/
+V_DrawPatch	v_video.c	/^V_DrawPatch$/
+V_DrawPatchDirect	v_video.c	/^V_DrawPatchDirect$/
+V_DrawPatchFlipped	v_video.c	/^V_DrawPatchFlipped$/
+V_GetBlock	v_video.c	/^V_GetBlock$/
+V_Init	v_video.c	/^void V_Init (void) $/
+V_MarkRect	v_video.c	/^V_MarkRect$/
+WALLCOLORS	am_map.c	71
+WALLRANGE	am_map.c	72
+WEAPONBOTTOM	p_pspr.c	47
+WEAPONTOP	p_pspr.c	48
+WHITE	am_map.c	65
+WI_Drawer	wi_stuff.c	/^void WI_Drawer (void)$/
+WI_End	wi_stuff.c	/^void WI_End(void)$/
+WI_Responder	wi_stuff.c	/^boolean WI_Responder(event_t* ev)$/
+WI_SPACINGY	wi_stuff.c	81
+WI_Start	wi_stuff.c	/^void WI_Start(wbstartstruct_t* wbstartstruct)$/
+WI_TITLEY	wi_stuff.c	80
+WI_Ticker	wi_stuff.c	/^void WI_Ticker(void)$/
+WI_checkForAccelerate	wi_stuff.c	/^void WI_checkForAccelerate(void)$/
+WI_drawAnimatedBack	wi_stuff.c	/^void WI_drawAnimatedBack(void)$/
+WI_drawDeathmatchStats	wi_stuff.c	/^void WI_drawDeathmatchStats(void)$/
+WI_drawEL	wi_stuff.c	/^void WI_drawEL(void)$/
+WI_drawLF	wi_stuff.c	/^void WI_drawLF(void)$/
+WI_drawNetgameStats	wi_stuff.c	/^void WI_drawNetgameStats(void)$/
+WI_drawNoState	wi_stuff.c	/^void WI_drawNoState(void)$/
+WI_drawNum	wi_stuff.c	/^WI_drawNum$/
+WI_drawOnLnode	wi_stuff.c	/^WI_drawOnLnode$/
+WI_drawPercent	wi_stuff.c	/^WI_drawPercent$/
+WI_drawShowNextLoc	wi_stuff.c	/^void WI_drawShowNextLoc(void)$/
+WI_drawStats	wi_stuff.c	/^void WI_drawStats(void)$/
+WI_drawTime	wi_stuff.c	/^WI_drawTime$/
+WI_fragSum	wi_stuff.c	/^int WI_fragSum(int playernum)$/
+WI_initAnimatedBack	wi_stuff.c	/^void WI_initAnimatedBack(void)$/
+WI_initDeathmatchStats	wi_stuff.c	/^void WI_initDeathmatchStats(void)$/
+WI_initNetgameStats	wi_stuff.c	/^void WI_initNetgameStats(void)$/
+WI_initNoState	wi_stuff.c	/^void WI_initNoState(void)$/
+WI_initShowNextLoc	wi_stuff.c	/^void WI_initShowNextLoc(void)$/
+WI_initStats	wi_stuff.c	/^void WI_initStats(void)$/
+WI_initVariables	wi_stuff.c	/^void WI_initVariables(wbstartstruct_t* wbstartstru/
+WI_loadData	wi_stuff.c	/^void WI_loadData(void)$/
+WI_slamBackground	wi_stuff.c	/^void WI_slamBackground(void)$/
+WI_unloadData	wi_stuff.c	/^void WI_unloadData(void)$/
+WI_updateAnimatedBack	wi_stuff.c	/^void WI_updateAnimatedBack(void)$/
+WI_updateDeathmatchStats	wi_stuff.c	/^void WI_updateDeathmatchStats(void)$/
+WI_updateNetgameStats	wi_stuff.c	/^void WI_updateNetgameStats(void)$/
+WI_updateNoState	wi_stuff.c	/^void WI_updateNoState(void) {$/
+WI_updateShowNextLoc	wi_stuff.c	/^void WI_updateShowNextLoc(void)$/
+WI_updateStats	wi_stuff.c	/^void WI_updateStats(void)$/
+W_AddFile	w_wad.c	/^void W_AddFile (char *filename)$/
+W_CacheLumpName	w_wad.c	/^W_CacheLumpName$/
+W_CacheLumpNum	w_wad.c	/^W_CacheLumpNum$/
+W_CheckNumForName	w_wad.c	/^int W_CheckNumForName (char* name)$/
+W_GetNumForName	w_wad.c	/^int W_GetNumForName (char* name)$/
+W_InitFile	w_wad.c	/^void W_InitFile (char* filename)$/
+W_InitMultipleFiles	w_wad.c	/^void W_InitMultipleFiles (char** filenames)$/
+W_LumpLength	w_wad.c	/^int W_LumpLength (int lump)$/
+W_NumLumps	w_wad.c	/^int W_NumLumps (void)$/
+W_Profile	w_wad.c	/^void W_Profile (void)$/
+W_ReadLump	w_wad.c	/^W_ReadLump$/
+W_Reload	w_wad.c	/^void W_Reload (void)$/
+WaitDestState	st_stuff.h	71
+WritePCXfile	m_misc.c	/^WritePCXfile$/
+XHAIRCOLORS	am_map.c	85
+X_cmap	i_video.c	64
+X_display	i_video.c	62
+X_event	i_video.c	67
+X_gc	i_video.c	66
+X_height	i_video.c	72
+X_mainWindow	i_video.c	63
+X_screen	i_video.c	68
+X_shmeventtype	i_video.c	78
+X_shminfo	i_video.c	77
+X_visual	i_video.c	65
+X_visualinfo	i_video.c	69
+X_width	i_video.c	71
+YELLOWRANGE	am_map.c	63
+YELLOWS	am_map.c	62
+YOURCOLORS	am_map.c	69
+YOURRANGE	am_map.c	70
+ZONEID	z_zone.c	43
+Z_ChangeTag	z_zone.h	/^#define Z_ChangeTag(p,t) \\$/
+Z_ChangeTag2	z_zone.c	/^Z_ChangeTag2$/
+Z_CheckHeap	z_zone.c	/^void Z_CheckHeap (void)$/
+Z_ClearZone	z_zone.c	/^void Z_ClearZone (memzone_t* zone)$/
+Z_DumpHeap	z_zone.c	/^Z_DumpHeap$/
+Z_FileDumpHeap	z_zone.c	/^void Z_FileDumpHeap (FILE* f)$/
+Z_Free	z_zone.c	/^void Z_Free (void* ptr)$/
+Z_FreeMemory	z_zone.c	/^int Z_FreeMemory (void)$/
+Z_FreeTags	z_zone.c	/^Z_FreeTags$/
+Z_Init	z_zone.c	/^void Z_Init (void)$/
+Z_Malloc	z_zone.c	/^Z_Malloc$/
+__AMMAP_H__	am_map.h	23
+__BYTEBOOL__	doomtype.h	29
+__DOOMDATA__	doomdata.h	25
+__DOOMDEF__	doomdef.h	24
+__DOOMTYPE__	doomtype.h	25
+__DSTRINGS__	dstrings.h	27
+__D_ENGLSH__	d_englsh.h	24
+__D_EVENT__	d_event.h	24
+__D_FRENCH__	d_french.h	24
+__D_ITEMS__	d_items.h	24
+__D_MAIN__	d_main.h	26
+__D_NET__	d_net.h	24
+__D_PLAYER__	d_player.h	24
+__D_STATE__	doomstat.h	29
+__D_TEXTUR__	d_textur.h	25
+__D_THINK__	d_think.h	26
+__D_TICCMD__	d_ticcmd.h	24
+__F_FINALE__	f_finale.h	24
+__F_WIPE_H__	f_wipe.h	24
+__G_GAME__	g_game.h	24
+__HULIB__	hu_lib.h	22
+__HU_STUFF_H__	hu_stuff.h	22
+__INFO__	info.h	25
+__I_NET__	i_net.h	24
+__I_SOUND__	i_sound.h	24
+__I_SYSTEM__	i_system.h	24
+__I_VIDEO__	i_video.h	24
+__M_ARGV__	m_argv.h	24
+__M_BBOX__	m_bbox.h	24
+__M_CHEAT__	m_cheat.h	24
+__M_FIXED__	m_fixed.h	24
+__M_MENU__	m_menu.h	24
+__M_MISC__	m_misc.h	24
+__M_RANDOM__	m_random.h	24
+__M_SWAP__	m_swap.h	24
+__P_INTER__	p_inter.h	24
+__P_LOCAL__	p_local.h	24
+__P_MOBJ__	p_mobj.h	24
+__P_PSPR__	p_pspr.h	24
+__P_SAVEG__	p_saveg.h	24
+__P_SETUP__	p_setup.h	24
+__P_SPEC__	p_spec.h	27
+__P_TICK__	p_tick.h	24
+__R_BSP__	r_bsp.h	24
+__R_DATA__	r_data.h	25
+__R_DEFS__	r_defs.h	24
+__R_DRAW__	r_draw.h	24
+__R_LOCAL__	r_local.h	24
+__R_MAIN__	r_main.h	24
+__R_PLANE__	r_plane.h	24
+__R_SEGS__	r_segs.h	24
+__R_SKY__	r_sky.h	24
+__R_STATE__	r_state.h	24
+__R_THINGS__	r_things.h	24
+__SOUNDS__	sounds.h	24
+__STLIB__	st_lib.h	23
+__STSTUFF_H__	st_stuff.h	25
+__S_SOUND__	s_sound.h	24
+__TABLES__	tables.h	37
+__V_VIDEO__	v_video.h	26
+__WI_STUFF__	wi_stuff.h	23
+__W_WAD__	w_wad.h	24
+__Z_ZONE__	z_zone.h	28
+a	am_map.c	135
+a	am_map.c	145
+acceleratestage	wi_stuff.c	304
+acp1	d_think.h	47
+acp2	d_think.h	49
+action	info.h	1153
+actionf_p1	d_think.h	42
+actionf_p2	d_think.h	43
+actionf_t	d_think.h	51
+actionf_v	d_think.h	41
+activeceilings	p_ceilng.c	45
+activeplats	p_plats.c	45
+activesound	info.h	1327
+acv	d_think.h	48
+addsfx	i_sound.c	/^addsfx$/
+advancedemo	d_main.c	119
+aimslope	p_map.c	804
+alphSwitchList	p_switch.c	48
+alphaKey	m_menu.c	153
+always_off	hu_stuff.c	94
+am_cell	doomdef.h	205
+am_clip	doomdef.h	203
+am_misl	doomdef.h	206
+am_noammo	doomdef.h	208
+am_shell	doomdef.h	204
+amclock	am_map.c	235
+ammo	d_items.h	36
+ammo	d_player.h	120
+ammotype_t	doomdef.h	210
+angle	doomdata.h	167
+angle	doomdata.h	207
+angle	p_mobj.h	222
+angle	r_defs.h	247
+angle_t	tables.h	78
+anglea	r_main.c	480
+angleb	r_main.c	481
+angleoffset	d_net.h	120
+angleturn	g_game.c	177
+angleturn	d_ticcmd.h	40
+anim_t	p_spec.c	68
+anim_t	wi_stuff.c	174
+animdef_t	p_spec.c	79
+animdefs	p_spec.c	101
+animenum_t	wi_stuff.c	120
+anims	p_spec.c	134
+anims	wi_stuff.c	270
+armorpoints	d_player.h	103
+armortype	d_player.h	105
+arms	st_stuff.c	339
+armsbg	st_stuff.c	336
+atkstate	d_items.h	40
+attackdown	d_player.h	124
+attacker	d_player.h	147
+attackrange	p_map.c	802
+attacksound	info.h	1313
+audio_fd	i_sound.c	106
+automapactive	am_map.c	221
+autostart	d_main.c	115
+b	am_map.c	135
+b	am_map.c	145
+backFrame1	p_spec.h	440
+backFrame2	p_spec.h	441
+backFrame3	p_spec.h	442
+backFrame4	p_spec.h	443
+backFrames	p_spec.h	452
+backpack	d_player.h	110
+backsector	r_bsp.c	51
+backsector	p_spec.h	427
+backsector	r_defs.h	208
+backsector	r_defs.h	256
+basedefault	d_main.c	126
+basepic	p_spec.c	64
+basexscale	r_plane.c	87
+baseyscale	r_plane.c	88
+bbox	doomdata.h	190
+bbox	r_defs.h	200
+bbox	r_defs.h	274
+bcnt	wi_stuff.c	321
+bestslidefrac	p_map.c	566
+bestslideline	p_map.c	569
+bg	wi_stuff.c	342
+bits_per_pixel	m_misc.c	416
+blazeClose	p_spec.h	337
+blazeDWUS	p_spec.h	279
+blazeOpen	p_spec.h	336
+blazeRaise	p_spec.h	335
+blockbox	r_defs.h	118
+blocklinks	p_setup.c	95
+blocklist	z_zone.c	52
+blockmap	p_setup.c	88
+blockmaplump	p_setup.c	90
+bmapheight	p_setup.c	87
+bmaporgx	p_setup.c	92
+bmaporgy	p_setup.c	93
+bmapwidth	p_setup.c	86
+bnext	p_mobj.h	228
+bob	d_player.h	98
+bodyque	g_game.c	212
+bodyqueslot	g_game.c	213
+bombdamage	p_map.c	1156
+bombsource	p_map.c	1154
+bombspot	p_map.c	1155
+bonuscount	d_player.h	144
+boolean	doomtype.h	32
+boolean	doomtype.h	34
+bottom	p_spec.h	222
+bottom	r_defs.h	477
+bottomclip	r_things.c	61
+bottomfrac	r_segs.c	89
+bottomheight	p_spec.h	498
+bottomslope	p_sight.c	41
+bottomstep	r_segs.c	90
+bottomtexture	r_segs.c	54
+bottomtexture	doomdata.h	74
+bottomtexture	r_defs.h	155
+bp	wi_stuff.c	393
+bprev	p_mobj.h	229
+braintargeton	p_enemy.c	1811
+braintargets	p_enemy.c	1809
+brighttime	p_spec.h	158
+bsilheight	r_defs.h	336
+bstar	wi_stuff.c	387
+btexture	p_spec.h	231
+btimer	p_spec.h	232
+build8	p_spec.h	577
+bulletslope	p_pspr.c	598
+button_t	p_spec.h	235
+buttoncode_t	d_event.h	100
+buttonlist	p_switch.c	101
+buttons	d_ticcmd.h	43
+bwhere_e	p_spec.h	224
+byte	doomtype.h	36
+bytes_per_line	m_misc.c	430
+c1text	f_finale.c	64
+c2text	f_finale.c	65
+c3text	f_finale.c	66
+c4text	f_finale.c	67
+c5text	f_finale.c	68
+c6text	f_finale.c	69
+cacheddistance	r_plane.c	91
+cachedheight	r_plane.c	90
+cachedxstep	r_plane.c	92
+cachedystep	r_plane.c	93
+card_t	doomdef.h	173
+cards	d_player.h	109
+castattacking	f_finale.c	368
+castdeath	f_finale.c	365
+castframes	f_finale.c	366
+castinfo_t	f_finale.c	338
+castnum	f_finale.c	362
+castonmelee	f_finale.c	367
+castorder	f_finale.c	340
+caststate	f_finale.c	364
+casttics	f_finale.c	363
+ceiling_e	p_spec.h	489
+ceiling_t	p_spec.h	510
+ceilingclip	r_plane.c	70
+ceilingfunc	r_plane.c	45
+ceilingheight	doomdata.h	144
+ceilingheight	r_defs.h	104
+ceilingline	p_map.c	63
+ceilingpic	doomdata.h	146
+ceilingpic	r_defs.h	106
+ceilingplane	r_plane.c	56
+ceilingz	p_mobj.h	235
+centerx	r_main.c	61
+centerxfrac	r_main.c	64
+centery	r_main.c	62
+centeryfrac	r_main.c	65
+channel_t	s_sound.c	104
+channelhandles	i_sound.c	137
+channelids	i_sound.c	141
+channelleftvol_lookup	i_sound.c	150
+channelrightvol_lookup	i_sound.c	151
+channels	i_sound.c	122
+channels	s_sound.c	108
+channelsend	i_sound.c	123
+channelstart	i_sound.c	131
+channelstep	i_sound.c	116
+channelstepremainder	i_sound.c	118
+chat_char	hu_stuff.c	88
+chat_dest	hu_stuff.c	95
+chat_macros	hu_stuff.c	65
+chat_on	hu_stuff.c	92
+chatchar	d_ticcmd.h	42
+chatchars	hu_stuff.c	582
+cheat_amap	am_map.c	288
+cheat_amap_seq	am_map.c	287
+cheat_ammo	st_stuff.c	469
+cheat_ammo_seq	st_stuff.c	415
+cheat_ammonokey	st_stuff.c	470
+cheat_ammonokey_seq	st_stuff.c	420
+cheat_choppers	st_stuff.c	485
+cheat_choppers_seq	st_stuff.c	405
+cheat_clev	st_stuff.c	486
+cheat_clev_seq	st_stuff.c	453
+cheat_commercial_noclip	st_stuff.c	472
+cheat_commercial_noclip_seq	st_stuff.c	434
+cheat_god	st_stuff.c	468
+cheat_god_seq	st_stuff.c	410
+cheat_mus	st_stuff.c	467
+cheat_mus_seq	st_stuff.c	400
+cheat_mypos	st_stuff.c	487
+cheat_mypos_seq	st_stuff.c	460
+cheat_noclip	st_stuff.c	471
+cheat_noclip_seq	st_stuff.c	427
+cheat_player_arrow	am_map.c	174
+cheat_powerup	st_stuff.c	474
+cheat_powerup_seq	st_stuff.c	441
+cheat_t	d_player.h	77
+cheat_xlate_table	m_cheat.c	35
+cheating	am_map.c	216
+cheats	d_player.h	129
+cheatseq_t	m_cheat.h	39
+checkcoord	r_bsp.c	365
+checksum	d_net.h	65
+children	doomdata.h	194
+children	r_defs.h	277
+cht_CheckCheat	m_cheat.c	/^cht_CheckCheat$/
+cht_GetParam	m_cheat.c	/^cht_GetParam$/
+cl	hu_lib.h	69
+clipammo	p_inter.c	59
+clipangle	r_main.c	92
+cliprange_t	r_bsp.c	85
+close	p_spec.h	332
+close30ThenOpen	p_spec.h	331
+cmd	d_player.h	87
+cmds	d_net.h	72
+cnt	wi_stuff.c	318
+cnt_frags	wi_stuff.c	1074
+cnt_items	wi_stuff.c	327
+cnt_kills	wi_stuff.c	326
+cnt_par	wi_stuff.c	330
+cnt_pause	wi_stuff.c	331
+cnt_secret	wi_stuff.c	328
+cnt_time	wi_stuff.c	329
+colon	wi_stuff.c	352
+color_planes	m_misc.c	429
+colormap	r_data.c	75
+colormap	d_player.h	158
+colormap	r_defs.h	405
+colormaps	r_data.c	162
+colors	i_video.c	536
+column	r_things.c	59
+column_t	r_defs.h	292
+columndirectory	r_data.c	90
+columnofs	r_draw.c	70
+columnofs	r_defs.h	362
+command	d_net.h	88
+command_t	d_net.h	56
+commercial	doomdef.h	42
+consistancy	g_game.c	140
+consistancy	d_ticcmd.h	41
+consoleplayer	g_game.c	121
+consoleplayer	d_net.h	111
+corpsehit	p_enemy.c	1124
+count	p_spec.h	128
+count	p_spec.h	140
+count	p_spec.h	154
+count	p_spec.h	293
+cpars	g_game.c	987
+createnullcursor	i_video.c	/^createnullcursor$/
+crush	p_spec.h	296
+crush	p_spec.h	501
+crush	p_spec.h	588
+crushAndRaise	p_spec.h	485
+crushchange	p_map.c	1250
+crushed	p_spec.h	605
+ctr	wi_stuff.c	169
+curline	r_bsp.c	47
+curline	r_defs.h	324
+currentMenu	m_menu.c	178
+d	i_video.c	938
+d	p_local.h	151
+d_episode	g_game.c	1329
+d_map	g_game.c	1330
+d_skill	g_game.c	1328
+damage	info.h	1326
+damagecount	d_player.h	143
+darktime	p_spec.h	157
+data	m_misc.c	434
+data	d_net.h	125
+data	d_textur.h	40
+data	sounds.h	53
+data	sounds.h	79
+data	st_lib.h	68
+data	st_lib.h	109
+data	st_lib.h	136
+data1	wi_stuff.c	150
+data1	d_event.h	47
+data2	wi_stuff.c	155
+data2	d_event.h	48
+data3	d_event.h	49
+datalength	d_net.h	93
+dc_colormap	r_draw.c	85
+dc_iscale	r_draw.c	89
+dc_source	r_draw.c	93
+dc_texturemid	r_draw.c	90
+dc_translation	r_draw.c	382
+dc_x	r_draw.c	86
+dc_yh	r_draw.c	88
+dc_yl	r_draw.c	87
+dccount	r_draw.c	96
+dclicks	g_game.c	195
+dclicks2	g_game.c	198
+dclickstate	g_game.c	194
+dclickstate2	g_game.c	197
+dclicktime	g_game.c	193
+dclicktime2	g_game.c	196
+deathmatch	g_game.c	116
+deathmatch	d_net.h	103
+deathmatch_p	p_setup.c	112
+deathmatchstarts	p_setup.c	111
+deathsound	info.h	1321
+deathstate	info.h	1319
+debugfile	d_main.c	117
+default_t	m_misc.c	232
+defaultfile	m_misc.c	302
+defaults	m_misc.c	234
+defaultvalue	m_misc.c	229
+defdemoname	g_game.c	1574
+degenmobj_t	r_defs.h	95
+deltaviewheight	d_player.h	96
+demo_p	g_game.c	132
+demobuffer	g_game.c	131
+demoend	g_game.c	133
+demoname	g_game.c	127
+demoplayback	g_game.c	129
+demorecording	g_game.c	128
+demosequence	d_main.c	414
+den	r_main.c	487
+detail	m_menu.c	343
+detailLevel	m_menu.c	83
+detailNames	m_menu.c	947
+detailshift	r_main.c	87
+devparm	d_main.c	95
+diags	p_enemy.c	76
+didsecret	d_player.h	164
+didsecret	d_player.h	192
+direction	p_spec.h	171
+direction	p_spec.h	352
+direction	p_spec.h	504
+direction	p_spec.h	590
+dirtybox	v_video.c	46
+dirtype_t	p_enemy.c	64
+displayplayer	g_game.c	122
+distscale	r_plane.c	86
+divline_t	p_local.h	142
+dm_frags	wi_stuff.c	844
+dm_state	wi_stuff.c	843
+dm_totals	wi_stuff.c	845
+doPointerWarp	i_video.c	84
+doShm	i_video.c	75
+dofrags	wi_stuff.c	1075
+donutRaise	p_spec.h	567
+doom	doomdef.h	53
+doom2	doomdef.h	54
+doomcom	d_net.c	44
+doomcom_t	d_net.h	127
+doomdata_t	d_net.h	74
+doomednum	info.h	1307
+down	p_spec.h	265
+downWaitUpStay	p_spec.h	276
+downstate	d_items.h	38
+drawfunc_t	r_bsp.h	56
+drawseg_s	r_defs.h	322
+drawseg_t	r_defs.h	347
+drawsegs	r_bsp.c	53
+drone	d_main.c	100
+drone	d_net.h	122
+ds_colormap	r_draw.c	504
+ds_p	r_bsp.c	54
+ds_source	r_draw.c	512
+ds_x1	r_draw.c	501
+ds_x2	r_draw.c	502
+ds_xfrac	r_draw.c	506
+ds_xstep	r_draw.c	508
+ds_y	r_draw.c	500
+ds_yfrac	r_draw.c	507
+ds_ystep	r_draw.c	509
+dscount	r_draw.c	515
+dx	doomdata.h	185
+dx	p_local.h	139
+dx	r_defs.h	186
+dx	r_defs.h	270
+dy	doomdata.h	186
+dy	p_local.h	140
+dy	r_defs.h	187
+dy	r_defs.h	271
+e1text	f_finale.c	59
+e2text	f_finale.c	60
+e3text	f_finale.c	61
+e4text	f_finale.c	62
+earlyout	p_maputl.c	548
+emptycmd	i_system.c	64
+encoding	m_misc.c	415
+endgame	m_menu.c	341
+endmsg	dstrings.c	35
+endname	p_spec.c	76
+endstring	m_menu.c	134
+english	doomdef.h	65
+english_shiftxform	hu_stuff.c	330
+entering	wi_stuff.c	364
+ep1	m_menu.c	277
+ep2	m_menu.c	278
+ep3	m_menu.c	279
+ep4	m_menu.c	280
+ep_end	m_menu.c	281
+epi	m_menu.c	891
+episode	d_net.h	106
+episode	p_spec.h	213
+episodes_e	m_menu.c	282
+epsd	d_player.h	189
+epsd0animinfo	wi_stuff.c	226
+epsd1animinfo	wi_stuff.c	240
+epsd2animinfo	wi_stuff.c	253
+ev_joystick	d_event.h	40
+ev_keydown	d_event.h	37
+ev_keyup	d_event.h	38
+ev_mouse	d_event.h	39
+event_t	d_event.h	50
+eventhead	d_main.c	142
+events	d_main.c	141
+eventtail	d_main.c	143
+evtype_t	d_event.h	41
+exitmsg	d_net.c	259
+exptable	i_video.c	918
+exptable2	i_video.c	928
+extralight	r_main.c	121
+extralight	d_player.h	150
+extratics	d_net.h	101
+f	hu_lib.h	51
+f_h	am_map.c	231
+f_oldloc	am_map.c	272
+f_w	am_map.c	230
+f_x	am_map.c	226
+f_y	am_map.c	227
+faceback	st_stuff.c	333
+faces	st_stuff.c	330
+false	doomtype.h	34
+fastCrushAndRaise	p_spec.h	486
+fastparm	d_main.c	98
+fb	am_map.c	234
+filelength	w_wad.c	/^int filelength (int handle) $/
+filelump_t	w_wad.h	51
+filepos	w_wad.h	47
+filler	m_misc.c	433
+finalecount	f_finale.c	54
+finaleflat	f_finale.c	86
+finalestage	f_finale.c	52
+finaletext	f_finale.c	85
+finecosine	r_main.c	113
+finesine	tables.c	584
+finetangent	tables.c	67
+finished	wi_stuff.c	361
+finit_height	am_map.c	223
+finit_width	am_map.c	222
+fireflicker_t	p_spec.h	132
+first	r_bsp.c	82
+firstflat	r_data.c	129
+firstline	r_defs.h	231
+firstpatch	r_data.c	133
+firstrefresh	wi_stuff.c	324
+firstseg	doomdata.h	157
+firstspritelump	r_data.c	137
+firsttime	m_cheat.c	34
+fixed_t	m_fixed.h	38
+fixedcolormap	r_main.c	58
+fixedcolormap	d_player.h	154
+flag	i_sound.c	84
+flags	doomdata.h	88
+flags	info.h	1328
+flags	p_mobj.h	254
+flags	r_defs.h	190
+flashstate	d_items.h	41
+flatmemory	r_data.c	739
+flattranslation	r_data.c	154
+fline_t	am_map.c	136
+flip	r_defs.h	438
+floatok	p_map.c	55
+floor_e	p_spec.h	570
+floorclip	r_plane.c	69
+floordestheight	p_spec.h	593
+floorfunc	r_plane.c	44
+floorheight	doomdata.h	143
+floorheight	r_defs.h	103
+floormove_t	p_spec.h	596
+floorpic	doomdata.h	145
+floorpic	r_defs.h	105
+floorplane	r_plane.c	55
+floorz	p_mobj.h	234
+followplayer	am_map.c	285
+forwardmove	g_game.c	175
+forwardmove	d_ticcmd.h	38
+fpoint_t	am_map.c	131
+frac	p_local.h	146
+frags	wi_stuff.c	373
+frags	d_player.h	113
+frags	d_player.h	182
+frame	info.h	1150
+frame	p_mobj.h	224
+frame	p_spec.h	423
+framecount	r_main.c	69
+frameon	d_net.c	630
+frameskip	d_net.c	631
+frametics	d_net.c	629
+french	doomdef.h	66
+frenchKeyMap	hu_stuff.c	372
+french_shiftxform	hu_stuff.c	288
+frontFrame1	p_spec.h	436
+frontFrame2	p_spec.h	437
+frontFrame3	p_spec.h	438
+frontFrame4	p_spec.h	439
+frontFrames	p_spec.h	451
+frontsector	r_bsp.c	50
+frontsector	p_spec.h	426
+frontsector	r_defs.h	207
+frontsector	r_defs.h	255
+ftom_zoommul	am_map.c	239
+function	d_think.h	68
+fuzzoffset	r_draw.c	263
+fuzzpos	r_draw.c	274
+ga_completed	d_event.h	61
+ga_loadgame	d_event.h	58
+ga_loadlevel	d_event.h	56
+ga_newgame	d_event.h	57
+ga_nothing	d_event.h	55
+ga_playdemo	d_event.h	60
+ga_savegame	d_event.h	59
+ga_screenshot	d_event.h	64
+ga_victory	d_event.h	62
+ga_worlddone	d_event.h	63
+gameaction	g_game.c	97
+gameaction_t	d_event.h	65
+gameepisode	g_game.c	101
+gamekeydown	g_game.c	183
+gamemap	g_game.c	102
+gamemission	doomstat.c	36
+gamemode	doomstat.c	35
+gameskill	g_game.c	99
+gamestate	g_game.c	98
+gamestate_t	doomdef.h	133
+gametic	g_game.c	123
+gametime	d_net.c	366
+gammamsg	m_menu.c	109
+gammatable	v_video.c	51
+german	doomdef.h	67
+getNextSector	p_spec.c	/^getNextSector$/
+getSector	p_spec.c	/^getSector$/
+getSide	p_spec.c	/^getSide$/
+getsfx	i_sound.c	/^getsfx$/
+glow_t	p_spec.h	173
+go	f_wipe.c	43
+grabMouse	i_video.c	83
+grabsharedmemory	i_video.c	/^void grabsharedmemory(int size)$/
+grid	am_map.c	217
+gx	r_defs.h	385
+gy	r_defs.h	386
+gz	r_defs.h	389
+gzt	r_defs.h	390
+h	hu_lib.h	68
+handle	s_sound.c	102
+handle	sounds.h	82
+handle	w_wad.h	59
+head	hu_stuff.c	583
+headsupactive	hu_stuff.c	108
+health	d_player.h	102
+health	p_mobj.h	255
+height	r_data.c	89
+height	r_data.c	118
+height	d_textur.h	39
+height	info.h	1324
+height	p_mobj.h	239
+height	r_defs.h	359
+height	r_defs.h	462
+high	p_spec.h	291
+hres	m_misc.c	423
+htonl	i_net.c	/^#define htonl(x) ntohl(x)$/
+htons	i_net.c	/^#define htons(x) ntohs(x)$/
+hu_font	hu_stuff.c	90
+hu_itext_t	hu_lib.h	92
+hu_stext_t	hu_lib.h	75
+hu_textline_t	hu_lib.h	59
+hurtme	m_menu.c	309
+id	d_net.h	82
+id	z_zone.h	63
+identification	w_wad.h	38
+image	i_video.c	70
+in	d_player.h	175
+in_stasis	p_spec.h	267
+indetermined	doomdef.h	45
+info	w_wad.c	519
+info	p_mobj.h	250
+infotableofs	w_wad.h	40
+inhelpscreens	m_menu.c	125
+inited	i_video.c	956
+insocket	i_net.c	79
+intercept_p	p_maputl.c	545
+intercept_t	p_local.h	152
+intercepts	p_maputl.c	544
+intnum	d_net.h	85
+inum	st_lib.h	99
+iquehead	p_mobj.c	542
+iquetail	p_mobj.c	543
+isaline	p_local.h	147
+islope_t	am_map.c	151
+islp	am_map.c	150
+istexture	p_spec.c	62
+istexture	p_spec.c	75
+it_bluecard	doomdef.h	164
+it_blueskull	doomdef.h	167
+it_redcard	doomdef.h	166
+it_redskull	doomdef.h	169
+it_yellowcard	doomdef.h	165
+it_yellowskull	doomdef.h	168
+itemOn	m_menu.c	169
+itemcount	d_player.h	136
+itemrespawnque	p_mobj.c	540
+itemrespawntime	p_mobj.c	541
+items	wi_stuff.c	372
+itimer	i_sound.c	912
+joyarray	g_game.c	203
+joybfire	g_game.c	164
+joybspeed	g_game.c	167
+joybstrafe	g_game.c	165
+joybuse	g_game.c	166
+joybuttons	g_game.c	204
+joyxmove	g_game.c	201
+joyymove	g_game.c	202
+key_down	g_game.c	152
+key_fire	g_game.c	155
+key_left	g_game.c	149
+key_right	g_game.c	148
+key_speed	g_game.c	158
+key_strafe	g_game.c	157
+key_strafeleft	g_game.c	153
+key_straferight	g_game.c	154
+key_up	g_game.c	151
+key_use	g_game.c	156
+keyboxes	st_stuff.c	390
+keys	st_stuff.c	327
+killcount	d_player.h	135
+killers	wi_stuff.c	381
+kills	wi_stuff.c	370
+killthings	m_menu.c	307
+l	hu_lib.h	53
+l	hu_lib.h	67
+l	hu_lib.h	83
+la_damage	p_map.c	801
+language	doomstat.c	39
+last	r_bsp.c	83
+last	d_player.h	195
+lastOn	m_menu.c	166
+lastanim	p_spec.c	135
+lastdrawn	wi_stuff.c	166
+lastflat	r_data.c	130
+lastlook	p_mobj.h	278
+lastmousex	i_video.c	189
+lastmousey	i_video.c	190
+lastnettic	d_net.c	72
+laston	hu_lib.h	73
+laston	hu_lib.h	90
+lastopening	r_plane.c	61
+lastpatch	r_data.c	134
+lastspritelump	r_data.c	138
+lastvisplane	r_plane.c	54
+leftoffset	r_defs.h	360
+len	hu_lib.h	54
+length	r_defs.h	288
+lengths	i_sound.c	103
+levelTimeCount	p_spec.c	1081
+levelTimer	p_spec.c	1080
+leveljuststarted	am_map.c	219
+levelstarttic	g_game.c	124
+leveltime	p_tick.c	34
+lightflash_t	p_spec.h	146
+lightlev	am_map.c	233
+lightlevel	doomdata.h	147
+lightlevel	r_defs.h	107
+lightlevel	r_defs.h	464
+lighttable_t	r_defs.h	314
+line	p_local.h	150
+line	p_spec.h	229
+line	p_spec.h	422
+line_s	r_defs.h	179
+line_t	r_defs.h	215
+linecount	r_main.c	72
+linecount	r_defs.h	132
+linedef	r_bsp.c	49
+linedef	doomdata.h	168
+linedef	r_defs.h	250
+lines	p_setup.c	72
+lines	r_defs.h	133
+linespeciallist	p_spec.c	1235
+linetarget	p_map.c	794
+link	sounds.h	44
+lm	hu_lib.h	86
+lnames	wi_stuff.c	396
+lnodes	wi_stuff.c	177
+load1	m_menu.c	454
+load2	m_menu.c	455
+load3	m_menu.c	456
+load4	m_menu.c	457
+load5	m_menu.c	458
+load6	m_menu.c	459
+load_e	m_menu.c	461
+load_end	m_menu.c	460
+loadgame	m_menu.c	243
+loc	wi_stuff.c	145
+localcmds	d_net.c	60
+location	m_misc.c	228
+loopcount	r_main.c	73
+looping	i_sound.c	838
+low	p_spec.h	290
+lowerAndChange	p_spec.h	559
+lowerAndCrush	p_spec.h	484
+lowerFloor	p_spec.h	540
+lowerFloorToLowest	p_spec.h	543
+lowerToFloor	p_spec.h	482
+lowfloor	p_maputl.c	297
+lu_palette	st_stuff.c	279
+lump	r_defs.h	435
+lumpcache	w_wad.c	64
+lumpinfo	w_wad.c	61
+lumpinfo_t	w_wad.h	62
+lumpnum	sounds.h	61
+lumpnum	sounds.h	76
+m_h	am_map.c	248
+m_paninc	am_map.c	237
+m_w	am_map.c	247
+m_x	am_map.c	241
+m_x2	am_map.c	242
+m_y	am_map.c	241
+m_y2	am_map.c	242
+main_e	m_menu.c	248
+main_end	m_menu.c	247
+mainzone	z_zone.c	60
+maketic	d_net.c	71
+manufacturer	m_misc.c	413
+map	d_net.h	107
+mapdir	d_main.c	125
+maplinedef_t	doomdata.h	93
+mapnames	hu_stuff.c	115
+mapnames2	hu_stuff.c	169
+mapnamesp	hu_stuff.c	208
+mapnamest	hu_stuff.c	247
+mapnode_t	doomdata.h	196
+mappatch_t	r_data.c	76
+mapsector_t	doomdata.h	150
+mapseg_t	doomdata.h	171
+mapsidedef_t	doomdata.h	78
+mapsubsector_t	doomdata.h	158
+maptexture_t	r_data.c	93
+mapthing_t	doomdata.h	210
+mapvertex_t	doomdata.h	64
+markceiling	r_segs.c	50
+markfloor	r_segs.c	49
+marknums	am_map.c	281
+markpointnum	am_map.c	283
+markpoints	am_map.c	282
+maskdraw_t	r_things.c	63
+masked	r_data.c	87
+maskedtexture	r_segs.c	52
+maskedtexturecol	r_segs.c	95
+maskedtexturecol	r_defs.h	345
+mass	info.h	1325
+max_h	am_map.c	257
+max_scale_mtof	am_map.c	265
+max_w	am_map.c	256
+max_x	am_map.c	253
+max_y	am_map.c	254
+maxammo	p_inter.c	58
+maxammo	d_player.h	121
+maxfrags	d_player.h	201
+maxframe	r_things.c	95
+maxitems	d_player.h	199
+maxkills	d_player.h	198
+maxlight	p_spec.h	129
+maxlight	p_spec.h	141
+maxlight	p_spec.h	156
+maxlight	p_spec.h	170
+maxsecret	d_player.h	200
+maxsend	d_net.c	75
+maxtime	p_spec.h	143
+maxx	r_defs.h	466
+mb_used	i_system.c	51
+mceilingclip	r_things.c	346
+me	wi_stuff.c	307
+meleestate	info.h	1317
+memblock_s	z_zone.h	58
+memblock_t	z_zone.h	66
+memzone_t	z_zone.c	56
+menu_s	m_menu.c	158
+menu_t	m_menu.c	167
+menuactive	m_menu.c	126
+menuitem_t	m_menu.c	154
+menuitems	m_menu.c	162
+message	d_player.h	140
+messageLastMenuActive	m_menu.c	100
+messageNeedsInput	m_menu.c	103
+messageString	m_menu.c	95
+messageToPrint	m_menu.c	93
+message_counter	hu_stuff.c	103
+message_dontfuckwithme	hu_stuff.c	99
+message_nottobefuckedwith	hu_stuff.c	100
+message_on	hu_stuff.c	98
+messages	m_menu.c	342
+messx	m_menu.c	98
+messy	m_menu.c	99
+mfloorclip	r_things.c	345
+middle	p_spec.h	221
+midtexture	r_segs.c	55
+midtexture	doomdata.h	75
+midtexture	r_defs.h	156
+min_h	am_map.c	261
+min_scale_mtof	am_map.c	264
+min_w	am_map.c	260
+min_x	am_map.c	251
+min_y	am_map.c	252
+minlight	p_spec.h	130
+minlight	p_spec.h	142
+minlight	p_spec.h	155
+minlight	p_spec.h	169
+mintime	p_spec.h	144
+minx	r_defs.h	465
+misc1	info.h	1155
+misc2	info.h	1155
+missilestate	info.h	1318
+mixbuffer	i_sound.c	112
+mline_t	am_map.c	146
+mo	d_player.h	85
+mobj_s	p_mobj.h	207
+mobj_t	p_mobj.h	286
+mobjflag_t	p_mobj.h	203
+mobjflags	r_defs.h	407
+mobjinfo	info.c	1106
+mobjinfo_t	info.h	1331
+mobjtype_t	info.h	1303
+modifiedgame	doomstat.c	42
+momx	p_mobj.h	242
+momy	p_mobj.h	243
+momz	p_mobj.h	244
+mouseSensitivity	m_menu.c	76
+mousearray	g_game.c	186
+mousebfire	g_game.c	160
+mousebforward	g_game.c	162
+mousebstrafe	g_game.c	161
+mousebuttons	g_game.c	187
+mousedev	m_misc.c	218
+mousemoved	i_video.c	191
+mousesens	m_menu.c	346
+mousetype	m_misc.c	217
+mousex	g_game.c	190
+mousey	g_game.c	191
+movecount	p_mobj.h	259
+movedir	p_mobj.h	258
+mpoint_t	am_map.c	141
+msgNames	m_menu.c	948
+mtof_zoommul	am_map.c	238
+multiply	i_video.c	90
+mus_None	sounds.h	101
+mus_adrian	sounds.h	158
+mus_ampie	sounds.h	156
+mus_betwee	sounds.h	137
+mus_bunny	sounds.h	131
+mus_count2	sounds.h	154
+mus_countd	sounds.h	136
+mus_ddtbl2	sounds.h	147
+mus_ddtbl3	sounds.h	155
+mus_ddtblu	sounds.h	141
+mus_dead	sounds.h	143
+mus_dead2	sounds.h	149
+mus_dm2int	sounds.h	168
+mus_dm2ttl	sounds.h	167
+mus_doom	sounds.h	138
+mus_doom2	sounds.h	146
+mus_e1m1	sounds.h	102
+mus_e1m2	sounds.h	103
+mus_e1m3	sounds.h	104
+mus_e1m4	sounds.h	105
+mus_e1m5	sounds.h	106
+mus_e1m6	sounds.h	107
+mus_e1m7	sounds.h	108
+mus_e1m8	sounds.h	109
+mus_e1m9	sounds.h	110
+mus_e2m1	sounds.h	111
+mus_e2m2	sounds.h	112
+mus_e2m3	sounds.h	113
+mus_e2m4	sounds.h	114
+mus_e2m5	sounds.h	115
+mus_e2m6	sounds.h	116
+mus_e2m7	sounds.h	117
+mus_e2m8	sounds.h	118
+mus_e2m9	sounds.h	119
+mus_e3m1	sounds.h	120
+mus_e3m2	sounds.h	121
+mus_e3m3	sounds.h	122
+mus_e3m4	sounds.h	123
+mus_e3m5	sounds.h	124
+mus_e3m6	sounds.h	125
+mus_e3m7	sounds.h	126
+mus_e3m8	sounds.h	127
+mus_e3m9	sounds.h	128
+mus_evil	sounds.h	164
+mus_in_cit	sounds.h	142
+mus_inter	sounds.h	129
+mus_intro	sounds.h	130
+mus_introa	sounds.h	133
+mus_messag	sounds.h	153
+mus_messg2	sounds.h	159
+mus_openin	sounds.h	163
+mus_paused	s_sound.c	121
+mus_playing	s_sound.c	124
+mus_read_m	sounds.h	166
+mus_romer2	sounds.h	160
+mus_romero	sounds.h	151
+mus_runni2	sounds.h	148
+mus_runnin	sounds.h	134
+mus_shawn	sounds.h	140
+mus_shawn2	sounds.h	152
+mus_shawn3	sounds.h	162
+mus_stalks	sounds.h	135
+mus_stlks2	sounds.h	144
+mus_stlks3	sounds.h	150
+mus_tense	sounds.h	161
+mus_the_da	sounds.h	139
+mus_theda2	sounds.h	145
+mus_theda3	sounds.h	157
+mus_ultima	sounds.h	165
+mus_victor	sounds.h	132
+music_vol	m_menu.c	426
+musicdies	i_sound.c	839
+musicenum_t	sounds.h	170
+musicinfo_t	sounds.h	84
+myargc	m_argv.c	29
+myargv	m_argv.c	30
+myioctl	i_sound.c	/^myioctl$/
+n	st_lib.h	79
+name	f_finale.c	336
+name	m_menu.c	145
+name	m_misc.c	227
+name	r_data.c	86
+name	r_data.c	116
+name	sounds.h	35
+name	sounds.h	73
+name	w_wad.h	49
+name	w_wad.h	58
+name1	p_spec.h	211
+name2	p_spec.h	212
+nanims	wi_stuff.c	142
+needsupdate	hu_lib.h	57
+negonearray	r_things.c	81
+netbuffer	d_net.c	45
+netcmds	d_net.c	62
+netdemo	g_game.c	130
+netgame	g_game.c	117
+nettics	d_net.c	63
+newend	r_bsp.c	91
+newg_end	m_menu.c	312
+newgame	m_menu.c	241
+newgame_e	m_menu.c	313
+newspecial	p_spec.h	591
+newvissprite	r_things.c	291
+next	d_player.h	196
+next	d_think.h	67
+next	r_defs.h	379
+next	z_zone.h	64
+nextcleanup	s_sound.c	131
+nextstate	info.h	1154
+nexttic	wi_stuff.c	163
+ng_state	wi_stuff.c	1076
+nightmare	m_menu.c	311
+noblit	g_game.c	111
+node_t	r_defs.h	279
+nodeforplayer	d_net.c	69
+nodeingame	d_net.c	64
+nodes	p_setup.c	69
+nodrawers	g_game.c	110
+nofit	p_map.c	1251
+nomonsters	d_main.c	96
+none	doomdef.h	57
+normal	p_spec.h	330
+noterased	hu_lib.c	38
+ntohl	i_net.c	/^#define ntohl(x) \\$/
+ntohs	i_net.c	/^#define ntohs(x) \\$/
+num	r_main.c	486
+num	wi_stuff.c	355
+num	st_lib.h	58
+numChannels	s_sound.c	129
+numbraintargets	p_enemy.c	1810
+numdefaults	m_misc.c	301
+numflats	r_data.c	131
+numframes	r_defs.h	450
+numitems	m_menu.c	160
+numlines	p_setup.c	71
+numlines	r_defs.h	230
+numlinespecials	p_spec.c	1234
+numlumps	w_wad.c	62
+numlumps	w_wad.h	39
+numnodes	p_setup.c	68
+numnodes	d_net.h	97
+numpatches	r_data.c	135
+numpics	p_spec.c	65
+numplayers	d_net.h	112
+numsectors	p_setup.c	62
+numsegs	p_setup.c	59
+numsegs	doomdata.h	155
+numsides	p_setup.c	74
+numspechit	p_map.c	70
+numspritelumps	r_data.c	139
+numsprites	r_things.c	92
+numsubsectors	p_setup.c	65
+numswitches	p_switch.c	100
+numtextures	r_data.c	141
+numtics	d_net.h	71
+numvertexes	p_setup.c	56
+offset	doomdata.h	170
+offset	r_defs.h	245
+ok	p_spec.h	604
+old_m_h	am_map.c	268
+old_m_w	am_map.c	268
+old_m_x	am_map.c	269
+old_m_y	am_map.c	269
+olddirection	p_spec.h	508
+oldinum	st_lib.h	96
+oldnettics	d_net.c	632
+oldnum	st_lib.h	55
+oldstatus	p_spec.h	295
+oldval	st_lib.h	125
+oldweaponsowned	st_stuff.c	381
+on	hu_lib.h	72
+on	hu_lib.h	89
+on	st_lib.h	62
+on	st_lib.h	103
+on	st_lib.h	132
+onground	p_user.c	51
+open	p_spec.h	333
+openbottom	p_maputl.c	295
+openings	r_plane.c	60
+openrange	p_maputl.c	296
+opentop	p_maputl.c	294
+opposite	p_enemy.c	70
+opt_end	m_menu.c	349
+option_empty1	m_menu.c	345
+option_empty2	m_menu.c	347
+options	m_menu.c	242
+options	doomdata.h	209
+options_e	m_menu.c	350
+origin	s_sound.c	99
+originx	r_data.c	71
+originx	r_data.c	104
+originy	r_data.c	72
+originy	r_data.c	105
+overflowsprite	r_things.c	326
+p	wi_stuff.c	158
+p	wi_stuff.c	390
+p	m_cheat.h	37
+p	st_lib.h	65
+p	st_lib.h	82
+p	st_lib.h	106
+p	st_lib.h	135
+p1text	f_finale.c	71
+p2text	f_finale.c	72
+p3text	f_finale.c	73
+p4text	f_finale.c	74
+p5text	f_finale.c	75
+p6text	f_finale.c	76
+pack_plut	doomdef.h	56
+pack_tnt	doomdef.h	55
+pad1	r_defs.h	470
+pad2	r_defs.h	474
+pad3	r_defs.h	475
+pad4	r_defs.h	478
+pagename	d_main.c	416
+pagetic	d_main.c	415
+painchance	info.h	1315
+painsound	info.h	1316
+painstate	info.h	1314
+palette	m_misc.c	426
+palette_type	m_misc.c	431
+par	wi_stuff.c	377
+pars	g_game.c	978
+partime	d_player.h	204
+pastdest	p_spec.h	606
+patch	r_data.c	73
+patch	r_data.c	106
+patch	r_defs.h	401
+patch_t	r_defs.h	364
+patchcount	r_data.c	91
+patchcount	r_data.c	122
+patches	r_data.c	92
+patches	r_data.c	123
+paused	g_game.c	104
+pcx_t	m_misc.c	435
+pendingweapon	d_player.h	117
+percent	wi_stuff.c	351
+period	wi_stuff.c	139
+perpetualRaise	p_spec.h	275
+pic_t	d_textur.h	41
+picnum	p_spec.c	63
+picnum	r_defs.h	463
+pitch	sounds.h	47
+pixhigh	r_segs.c	81
+pixhighstep	r_segs.c	83
+pixlow	r_segs.c	82
+pixlowstep	r_segs.c	84
+planefunction_t	r_plane.h	38
+planeheight	r_plane.c	83
+planezlight	r_plane.c	82
+plat_e	p_spec.h	269
+plat_t	p_spec.h	300
+plattype_e	p_spec.h	281
+player	d_net.h	70
+player	p_mobj.h	275
+player_arrow	am_map.c	161
+player_names	hu_stuff.c	79
+player_s	d_player.h	83
+player_t	d_player.h	166
+playeringame	g_game.c	118
+players	g_game.c	119
+playerstarts	p_setup.c	113
+playerstate	d_player.h	86
+playerstate_t	d_player.h	62
+plr	am_map.c	279
+plr	hu_stuff.c	89
+plrs	wi_stuff.c	315
+plyr	st_stuff.c	270
+plyr	d_player.h	209
+pnum	d_player.h	207
+point_t	wi_stuff.c	127
+position	w_wad.h	60
+post_t	r_defs.h	289
+powerduration_t	doomdef.h	240
+powers	d_player.h	108
+powertype_t	doomdef.h	224
+precache	g_game.c	136
+prev	d_think.h	66
+prev	r_defs.h	378
+prev	z_zone.h	65
+prevMenu	m_menu.c	161
+priority	sounds.h	41
+prndindex	m_random.c	54
+profilecount	w_wad.c	520
+projection	r_main.c	66
+ps_flash	p_pspr.h	63
+ps_weapon	p_pspr.h	62
+pspdef_t	p_pspr.h	75
+pspriteiscale	r_things.c	75
+psprites	d_player.h	161
+pspritescale	r_things.c	74
+psprnum_t	p_pspr.h	66
+ptflags	p_maputl.c	549
+pw_allmap	doomdef.h	220
+pw_infrared	doomdef.h	221
+pw_invisibility	doomdef.h	218
+pw_invulnerability	doomdef.h	216
+pw_ironfeet	doomdef.h	219
+pw_strength	doomdef.h	217
+quickSaveSlot	m_menu.c	90
+quitdoom	m_menu.c	246
+quitsounds	m_menu.c	1054
+quitsounds2	m_menu.c	1066
+radius	info.h	1323
+radius	p_mobj.h	238
+raiseAndChange	p_spec.h	277
+raiseFloor	p_spec.h	549
+raiseFloor24	p_spec.h	561
+raiseFloor24AndChange	p_spec.h	562
+raiseFloor512	p_spec.h	568
+raiseFloorCrush	p_spec.h	563
+raiseFloorToNearest	p_spec.h	552
+raiseFloorTurbo	p_spec.h	566
+raiseIn5Mins	p_spec.h	334
+raiseToHighest	p_spec.h	483
+raiseToNearestAndChange	p_spec.h	278
+raiseToTexture	p_spec.h	555
+raisestate	info.h	1329
+rcsid	am_map.c	24
+rcsid	d_items.c	24
+rcsid	d_main.c	28
+rcsid	d_net.c	26
+rcsid	doomdef.c	26
+rcsid	doomstat.c	25
+rcsid	dstrings.c	25
+rcsid	f_finale.c	26
+rcsid	f_wipe.c	25
+rcsid	g_game.c	25
+rcsid	hu_lib.c	24
+rcsid	hu_stuff.c	24
+rcsid	i_main.c	25
+rcsid	i_net.c	24
+rcsid	i_sound.c	25
+rcsid	i_system.c	24
+rcsid	i_video.c	25
+rcsid	info.c	27
+rcsid	m_argv.c	24
+rcsid	m_bbox.c	28
+rcsid	m_cheat.c	26
+rcsid	m_fixed.c	26
+rcsid	m_menu.c	26
+rcsid	m_misc.c	28
+rcsid	m_random.c	24
+rcsid	m_swap.c	25
+rcsid	p_ceilng.c	24
+rcsid	p_doors.c	24
+rcsid	p_enemy.c	27
+rcsid	p_floor.c	25
+rcsid	p_inter.c	26
+rcsid	p_lights.c	26
+rcsid	p_map.c	26
+rcsid	p_maputl.c	28
+rcsid	p_mobj.c	25
+rcsid	p_plats.c	25
+rcsid	p_pspr.c	26
+rcsid	p_saveg.c	25
+rcsid	p_setup.c	26
+rcsid	p_sight.c	25
+rcsid	p_spec.c	29
+rcsid	p_switch.c	26
+rcsid	p_telept.c	25
+rcsid	p_tick.c	26
+rcsid	p_user.c	28
+rcsid	r_bsp.c	26
+rcsid	r_data.c	28
+rcsid	r_draw.c	28
+rcsid	r_main.c	27
+rcsid	r_plane.c	28
+rcsid	r_segs.c	26
+rcsid	r_sky.c	29
+rcsid	r_things.c	26
+rcsid	s_sound.c	25
+rcsid	sounds.c	27
+rcsid	st_lib.c	26
+rcsid	st_stuff.c	27
+rcsid	tables.c	40
+rcsid	v_video.c	28
+rcsid	w_wad.c	26
+rcsid	wi_stuff.c	25
+rcsid	z_zone.c	25
+rdthsempty1	m_menu.c	379
+rdthsempty2	m_menu.c	400
+reactiontime	info.h	1312
+reactiontime	p_mobj.h	267
+read1_end	m_menu.c	380
+read2_end	m_menu.c	401
+read_e	m_menu.c	381
+read_e2	m_menu.c	402
+readthis	m_menu.c	245
+readystate	d_items.h	39
+readyweapon	d_player.h	114
+reboundpacket	d_net.c	82
+reboundstore	d_net.c	83
+refire	d_player.h	132
+registered	doomdef.h	41
+rejectmatrix	p_setup.c	105
+reloadlump	w_wad.c	137
+reloadname	w_wad.c	138
+remotenode	d_net.h	90
+remoteresend	d_net.c	65
+resendcount	d_net.c	67
+resendto	d_net.c	66
+reserved	m_misc.c	428
+respawnmonsters	g_game.c	100
+respawnparm	d_main.c	97
+result_e	p_spec.h	608
+retail	doomdef.h	44
+retransmitfrom	d_net.h	67
+rndindex	m_random.c	53
+rndtable	m_random.c	31
+rotate	r_defs.h	432
+routine	m_menu.c	/^    void	(*routine)(int choice);$/
+routine	m_menu.c	/^    void		(*routine)();	\/\/ draw routine$/
+rover	z_zone.c	54
+rowoffset	doomdata.h	72
+rowoffset	r_defs.h	150
+rw_angle1	r_segs.c	60
+rw_bottomtexturemid	r_segs.c	74
+rw_centerangle	r_segs.c	67
+rw_distance	r_segs.c	69
+rw_midtexturemid	r_segs.c	72
+rw_normalangle	r_segs.c	58
+rw_offset	r_segs.c	68
+rw_scale	r_segs.c	70
+rw_scalestep	r_segs.c	71
+rw_stopx	r_segs.c	66
+rw_toptexturemid	r_segs.c	73
+rw_x	r_segs.c	65
+s	w_wad.c	354
+saveCharIndex	m_menu.c	121
+saveOldString	m_menu.c	123
+saveSlot	m_menu.c	120
+saveStringEnter	m_menu.c	119
+save_p	p_saveg.c	35
+savebuffer	g_game.c	142
+savedescription	g_game.c	207
+savegame	m_menu.c	244
+savegame	d_net.h	105
+savegameslot	g_game.c	206
+savegamestrings	m_menu.c	132
+savename	g_game.c	1190
+sbar	st_stuff.c	315
+sc	hu_lib.h	52
+scale	r_main.c	499
+scale	r_defs.h	395
+scale1	r_defs.h	328
+scale2	r_defs.h	329
+scale_ftom	am_map.c	277
+scale_mtof	am_map.c	275
+scaledviewwidth	r_draw.c	65
+scalelight	r_main.c	116
+scalelightfixed	r_main.c	117
+scalestep	r_defs.h	330
+scantranslate	m_misc.c	230
+score	d_player.h	183
+screenSize	m_menu.c	87
+screenblocks	m_menu.c	84
+screenheightarray	r_things.c	82
+screens	v_video.c	44
+scrnsize	m_menu.c	344
+sd_closing	p_spec.h	401
+sd_e	p_spec.h	403
+sd_opening	p_spec.h	399
+sd_waiting	p_spec.h	400
+sdt_closeOnly	p_spec.h	410
+sdt_e	p_spec.h	413
+sdt_openAndClose	p_spec.h	411
+sdt_openOnly	p_spec.h	409
+secondslidefrac	p_map.c	567
+secondslideline	p_map.c	570
+secret	wi_stuff.c	371
+secretcount	d_player.h	137
+secretexit	g_game.c	999
+sector	doomdata.h	77
+sector	p_spec.h	127
+sector	p_spec.h	139
+sector	p_spec.h	153
+sector	p_spec.h	168
+sector	p_spec.h	288
+sector	p_spec.h	347
+sector	p_spec.h	497
+sector	p_spec.h	589
+sector	r_defs.h	159
+sector	r_defs.h	229
+sector_t	r_defs.h	135
+sectors	p_setup.c	63
+seesound	info.h	1311
+seestate	info.h	1310
+seg_t	r_defs.h	258
+segs	p_setup.c	60
+segtextured	r_segs.c	46
+sendaddress	i_net.c	81
+sendpause	g_game.c	105
+sendsave	g_game.c	106
+sendsocket	i_net.c	78
+sequence	m_cheat.h	36
+setblocks	r_main.c	653
+setdetail	r_main.c	654
+setsizeneeded	r_main.c	652
+sfx_None	sounds.h	179
+sfx_barexp	sounds.h	261
+sfx_bdcls	sounds.h	268
+sfx_bdopn	sounds.h	267
+sfx_bfg	sounds.h	188
+sfx_bgact	sounds.h	255
+sfx_bgdth1	sounds.h	241
+sfx_bgdth2	sounds.h	242
+sfx_bgsit1	sounds.h	218
+sfx_bgsit2	sounds.h	219
+sfx_boscub	sounds.h	274
+sfx_bosdth	sounds.h	277
+sfx_bospit	sounds.h	273
+sfx_bospn	sounds.h	276
+sfx_bossit	sounds.h	275
+sfx_brsdth	sounds.h	246
+sfx_brssit	sounds.h	222
+sfx_bspact	sounds.h	257
+sfx_bspdth	sounds.h	249
+sfx_bspsit	sounds.h	225
+sfx_bspwlk	sounds.h	258
+sfx_cacdth	sounds.h	244
+sfx_cacsit	sounds.h	221
+sfx_chgun	sounds.h	265
+sfx_claw	sounds.h	234
+sfx_cybdth	sounds.h	247
+sfx_cybsit	sounds.h	223
+sfx_dbcls	sounds.h	185
+sfx_dbload	sounds.h	186
+sfx_dbopn	sounds.h	184
+sfx_dmact	sounds.h	256
+sfx_dmpain	sounds.h	205
+sfx_dorcls	sounds.h	200
+sfx_doropn	sounds.h	199
+sfx_dshtgn	sounds.h	183
+sfx_empty1	m_menu.c	425
+sfx_empty2	m_menu.c	427
+sfx_firsht	sounds.h	195
+sfx_firxpl	sounds.h	196
+sfx_flame	sounds.h	270
+sfx_flamst	sounds.h	271
+sfx_getpow	sounds.h	272
+sfx_hoof	sounds.h	263
+sfx_itemup	sounds.h	211
+sfx_itmbk	sounds.h	269
+sfx_keendt	sounds.h	283
+sfx_keenpn	sounds.h	282
+sfx_kntdth	sounds.h	251
+sfx_kntsit	sounds.h	226
+sfx_manatk	sounds.h	278
+sfx_mandth	sounds.h	279
+sfx_mansit	sounds.h	228
+sfx_metal	sounds.h	264
+sfx_mnpain	sounds.h	208
+sfx_noway	sounds.h	260
+sfx_oof	sounds.h	213
+sfx_pdiehi	sounds.h	237
+sfx_pedth	sounds.h	252
+sfx_pepain	sounds.h	209
+sfx_pesit	sounds.h	229
+sfx_pistol	sounds.h	180
+sfx_plasma	sounds.h	187
+sfx_pldeth	sounds.h	236
+sfx_plpain	sounds.h	204
+sfx_podth1	sounds.h	238
+sfx_podth2	sounds.h	239
+sfx_podth3	sounds.h	240
+sfx_popain	sounds.h	206
+sfx_posact	sounds.h	254
+sfx_posit1	sounds.h	215
+sfx_posit2	sounds.h	216
+sfx_posit3	sounds.h	217
+sfx_pstart	sounds.h	197
+sfx_pstop	sounds.h	198
+sfx_punch	sounds.h	262
+sfx_radio	sounds.h	287
+sfx_rlaunc	sounds.h	193
+sfx_rxplod	sounds.h	194
+sfx_sawful	sounds.h	191
+sfx_sawhit	sounds.h	192
+sfx_sawidl	sounds.h	190
+sfx_sawup	sounds.h	189
+sfx_sgcock	sounds.h	182
+sfx_sgtatk	sounds.h	231
+sfx_sgtdth	sounds.h	243
+sfx_sgtsit	sounds.h	220
+sfx_shotgn	sounds.h	181
+sfx_skeact	sounds.h	284
+sfx_skeatk	sounds.h	286
+sfx_skedth	sounds.h	253
+sfx_skepch	sounds.h	232
+sfx_skesit	sounds.h	285
+sfx_skeswg	sounds.h	235
+sfx_sklatk	sounds.h	230
+sfx_skldth	sounds.h	245
+sfx_slop	sounds.h	210
+sfx_spidth	sounds.h	248
+sfx_spisit	sounds.h	224
+sfx_ssdth	sounds.h	281
+sfx_sssit	sounds.h	280
+sfx_stnmov	sounds.h	201
+sfx_swtchn	sounds.h	202
+sfx_swtchx	sounds.h	203
+sfx_telept	sounds.h	214
+sfx_tink	sounds.h	266
+sfx_vilact	sounds.h	259
+sfx_vilatk	sounds.h	233
+sfx_vildth	sounds.h	250
+sfx_vilsit	sounds.h	227
+sfx_vipain	sounds.h	207
+sfx_vol	m_menu.c	424
+sfx_wpnup	sounds.h	212
+sfxenum_t	sounds.h	289
+sfxinfo	s_sound.c	96
+sfxinfo_struct	sounds.h	32
+sfxinfo_t	sounds.h	30
+shareware	doomdef.h	40
+shiftxform	hu_stuff.c	286
+shmFinished	i_video.c	192
+shootthing	p_map.c	795
+shootz	p_map.c	799
+shortnum	st_stuff.c	324
+showMessages	m_menu.c	79
+side	doomdata.h	169
+side_t	r_defs.h	161
+sidedef	r_bsp.c	48
+sidedef	r_defs.h	249
+sidemove	g_game.c	176
+sidemove	d_ticcmd.h	39
+sidenum	doomdata.h	92
+sidenum	r_defs.h	196
+sides	p_setup.c	75
+sig	i_sound.c	914
+sightcounts	p_sight.c	47
+sightzstart	p_sight.c	39
+silentCrushAndRaise	p_spec.h	487
+silhouette	r_defs.h	333
+sinea	r_main.c	484
+sineb	r_main.c	485
+singledemo	g_game.c	134
+singletics	d_main.c	102
+singularity	sounds.h	38
+sitems	d_player.h	179
+size	z_zone.c	49
+size	w_wad.h	48
+size	w_wad.h	61
+size	z_zone.h	60
+sk_baby	doomdef.h	149
+sk_easy	doomdef.h	150
+sk_hard	doomdef.h	152
+sk_medium	doomdef.h	151
+sk_nightmare	doomdef.h	153
+skill	d_net.h	108
+skill_t	doomdef.h	154
+skills	d_player.h	178
+skiptics	d_net.c	73
+skullAnimCounter	m_menu.c	170
+skullName	m_menu.c	175
+skyflatnum	r_sky.c	47
+skytexture	r_sky.c	48
+skytexturemid	r_sky.c	49
+slideFrameNames	p_doors.c	46
+slideFrames	p_doors.c	564
+slidedoor_t	p_spec.h	430
+slideframe_t	p_spec.h	454
+slidemo	p_map.c	572
+slidename_t	p_spec.h	445
+slopetype	r_defs.h	203
+slopetype_t	r_defs.h	175
+slp	am_map.c	150
+snd_MusicVolume	s_sound.c	116
+snd_SfxVolume	s_sound.c	113
+snd_prefixen	s_sound.c	48
+sndserver	i_sound.c	64
+sndserver_filename	i_sound.c	65
+snext	p_mobj.h	218
+snl_pointeron	wi_stuff.c	749
+solidsegs	r_bsp.c	92
+sound_e	m_menu.c	429
+sound_end	m_menu.c	428
+soundorg	p_spec.h	233
+soundorg	r_defs.h	121
+soundtarget	p_enemy.c	103
+soundtarget	r_defs.h	115
+soundtraversed	r_defs.h	112
+soundvol	m_menu.c	348
+sp_secret	wi_stuff.c	367
+sp_state	wi_stuff.c	1316
+spanstart	r_plane.c	76
+spanstop	r_plane.c	77
+spawnhealth	info.h	1309
+spawnpoint	p_mobj.h	281
+spawnstate	info.h	1308
+spechit	p_map.c	69
+special	doomdata.h	89
+special	doomdata.h	148
+special	r_defs.h	108
+special	r_defs.h	191
+specialdata	r_defs.h	130
+specialdata	r_defs.h	214
+specials_e	p_saveg.c	340
+speed	p_spec.c	66
+speed	p_spec.c	78
+speed	info.h	1322
+speed	p_spec.h	289
+speed	p_spec.h	349
+speed	p_spec.h	500
+speed	p_spec.h	594
+splat	wi_stuff.c	348
+sprbottomclip	r_defs.h	344
+sprev	p_mobj.h	219
+sprite	info.h	1149
+sprite	p_mobj.h	223
+spritedef_t	r_defs.h	453
+spriteframe_t	r_defs.h	440
+spriteframes	r_defs.h	451
+spritelights	r_things.c	77
+spritememory	r_data.c	741
+spritename	r_things.c	96
+spritenum_t	info.h	172
+spriteoffset	r_data.c	159
+sprites	r_things.c	91
+spritetopoffset	r_data.c	160
+spritewidth	r_data.c	158
+sprnames	info.c	40
+sprtemp	r_things.c	94
+sprtopclip	r_defs.h	343
+sprtopscreen	r_things.c	349
+spryscale	r_things.c	348
+sscount	r_main.c	71
+ssecret	d_player.h	180
+st_armson	st_stuff.c	309
+st_binicon_t	st_lib.h	138
+st_chat	st_stuff.c	297
+st_chatstate	st_stuff.c	288
+st_chatstateenum_t	st_stuff.h	74
+st_clock	st_stuff.c	282
+st_cursoron	st_stuff.c	303
+st_facecount	st_stuff.c	384
+st_faceindex	st_stuff.c	387
+st_firsttime	st_stuff.c	273
+st_fragscount	st_stuff.c	375
+st_fragson	st_stuff.c	312
+st_gamestate	st_stuff.c	291
+st_msgcounter	st_stuff.c	285
+st_multicon_t	st_lib.h	111
+st_notdeathmatch	st_stuff.c	306
+st_number_t	st_lib.h	70
+st_oldchat	st_stuff.c	300
+st_oldhealth	st_stuff.c	378
+st_palette	st_stuff.c	998
+st_percent_t	st_lib.h	84
+st_randomnumber	st_stuff.c	393
+st_stateenum_t	st_stuff.h	64
+st_statusbaron	st_stuff.c	294
+st_stopped	st_stuff.c	1441
+stair_e	p_spec.h	580
+star	wi_stuff.c	386
+startepisode	d_main.c	113
+startfrac	r_defs.h	393
+startmap	d_main.c	114
+startname	p_spec.c	77
+startskill	d_main.c	112
+starttic	d_net.h	69
+starttime	g_game.c	112
+statcopy	g_game.c	215
+state	wi_stuff.c	172
+state	wi_stuff.c	310
+state	p_mobj.h	253
+state	p_pspr.h	70
+state_t	info.h	1156
+stateenum_t	wi_stuff.h	37
+statenum_t	info.h	1144
+states	info.c	135
+status	m_menu.c	143
+status	p_spec.h	294
+status	p_spec.h	428
+stepdir	r_data.c	74
+steptable	i_sound.c	144
+stime	d_player.h	181
+stopped	am_map.c	290
+strace	p_sight.c	43
+strcmpi	w_wad.c	67
+strobe_t	p_spec.h	160
+strupr	w_wad.c	/^void strupr (char* s)$/
+sttminus	st_lib.c	56
+subsector	p_mobj.h	231
+subsector_s	r_defs.h	227
+subsector_t	r_defs.h	233
+subsectors	p_setup.c	66
+sucks	wi_stuff.c	378
+swingx	p_pspr.c	109
+swingy	p_pspr.c	110
+switchlist	p_switch.c	99
+switchlist_t	p_spec.h	215
+sx	p_pspr.h	72
+sy	p_pspr.h	73
+t1text	f_finale.c	78
+t2text	f_finale.c	79
+t2x	p_sight.c	44
+t2y	p_sight.c	45
+t3text	f_finale.c	80
+t4text	f_finale.c	81
+t5text	f_finale.c	82
+t6text	f_finale.c	83
+tSigSet	i_sound.c	902
+tSigSet	i_sound.c	904
+tag	doomdata.h	90
+tag	doomdata.h	149
+tag	p_spec.h	297
+tag	p_spec.h	507
+tag	r_defs.h	109
+tag	r_defs.h	192
+tag	z_zone.h	62
+tail	hu_stuff.c	584
+tallnum	st_stuff.c	318
+tallpercent	st_stuff.c	321
+tantoangle	tables.c	1870
+target	p_mobj.h	263
+tc_ceiling	p_saveg.c	331
+tc_door	p_saveg.c	332
+tc_end	p_saveg.c	222
+tc_endspecials	p_saveg.c	338
+tc_flash	p_saveg.c	335
+tc_floor	p_saveg.c	333
+tc_glow	p_saveg.c	337
+tc_mobj	p_saveg.c	223
+tc_plat	p_saveg.c	334
+tc_strobe	p_saveg.c	336
+tempstring	m_menu.c	679
+test	p_mobj.c	51
+texpatch_t	r_data.c	107
+texture	p_spec.h	592
+texture_t	r_data.c	125
+texturecolumnlump	r_data.c	149
+texturecolumnofs	r_data.c	150
+texturecomposite	r_data.c	151
+texturecompositesize	r_data.c	148
+textureheight	r_data.c	147
+texturememory	r_data.c	740
+texturemid	r_defs.h	400
+textureoffset	doomdata.h	71
+textureoffset	r_defs.h	147
+textures	r_data.c	142
+texturetranslation	r_data.c	155
+texturewidthmask	r_data.c	145
+thing	p_local.h	149
+thinglist	r_defs.h	127
+think_t	d_think.h	60
+thinker	p_mobj.h	210
+thinker	p_spec.h	126
+thinker	p_spec.h	138
+thinker	p_spec.h	152
+thinker	p_spec.h	167
+thinker	p_spec.h	287
+thinker	p_spec.h	345
+thinker	p_spec.h	420
+thinker	p_spec.h	495
+thinker	p_spec.h	586
+thinker	r_defs.h	90
+thinker_s	d_think.h	64
+thinker_t	d_think.h	70
+thinkercap	p_tick.c	47
+thinkerclass_t	p_saveg.c	225
+thintriangle_guy	am_map.c	205
+threshold	p_mobj.h	271
+ticcmd_t	d_ticcmd.h	44
+ticdup	d_net.c	74
+ticdup	d_net.h	99
+tics	info.h	1151
+tics	p_mobj.h	252
+tics	p_pspr.h	71
+time	wi_stuff.c	376
+timer	p_spec.h	425
+timingdemo	g_game.c	109
+title	d_main.c	536
+tmbbox	p_map.c	46
+tmceilingz	p_map.c	58
+tmdropoffz	p_map.c	59
+tmflags	p_map.c	48
+tmfloorz	p_map.c	57
+tmthing	p_map.c	47
+tmx	p_map.c	49
+tmxmove	p_map.c	574
+tmy	p_map.c	50
+tmymove	p_map.c	575
+toorough	m_menu.c	308
+top	p_spec.h	220
+top	r_defs.h	473
+topclip	r_things.c	60
+topcountdown	p_spec.h	358
+topdelta	r_defs.h	287
+topfrac	r_segs.c	86
+topheight	p_spec.h	348
+topheight	p_spec.h	499
+topoffset	r_defs.h	361
+topslope	p_sight.c	40
+topstep	r_segs.c	87
+toptexture	r_segs.c	53
+toptexture	doomdata.h	73
+toptexture	r_defs.h	154
+topwait	p_spec.h	355
+total	wi_stuff.c	385
+totalitems	g_game.c	125
+totalkills	g_game.c	125
+totalsecret	g_game.c	125
+trace	p_maputl.c	547
+tracer	p_mobj.h	284
+translations	r_draw.c	76
+translationtables	r_draw.c	383
+traverser_t	p_local.h	159
+triangle_guy	am_map.c	196
+true	doomtype.h	34
+tsilheight	r_defs.h	339
+turbo16	p_spec.h	578
+turboLower	p_spec.h	546
+turnheld	g_game.c	184
+twoSided	p_spec.c	/^twoSided$/
+type	f_finale.c	337
+type	wi_stuff.c	136
+type	d_event.h	46
+type	doomdata.h	208
+type	p_mobj.h	249
+type	p_spec.h	298
+type	p_spec.h	346
+type	p_spec.h	421
+type	p_spec.h	496
+type	p_spec.h	587
+u	i_video.c	939
+unknown	doomdef.h	68
+untranslated	m_misc.c	231
+up	p_spec.h	264
+upstate	d_items.h	37
+usedown	d_player.h	125
+usefulness	sounds.h	58
+usegamma	v_video.c	137
+usejoystick	m_misc.c	170
+usemouse	m_misc.c	169
+user	z_zone.h	61
+usergame	g_game.c	107
+usething	p_map.c	1093
+v1	doomdata.h	86
+v1	doomdata.h	165
+v1	r_defs.h	182
+v1	r_defs.h	242
+v2	doomdata.h	87
+v2	doomdata.h	166
+v2	r_defs.h	183
+v2	r_defs.h	243
+val	st_lib.h	128
+validcount	r_main.c	55
+validcount	p_mobj.h	247
+validcount	r_defs.h	124
+validcount	r_defs.h	211
+version	m_misc.c	414
+vertex_t	r_defs.h	76
+vertexes	p_setup.c	57
+veryfirsttime	st_stuff.c	276
+victims	wi_stuff.c	382
+viewactive	g_game.c	114
+viewangle	r_main.c	79
+viewangleoffset	r_main.c	52
+viewcos	r_main.c	81
+viewheight	r_draw.c	66
+viewheight	d_player.h	94
+viewimage	r_draw.c	63
+viewplayer	r_main.c	84
+viewsin	r_main.c	82
+viewwidth	r_draw.c	64
+viewwindowx	r_draw.c	67
+viewwindowy	r_draw.c	68
+viewx	r_main.c	75
+viewy	r_main.c	76
+viewz	r_main.c	77
+viewz	d_player.h	92
+vileobj	p_enemy.c	1125
+viletryx	p_enemy.c	1126
+viletryy	p_enemy.c	1127
+violence	m_menu.c	310
+visplane_t	r_defs.h	480
+visplanes	r_plane.c	53
+vissprite_p	r_things.c	290
+vissprite_s	r_defs.h	375
+vissprite_t	r_defs.h	409
+vissprites	r_things.c	289
+vldoor_e	p_spec.h	339
+vldoor_t	p_spec.h	360
+vol_lookup	i_sound.c	147
+volume	sounds.h	50
+vres	m_misc.c	424
+vsprsortedhead	r_things.c	784
+w_ammo	st_stuff.c	367
+w_armor	st_stuff.c	364
+w_arms	st_stuff.c	355
+w_armsbg	st_stuff.c	351
+w_chat	hu_stuff.c	93
+w_faces	st_stuff.c	358
+w_frags	st_stuff.c	345
+w_health	st_stuff.c	348
+w_inputbuffer	hu_stuff.c	96
+w_keyboxes	st_stuff.c	361
+w_maxammo	st_stuff.c	370
+w_message	hu_stuff.c	102
+w_ready	st_stuff.c	342
+w_title	hu_stuff.c	91
+wadfile	d_main.c	124
+wadfiles	d_main.c	92
+wadinfo_t	w_wad.h	42
+wait	p_spec.h	292
+waiting	p_spec.h	266
+walllights	r_segs.c	93
+wbplayerstruct_t	d_player.h	185
+wbs	wi_stuff.c	313
+wbstartstruct_t	d_player.h	211
+weaponinfo	d_items.c	47
+weaponinfo_t	d_items.h	43
+weaponowned	d_player.h	119
+weapontype_t	doomdef.h	197
+where	p_spec.h	230
+whichDoorIndex	p_spec.h	424
+whichSkull	m_menu.c	171
+width	r_data.c	88
+width	r_data.c	117
+width	d_textur.h	38
+width	r_defs.h	358
+width	st_lib.h	52
+wiminus	wi_stuff.c	358
+wipe_ColorXForm	f_wipe.h	33
+wipe_EndScreen	f_wipe.c	/^wipe_EndScreen$/
+wipe_Melt	f_wipe.h	36
+wipe_NUMWIPES	f_wipe.h	38
+wipe_ScreenWipe	f_wipe.c	/^wipe_ScreenWipe$/
+wipe_StartScreen	f_wipe.c	/^wipe_StartScreen$/
+wipe_doColorXForm	f_wipe.c	/^wipe_doColorXForm$/
+wipe_doMelt	f_wipe.c	/^wipe_doMelt$/
+wipe_exitColorXForm	f_wipe.c	/^wipe_exitColorXForm$/
+wipe_exitMelt	f_wipe.c	/^wipe_exitMelt$/
+wipe_initColorXForm	f_wipe.c	/^wipe_initColorXForm$/
+wipe_initMelt	f_wipe.c	/^wipe_initMelt$/
+wipe_scr	f_wipe.c	47
+wipe_scr_end	f_wipe.c	46
+wipe_scr_start	f_wipe.c	45
+wipe_shittyColMajorXform	f_wipe.c	/^wipe_shittyColMajorXform$/
+wipegamestate	d_main.c	188
+wminfo	g_game.c	138
+worldbottom	r_segs.c	77
+worldhigh	r_segs.c	78
+worldlow	r_segs.c	79
+worldtop	r_segs.c	76
+wp_bfg	doomdef.h	188
+wp_chaingun	doomdef.h	185
+wp_chainsaw	doomdef.h	189
+wp_fist	doomdef.h	182
+wp_missile	doomdef.h	186
+wp_nochange	doomdef.h	195
+wp_pistol	doomdef.h	183
+wp_plasma	doomdef.h	187
+wp_shotgun	doomdef.h	184
+wp_supershotgun	doomdef.h	190
+x	am_map.c	130
+x	am_map.c	140
+x	m_menu.c	164
+x	w_wad.c	355
+x	wi_stuff.c	124
+x	doomdata.h	62
+x	doomdata.h	183
+x	doomdata.h	205
+x	hu_lib.h	48
+x	p_local.h	137
+x	p_mobj.h	213
+x	r_defs.h	73
+x	r_defs.h	91
+x	r_defs.h	268
+x	st_lib.h	48
+x	st_lib.h	92
+x	st_lib.h	121
+x1	r_things.c	56
+x1	r_defs.h	325
+x1	r_defs.h	381
+x2	r_things.c	57
+x2	r_defs.h	326
+x2	r_defs.h	382
+xdeathstate	info.h	1320
+xiscale	r_defs.h	398
+xlatekey	i_video.c	/^int xlatekey(void)$/
+xmax	m_misc.c	420
+xmin	m_misc.c	418
+xspeed	p_enemy.c	264
+xtoviewangle	r_main.c	103
+y	am_map.c	130
+y	am_map.c	140
+y	f_wipe.c	138
+y	m_menu.c	165
+y	wi_stuff.c	125
+y	doomdata.h	63
+y	doomdata.h	184
+y	doomdata.h	206
+y	hu_lib.h	49
+y	p_local.h	138
+y	p_mobj.h	214
+y	r_defs.h	74
+y	r_defs.h	92
+y	r_defs.h	269
+y	st_lib.h	49
+y	st_lib.h	93
+y	st_lib.h	122
+yah	wi_stuff.c	345
+ylookup	r_draw.c	69
+ymax	m_misc.c	421
+ymin	m_misc.c	419
+yslope	r_plane.c	85
+yspeed	p_enemy.c	265
+z	p_mobj.h	215
+z	r_defs.h	93
+zlight	r_main.c	118

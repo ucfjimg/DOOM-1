@@ -45,7 +45,13 @@ rcsid[] = "$Id: tables.c,v 1.4 1997/02/03 16:47:57 b1 Exp $";
 
 
 
-
+// 
+// SlopeDiv
+// Given a rational slope num/den, return an index into the arctan
+//   table tantoangle. Although they are typed as unsigned, num and
+//   den are fixed_t numbers. The result is only valid for the first
+//   quadrant.
+//
 int
 SlopeDiv
 ( unsigned	num,
@@ -53,6 +59,8 @@ SlopeDiv
 {
     unsigned 	ans;
     
+    // SLOPERANGE is the entry for 90 degrees
+    //
     if (den < 512)
 	return SLOPERANGE;
 
@@ -63,7 +71,9 @@ SlopeDiv
 
 
 
-
+//
+// tangent table by FINEANGLE. goes from -90 to 90 degrees.
+//
 int finetangent[4096] =
 {
     -170910304,-56965752,-34178904,-24413316,-18988036,-15535599,-13145455,-11392683,
@@ -581,6 +591,11 @@ int finetangent[4096] =
 };
 
 
+//
+// sine for a full 360 degrees. the table is extended by one more quadrant
+// so that the identity cos(theta) = sin(theta+90) can be used to get cosine
+// out of the same table.
+//
 int finesine[10240] =
 {
     25,75,125,175,226,276,326,376,
@@ -1865,7 +1880,9 @@ int finesine[10240] =
     65534,65535,65535,65535,65535,65535,65535,65535
 };
 
-
+//
+// Given a slope value (computed by SlopeDiv), return the inverse tangent
+//
 
 angle_t tantoangle[2049] =
 {

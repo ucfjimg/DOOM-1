@@ -268,11 +268,18 @@ void R_AddLine (seg_t*	line)
     curline = line;
 
     // OPTIMIZE: quickly reject orthogonal back sides.
+
+    // The angle of the lines vp->v1 and vp->v2
+    //
     angle1 = R_PointToAngle (line->v1->x, line->v1->y);
     angle2 = R_PointToAngle (line->v2->x, line->v2->y);
     
     // Clip to view edges.
     // OPTIMIZE: make constant out of 2*clipangle (FIELDOFVIEW).
+    
+    // The angle subtended by v1->vp->v2. If the line segment is 
+    // facing the camera, angle1 > angle2 and this will be positive
+    //
     span = angle1 - angle2;
     
     // Back side? I.e. backface culling?
@@ -281,9 +288,16 @@ void R_AddLine (seg_t*	line)
 
     // Global angle needed by segcalc.
     rw_angle1 = angle1;
+
+    // Adjust the two angles to be relative to the view angle
+    //
     angle1 -= viewangle;
     angle2 -= viewangle;
 	
+    // For these comparisons to work, we don't want any comparisons
+    // to wrap around zero. Clip the ends of the segment by angle
+    // or just cull the entire segment away.
+    //
     tspan = angle1 + clipangle;
     if (tspan > 2*clipangle)
     {
@@ -308,12 +322,18 @@ void R_AddLine (seg_t*	line)
     
     // The seg is in the view range,
     // but not necessarily visible.
+
+    // viewangletox goes from -90 to 90, convert to index and get the
+    // span in screenspace that the clipped line maps to
+    //
     angle1 = (angle1+ANG90)>>ANGLETOFINESHIFT;
     angle2 = (angle2+ANG90)>>ANGLETOFINESHIFT;
     x1 = viewangletox[angle1];
     x2 = viewangletox[angle2];
 
-    // Does not cross a pixel?
+    // Does not cross a pixel? The line is at such a grazing angle that
+    // we can't see it.
+    //
     if (x1 == x2)
 	return;				
 	

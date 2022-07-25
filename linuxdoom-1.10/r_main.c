@@ -480,6 +480,26 @@ fixed_t R_ScaleFromGlobalAngle (angle_t visangle)
     anglea = ANG90 + (visangle-viewangle);
     angleb = ANG90 + (visangle-rw_normalangle);
 
+    // 
+    // cos(anglea) = projection/phyp, where phyp is the distance from vp to
+    //   the screen at visangle
+    //
+    // cos(angleb) = rw_distance/thyp, where tyhp is the distance from vp to
+    //   the segment at visangle
+    // 
+    // Note that adding ANG90 above transforms sine into cosine
+    //
+    // proj*cosb        proj*rw_dist/thyp
+    // ------------- = ------------------- = thyp/phyp
+    // rw_dist*cosa     rw_dist*proj/phyp
+    //
+    // so this computes how many times away from the screen the segment 
+    // is at this visangle
+    // 
+    // this scale will be inverted in the segment rendering loop to
+    // perform the actual perspective projection.
+    //
+
     // both sines are allways positive
     sinea = finesine[anglea>>ANGLETOFINESHIFT];	
     sineb = finesine[angleb>>ANGLETOFINESHIFT];
@@ -490,6 +510,8 @@ fixed_t R_ScaleFromGlobalAngle (angle_t visangle)
     {
 	scale = FixedDiv (num, den);
 
+        // clamp to some reasonable values for very close or very far away
+        // points
 	if (scale > 64*FRACUNIT)
 	    scale = 64*FRACUNIT;
 	else if (scale < 256)
@@ -557,6 +579,12 @@ void R_InitTextureMapping (void)
     focallength = FixedDiv (centerxfrac,
 			    finetangent[FINEANGLES/4+FIELDOFVIEW/2] );
 	
+
+    // For every angle from -90 to 90, compute the screen column a ray
+    // from the viewpoint at that angle would pass though. The FOV is
+    // 90; all angles outside that range map to columns just outside
+    // the screen.
+    //
     for (i=0 ; i<FINEANGLES/2 ; i++)
     {
 	if (finetangent[i] > FRACUNIT*2)

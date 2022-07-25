@@ -398,15 +398,32 @@ R_StoreWallRange
     linedef->flags |= ML_MAPPED;
     
     // calculate rw_distance for scale calculation
+    
+    // curline->angle is the angle of the line
+    // rw_normalangle is the angle of the line's normal vector, facing away
+    //   from the camera
+    //
+    // offsetangle is one angle of a right triangle formed by v1, vp, and the 
+    // intersection of vp->n and the line segment.
+    //
     rw_normalangle = curline->angle + ANG90;
     offsetangle = abs(rw_normalangle-rw_angle1);
     
     if (offsetangle > ANG90)
 	offsetangle = ANG90;
 
+    // TODO explain why this is 90 - offsetangle 
+    //
     distangle = ANG90 - offsetangle;
+
+    // hyp is the distance from the viewpoint vp to v1
+    //
     hyp = R_PointToDist (curline->v1->x, curline->v1->y);
     sineval = finesine[distangle>>ANGLETOFINESHIFT];
+    
+    // rw_distance is the distance from vp to where vp->n intersects
+    // the extended segment
+    //
     rw_distance = FixedMul (hyp, sineval);
 		
 	
